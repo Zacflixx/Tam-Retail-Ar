@@ -1,0 +1,1183 @@
+
+/* responsive media query start */
+@media (max-width: 1280px) {
+    .section1{
+        height: 800px;
+    }
+    .home{
+        /* background-color: red; */
+    }
+  .home .home-content .text-2{
+  font-size: 5rem;
+line-height: 50px;
+}
+.home .home-content .text-3{
+  font-size: 2rem;
+    margin: 12px 0;
+    font-weight: bold;
+    font-weight: normal;
+}
+.home .home-content .text-3 span{
+    color: #0B4F97;
+    font-weight: 500;
+   }
+ .bg-stripes{
+  
+    /* margin-top: -2rem;
+   height: 30rem;
+    width:  73rem; */
+/*   
+   width: 100%;  */
+}
+
+.header_content{
+      max-width: 1104px;
+    width: 100rem;
+    padding: 8rem 7rem;
+}
+
+.quick-search{
+    /* position: relative; */
+    margin-top: 0.3rem;
+    /* padding-top: 30px;  */
+    text-align: center;
+   
+    width: 35rem;
+     height: 10rem;
+
+}
+.find_Loan_text{
+top: 8px;
+right: 70%;
+width: 250%; 
+font-size: 1.1rem;
+line-height: 28px;
+}
+.Salary_text{
+height: 25.05px; 
+margin-left: -86%;
+top: 5px;
+font-size: 1.3rem;
+line-height: 28px;
+}
+.Loan_text{
+margin-left: 6%;
+top: 13px;
+font-size: 1.3rem;
+line-height: 28px;
+
+
+}
+.Salary_box{
+width: 130px;
+height: 2rem;
+
+margin-left: 30%;
+}
+.Year_box{
+height: 2rem;
+margin-left: 92%;
+width:7rem;
+}
+.money-loan{
+    display: flex;
+    position: relative;
+    padding: .7rem 1%;
+    width: 80%;
+}
+
+.side-contents1
+{
+    position: relative;
+ margin-top: -6.3rem; 
+    display: flex;
+    }
+.column-right1{
+    padding-top: 5rem;
+}
+.phone{
+       top: 0rem;
+     height:  40rem;  
+     left: 650px;
+}
+/* BestProduct */
+.Best_product{
+    top: 1rem;
+width: 48vw;
+  height: 340px;
+
+}
+
+.promo_cards{
+    left:  10%;
+     top: 1px; 
+    width: 33rem;
+  height: 350px;
+    /* background: #03489D; */
+/* border: 1px solid #216AC1; */
+
+border-radius: 8px;
+}
+.creditCard{
+    margin: 0px 0px;
+    width: 18rem;
+    margin-right: 2%;
+    /* height: 120px; */
+}
+
+/* why tam */
+
+.text3_container{
+    position: relative;
+    padding: 30px 8rem;
+    width: 100%;
+}
+.text3_1{
+    position: relative;
+    left: 8rem;
+font-size: 2.3rem;
+line-height: 40px;
+}
+.text3_2{
+    position: relative;
+    left: 9rem;
+line-height: 40px;
+}
+.timeline_img{
+    margin: 30px 23.5rem;
+}
+
+.why_cards_container{
+    margin: -9px 24rem;
+     width: 45rem ; 
+     height: 21rem;
+}
+.why_text_4{
+font-size: 4rem;
+}
+.how_tam{
+margin: 3rem 7rem;
+font-size: 3rem;
+}
+.started{
+margin: -2.5rem -2rem;
+font-size: 22px;
+line-height: 25px;
+}
+.steps{
+    margin: -1rem 13rem;
+    width: 60rem;
+}
+.platforms{
+    margin: 23rem 58rem;
+width: 18rem;
+}
+
+
+
+/* Highlights Page  */
+
+.highlight{
+    position: relative;
+    margin: 1rem -90rem;
+}
+.loan_cal{
+    position: relative;
+   margin: 0px 20%;
+   opacity: 0.9;
+}
+.offer{
+    position: relative;
+    margin: 0px 66%;
+    width: 300px;
+    opacity: 0.9;
+}
+.viddiv{
+        position: relative;
+     margin: 25rem 60%; 
+
+   background-color: #004080; 
+  width: 20rem;
+ height: 11rem;
+  color: white;
+  
+  
+}
+.video{
+
+    background-color: #004080;
+    
+/* width: 40%; */
+height: 10%;
+ width: 900%;
+border-radius:8;
+}
+
+
+
+/* Footer */
+.footer1{
+    /* overflow: hidden; */
+    position: relative;
+    bottom: 8rem ;
+    padding-top: 0px;
+    height: 900px;
+    background-color: #002B70;
+    border-radius: 18px;
+}
+.ftext{
+font-size: .8rem;
+line-height: 2px;
+}
+
+.fhead{
+font-size: .8rem;
+line-height: 4px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media (max-width: 1104px) {
+   .max-width{
+    flex: 1;
+    max-width: 1104px;
+    max-height: 100%;
+    overflow: hidden;
+            /* margin: auto; */      
+}
+.home{
+    /* display: flex; */
+    
+    
+     
+    /* color: #fff; */ width: 100%;
+  width: 20rem;
+    max-width: 1104px;
+    max-height: 100%;
+    overflow: hidden;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+   
+    /* background-size: 100% 1104px; */
+    font-family: 'Ubuntu', sans-serif;
+  
+}
+
+    
+.header_content{
+    position: relative;
+    max-width: 1104px;
+    width: 1104px;
+    padding: 170px 0;
+}
+body{
+    max-width: 1104px;
+    max-height: 100%;
+ 
+ 
+      height: 100%;
+ overflow: hidden; 
+ /* widht: calc(100% - 20px);
+    height: calc(50% + 10px); */
+ /* overflow-y: hidden; 
+  overflow-x: hidden; */
+}
+
+
+/* .max-width{
+    flex: 1;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    
+  
+} */
+/* home section styling */
+.bg-stripes{
+    position: absolute;
+   height: 600px;
+/*   
+   width: 100%;  */
+}
+
+.home .max-width{
+  width: 1104px;
+  height: 100%;
+  /* display: flex; */
+  
+  /* align-items: flex-start; */
+}
+.home .max-width .row{
+  margin-right: 0;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+   color: #012558;
+}
+/* .home-content{
+     padding: 2% 8% ;
+} */
+.home .home-content .text-2{
+    color: #0B4F97;
+   font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 600%;
+line-height: 50px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    font-weight: bold;
+    font-family: Poppins;
+font-style: normal;
+color: #0B4F97;
+font-weight: normal;
+}
+.home .home-content .text-3 span{
+    color: #0B4F97;
+    font-weight: 500;
+      font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+}
+.home .home-content a{
+    display: inline-block;
+  text-decoration: none;
+    color: #A3A3A3;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    /* border: 2px solid #23555e; */
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+    color: #23555e;
+    background: none;
+   
+}
+.header_content{
+    position: relative;
+     width: 1104px;
+    padding: 170px 0%;
+}
+.quick-search{
+    /* position: relative; */
+    margin-top: 15px;
+    /* padding-top: 30px;  */
+    text-align: center;
+   
+    width: 40%;
+    height:160px;
+    background: #F0B50F;
+
+border: 1.5px solid #F5CE4A;
+border-radius: 8px;
+display: flex;
+}
+.find_Loan{
+    padding: 20px 8%;
+    /* Find your best loan */
+
+width: 25%;
+
+
+/* text-align: center; */
+
+color: #272710;
+
+background: none;
+     border: none;
+    
+     /* text-decoration: underline; */
+     /* cursor: pointer;  */
+}
+.find_Loan_text{
+    /* padding: 20px 8%; */
+    /* Find your best loan */
+position: relative;
+top: 8px;
+right: 70%;
+width: 250%; text-align: center;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 28px;
+
+/* text-align: center; */
+
+color: #272710;
+
+background: none;
+     border: none;
+    
+     /* text-decoration: underline; */
+     /* cursor: pointer;  */
+}
+.money-col{
+    flex: 80%;
+    padding-right: 10%;
+}
+.form_right{
+    position: relative;
+    padding: 30px 0px;
+    width: 100%;
+/* align-items: center; */
+
+}
+.Salary_text{
+    /* Salary */
+
+position: relative;
+/* width: 122.9px;
+height: 25.05px; */
+margin-left: -86%;
+top: 10px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 150%;
+line-height: 28px;
+text-align: center;
+
+color: #272710;
+opacity: 0.9;
+}
+.Salary_box{
+/* Rectangle 292 */
+position: absolute;
+width: 50%;
+height: 40px;
+
+background: #FCFDFF;
+opacity: 0.8;
+border: 1px solid #C2D5EF;
+box-sizing: border-box;
+border-radius: 5px;
+display: flex;
+margin-left: 30%;
+/* Rectangle 292 */
+
+
+
+}
+.uppertext{
+    width: 100%;
+    position: absolute;
+     /* flex: 20%;  */
+    /* margin: -26px 6%; */
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 26px;
+
+color: #111212;
+
+opacity: 0.84;
+}
+.ten{ position: absolute;
+    top :-26px;
+    left: 30%;
+}
+.sal{ position: absolute;
+    top :-26px;
+    left: 0%;
+}
+.typ{ position: absolute;
+    top :50px;
+    left: 18%;
+}
+.in_text{
+    flex: 20%; 
+    margin: 6px 6%;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+
+color: #111212;
+
+opacity: 0.84;
+}
+.in_text_loan{
+
+ border-color: #FCFDFF;
+    flex: 20%; 
+    margin: 6px 6%;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+
+color: #111212;
+
+opacity: 0.84;
+}
+.Year_box{
+/* Rectangle 292 */
+position: absolute;
+margin-left: 85%;
+width: 52%;
+height: 40px;
+
+background: #FCFDFF;
+opacity: 0.8;
+border: 1px solid #C2D5EF;
+box-sizing: border-box;
+border-radius: 5px;
+}
+/* Rectangle 292 */
+.Loan_text{
+position: relative;
+/* width: 122.9px;
+height: 25.05px; */
+margin-left: 6%;
+top: 10px;
+opacity: 0.9;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 150%;
+line-height: 28px;
+text-align: center;
+
+color: #272710;
+
+
+}
+.money-salary{
+      position: relative;
+    padding: 0px 10%;
+    width: 60%;
+}
+.Loan_box{
+/* Rectangle 292 */
+position: absolute;
+margin-left: 34%;
+width: 80%;
+height: 40px;
+
+background: #FCFDFF;
+opacity: 0.8;
+border: 1px solid #C2D5EF;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.money-loan{
+    display: flex;
+    position: relative;
+    padding: 40px 1%;
+    width: 80%;
+}
+.money-col{
+    display: flex;
+}
+.Salary_text{
+flex: 50%;
+}
+.Salary_box{
+flex: 50%;
+}
+
+.Loan-select{
+    
+width: 50%;
+height: 40px;
+
+background: #FCFDFF;
+opacity: 0.8;
+border: 1px solid #C2D5EF;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.side-contents1
+{
+    position: relative;
+ margin-top: -65px; 
+    display: flex;
+
+    /* height: 100%;  */
+    
+}
+.column-left1{
+    position: relative;
+/* height: 1%; */
+flex: 50%;
+ padding-top: 25px;
+}
+.column-right1{
+flex: 50%;
+  position: relative;
+ padding-top: 55px;
+ overflow: hidden;
+ height: 900px;
+ width: 4%;
+ /* padding-left: 50%; */
+
+}
+
+
+.phone{
+     position: absolute;
+     top: -50px;
+     left:  50%;
+    
+    /* width: 1000px; */
+    height:  840px;  
+}
+
+
+.averaging{
+
+/* left: 10px;
+    padding: 250px 40px; */
+    position: relative;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 800;
+font-size: 2vw;
+line-height: 2.2vw;
+width: 80%;
+left: 10%;
+color: #F8FBFF;
+
+text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.17);
+}
+
+
+/*Feeds Section styles */
+.feeds{
+    position: relative;
+    left: 20px;
+     top: 2%;
+    overflow: scroll; 
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+     /* margin: 10% 10%;  */
+    width: 85%;
+  height: 365px;
+    background: #03489D;
+border: 1px solid #216AC1;
+box-sizing: border-box;
+box-shadow: 0px 0px 9px -1px rgba(84, 101, 114, 0.25), ;
+border-radius: 8px;
+}
+.feed_header{
+display: flex;
+width: 100%;
+}
+.header-text{
+flex: 90%;
+padding: 34px 0%;
+}
+.feed_content{
+  margin: 50px 20%;
+}
+.header_image{
+    padding: 20px 4%;
+flex: 10%
+}
+.bank{
+    
+   font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 12px;
+/* or 92% */
+
+color: #DBDBDB;
+}
+.time{
+color: #A3A3A3;
+font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+}
+.feed_image{
+
+  border-radius: 8px;
+     width: 110%;
+    height: 130px;
+} 
+.FeedText1{
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 120%;
+line-height: 136.02%;
+/* or 16px */
+
+align-items: center;
+text-align: center;
+
+color: #A3A3A3;
+}
+.criteria{
+flex: 50%;
+}
+.see_more{
+flex: 50%;
+}
+
+.cr1{
+    color: #A3A3A3;
+font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 2px;
+}
+.btn_Explore{
+    /* Explore */
+
+
+font-family: Inter;
+font-style: bold;
+font-weight: 600;
+
+line-height: 40px;
+/* or 80% */
+
+color: #272710;
+
+opacity: 0.7;
+background: #EAEAEA;
+font-size: 120%;
+border-radius: 8px;
+width: 100%;
+height: 40px;
+border-width: 0px;
+}
+.info{
+    position: relative;
+    width: 100%;
+    margin: 2px -5%;
+}
+/* PromoCards section */
+
+.promo_cards{
+    border-radius: 8px;
+  position: relative; 
+    left:  10%;
+     top: 1px; 
+    overflow: scroll; 
+    overflow-x: hidden;
+    overflow-y: hidden;
+     /* margin: 10% 10%;  */
+    width: 750px;
+  height: 350px;
+    /* background: #03489D; */
+/* border: 1px solid #216AC1; */
+
+border-radius: 8px;
+}
+.creditCard{
+    margin: 0px 0px;
+    width: 300px;
+    margin-right: 2%;
+    /* height: 120px; */
+}
+.max-width_owl{
+width: 50%;
+}
+
+.owl-dots{
+    text-align: center;
+    margin-top: 0px;
+}
+.owl-dot{
+    position: relative;
+    height: 13px;
+    width: 13px;
+    margin: -90px 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 1px solid #5A647D!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: #F9F3F3!important;
+}
+.see_all_tamawal{
+    position: relative;
+    margin: -120px 40px;
+   
+    text-align: center;
+   font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 12px;
+/* or 92% */
+
+color: #DBDBDB;
+}
+ 
+
+
+
+
+
+
+/* Timeline Page */
+.text3_container{
+    /* text-align: center;  */
+    margin-top: 30px;
+    position: relative;
+    align-items: center;
+    padding: 30px 21%;
+    width: 120%;
+}
+.text3_1{
+/* The simplest way to */
+
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 800;
+font-size: 280%;
+line-height: 50px;
+/* text-align: center; */
+
+color: #0B4F97;
+
+
+}
+.text3_2{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+/* text-align: center; */
+color: #004080;
+margin-left: 25%;
+}
+.timeline_img{
+    width: 50%;
+    margin: 30px 25%;
+}
+.timeline_text{
+    position: relative;
+     margin: -20px 25%;
+     left: 0%;
+     width: 50%;
+    display: flex;
+}
+.time_text{
+width: 25%;
+text-align: center; 
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 100%;
+line-height: 23px;
+text-align: center;
+
+color: #0E3156;
+
+opacity: 0.93;
+
+} 
+.lineT{
+    position: relative;
+    margin-top: -52px;
+}
+.t1{
+    position: relative;
+    
+left: -6% ;
+}
+.t2{
+     position: relative;
+left: -2% ; 
+}
+.t3{
+     position: relative;
+left: 3% ;
+}
+.t4{
+     position: relative;
+left: 6% ;
+}
+.why_text_4{
+    /* why tama */
+
+position: relative;
+left: -37%;
+top: 220px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 70px;
+text-align: center;
+
+color: #0B4F97;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.why_cards_container{
+    /* background-color: #002B70; */
+    position: relative;
+    align-items: center;
+     display: flex; 
+    margin: -2px 25%;
+     width: 51% ; 
+    height: 350px;
+    overflow: scroll;
+      overflow-y: hidden;  
+}
+
+.cd{
+    position: relative;
+width: 200px;
+height: 300px;
+  margin-left: 20px; 
+  margin-right: 20px; 
+}
+/* .cd2{
+width: 250px;
+margin-bottom: 4%;
+  margin-left: 10px; 
+}
+.cd3{
+width: 220px;
+  margin-left: 10px; 
+}
+.cd4{
+ width: 220px;
+ margin-left: 10px; 
+
+} */
+
+
+
+
+/* How tamawal work section */
+.how_tam{
+/* The simplest way to */
+ position: relative;
+margin: 30px 10%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 52px;
+line-height: 51px;
+
+color: #F8FBFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.how_work{
+    position: relative;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 52px;
+line-height: 51px;
+
+color: #1E80D9;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.started{
+  
+position: relative;
+margin: -20px 10%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 25px;
+/* or 142% */
+text-align: left;
+
+color: #F8FBFF;
+
+
+}
+
+.steps{
+    position: absolute;
+    margin: -30px 20%;
+    align-items: center;
+    width: 65%;
+}
+.platforms{
+position: relative;
+    margin: 500px 80%;
+width: 18%;
+opacity: 0.8;
+}
+
+
+
+
+
+
+/* 
+Highlights Page */
+.page3{
+    width: 100%;
+}
+.highlight{
+    position: relative;
+    text-align: center;
+}
+.loan_cal{
+    position: relative;
+   margin: 0px 20%;
+   opacity: 0.9;
+}
+.offer{
+    position: relative;
+    margin: 0px 66%;
+    width: 300px;
+    opacity: 0.9;
+}
+.viddiv{
+        position: relative;
+     margin: 350px 60%; 
+
+   background-color: #004080; 
+  width: 25%;
+  height: 270px;
+  color: white;
+  
+  
+}
+.video{
+
+    background-color: #004080;
+    
+/* width: 40%; */
+height: 10%;
+ width: 900%;
+border-radius:8;
+}
+
+
+
+/* Footer */
+.footer1{
+    /* overflow: hidden; */
+    position: relative;
+     margin:-190px 0px; 
+    padding-top: 0px;
+    height: 900px;
+    background-color: #002B70;
+    border-radius: 18px;
+}
+.ftext{
+font-size: 12px;
+}
+
+.fhead{
+/* SERVICES */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 30px;
+text-align: left;
+
+color: #7887A7;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+footer span a{
+    color: red;
+    text-decoration: none;
+}
+footer span a:hover{
+  
+    text-decoration: none;
+} 
+
+
+
+
+
+
+
+
+
+
+
+}
+@media (max-width: 947px){
+
+}
+
+@media (max-width: 791px) {
+   
+    
+}
+
+
+@media (max-width: 690px) {
+
+ 
+
+
+    
+
+}
+
+@media (max-width: 500px) {
+    .Business{
+        font-size: 15px;
+    }
+    .personal{
+        font-size: 18px;
+    }
+
+
+    
+}

@@ -114,7 +114,7 @@ color: #767F8F;
    width: 100%;  */
 }
 .section1{
-    height: 65rem;
+    height: 50rem;
 }
 .home{
     /* display: flex; */
@@ -240,13 +240,13 @@ border-radius: 12px;
 width: 250px;
 height: 60px;
 border-width: 0;
-margin: 
+margin: ;
 }
 .btn_text{
 
 font-family: Inria Sans;
 font-style: normal;
-font-weight: normal;
+font-weight: bold;
 font-size: 20px;
 line-height: 17px;
 /* identical to box height */
@@ -287,10 +287,91 @@ mix-blend-mode: normal;
 border-radius: 8px;
 
 }
+.get_started{
+    position: relative;
+    height: 140px;
+    margin: 20px 33px;
+}
+.quick_text3{
+    position: relative;
+    font-weight: bold;
+    margin: -20px 40px;
+}
+.content_flex{
+     position: relative;
+    display: flex;
+    top: 20px;
+    width: 100%;
+}
+.column_1{
+    flex: 25%;
+}.column_2{
+    flex: 25%;
+}.column_3{
+    flex: 25%;
+}.column_4{
+    flex: 25%;
+}
+.quick_box{
+    position: relative;
+    top: 20px;
+width: 185px;
+height: 45px;
+padding: 6px 2px;
+background: #F8FBFF;
+border: 1px solid #D6D6D6;
+box-sizing: border-box;
+border-radius: 6px;
+
+}
+.quick_input{
+border-width: 0px;
+}
+.b1{
+    position: relative;
+    
+}
+.b2{
+    position: relative;
+    margin-top: 18px;
+}
+
+.b3{
+    position: relative;
+    margin-top: 18px;
+}
+
+.b4{
+    position: relative;
+    margin-top: 18px;
+}
+
+.submit_box{
+
+background: #F0B50F;
+border-radius: 6px;
+border-width: 0px;
+
+}
 
 
 
 
+
+
+
+/* section 2 */
+.section2{
+height: 1000px;
+}
+.virtual{
+    position: relative;
+    margin: 200px 0px;
+    top: 70px;
+    text-align: center;
+    font-size: 50px;
+color:#014497 ;
+}
 
 
 

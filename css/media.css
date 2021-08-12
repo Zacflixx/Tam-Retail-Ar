@@ -70,6 +70,73 @@
         top: 130px;
     }
 
+    .get_started{
+        position: relative;
+        height: 140px;
+        margin: 20px 33px;
+    }
+    .quick_text3{
+        position: relative;
+        font-weight: bold;
+        margin: -20px 40px;
+    }
+    .content_flex{
+         position: relative;
+        display: flex;
+        top: 20px;
+        width: 100%;
+    }
+    .column_1{
+        flex: 25%;
+    }.column_2{
+        flex: 25%;
+    }.column_3{
+        flex: 25%;
+    }.column_4{
+        flex: 25%;
+    }
+    .quick_box{
+        position: relative;
+        top: 20px;
+    width: 165px;
+    height: 35px;
+    padding: 6px 2px;
+    background: #F8FBFF;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 6px;
+    
+    }
+    .quick_input{
+    border-width: 0px;
+    width: 160px;
+    }
+    .b1{
+        position: relative;
+        
+    }
+    .b2{
+        position: relative;
+        margin-top: 18px;
+    }
+    
+    .b3{
+        position: relative;
+        margin-top: 18px;
+    }
+    
+    .b4{
+        position: relative;
+        margin-top: 18px;
+    }
+    
+    .submit_box{
+    
+    background: #F0B50F;
+    border-radius: 6px;
+    border-width: 0px;
+    
+    }
 
 
 

@@ -307,6 +307,9 @@
 .navbar-nav .dropdown-menu .dropdown-item .dropdown-link {
   color: #3c4d6b;
 }
+.features{
+  margin: 0px 200px;
+}
 
 /* breakpoints */
 @media (min-width: 991.98px) {

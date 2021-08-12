@@ -1,14 +1,20 @@
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
-.language_switch{
+.far1{
 
     position: absolute;
-        margin: 0px 32rem;
+        margin: 0px 42rem;
+        color: white;
+}
+.far2{
+
+    position: absolute;
+        margin: 0px 52rem;
 }
 .tamawal_Type{
     position: relative;
-    margin: 0px -9rem;
+    margin: 0px -15rem;
 }
 .btnLogin{
   /* login */
@@ -35,11 +41,11 @@ color: #767F8F;
 .personal{
  font-family: Montserrat;
 font-style: normal;
-font-weight: bold;
+font-weight: 200;
 font-size: 18px;
 line-height: 22px;
 
-color: #02275B;
+color: #02295D;
 
 opacity: 0.89;
 }
@@ -47,12 +53,12 @@ opacity: 0.89;
     /* Business (Company financing) */
 width: 200;
 font-family: Montserrat;
-font-style: normal;
-font-weight: 200;
+font-style: bold;
+font-weight: bold;
+
 font-size: 18px;
 line-height: 22px;
-color: #02295D;
-
+color: #02275B;
 }
 .tamLogo {
     height:50px;
@@ -77,6 +83,363 @@ color: #767F8F;
 .container-fluid{
     width: 100%;
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.max-width{
+    flex: 1;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    
+    /* margin: auto; */
+}
+/* home section styling */
+.bg-stripes{
+    position: absolute;
+    margin-top: 0px;
+   height: 100px;
+    
+/*   
+   width: 100%;  */
+}
+.section1{
+    height: 65rem;
+}
+.home{
+    /* display: flex; */
+    
+     
+ 
+    /* color: #fff; */ width: 100%;
+  height: 100%;
+    min-height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width{
+  width: 100%;
+  height: 100%;
+  /* display: flex; */
+  
+  /* align-items: flex-start; */
+}
+.home .max-width .row{
+  margin-right: 0;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+   color: #012558;
+}
+/* .home-content{
+     padding: 2% 8% ;
+} */
+.home .home-content .text-2{
+    color: #0B4F97;
+   font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 600%;
+line-height: 50px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    font-weight: bold;
+    font-family: Poppins;
+font-style: normal;
+color: #0B4F97;
+font-weight: normal;
+}
+.home .home-content .text-3 span{
+    color: #0B4F97;
+    font-weight: 500;
+      font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+}
+.home .home-content a{
+    display: inline-block;
+  text-decoration: none;
+    color: #A3A3A3;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    /* border: 2px solid #23555e; */
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+    color: #23555e;
+    background: none;
+   
+}
+.illus{
+    position: absolute;
+    margin: 90px 960px;
+    height: 65vh;
+}
+.left-section{
+    position: absolute;
+    margin: 150px 100px;
+}
+h2{
+font-family: Inria Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 90px;
+line-height: 80px;
+letter-spacing: -2px;
+
+color: #FFFFFF;
+
+
+}
+.text_1{
+    position: relative;
+   top: ;
+}
+p2{
+position: relative;
+font-family: Inria Sans;
+font-style: normal;
+font-weight: lighter;
+font-size: 25px;
+line-height: 32px;
+/* or 160% */
+
+color: #FFFFFF;
+
+}
+.text_2{
+position: absolute;
+margin: 20px 0px;
+width: 800px;
+}
+
+.button2{
+    position: relative;
+  top: 100px;
+color: white;
+background: #F0B50F;
+border-radius: 12px;
+width: 250px;
+height: 60px;
+border-width: 0;
+margin: 
+}
+.btn_text{
+
+font-family: Inria Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 17px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+h3{
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 34px;
+
+color: #F8FBFF;
+
+text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.17);
+
+}
+.averaging{
+    position: relative;
+    top: 130px;
+    width: 780px;
+}
+
+
+.quicksearch{
+    width: 800px;
+    height: 300px;
+    position: relative;
+    top: 200px;
+
+background: #0C4086;
+mix-blend-mode: normal;
+border-radius: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.footer1{
+    /* overflow: hidden; */
+    position: relative;
+     margin:-190px 0px; 
+    padding-top: 0px;
+    height: 900px;
+    background-color: #002B70;
+    border-radius: 18px;
+}
+.ftext{
+font-size: 12px;
+}
+
+.fhead{
+/* SERVICES */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 30px;
+text-align: left;
+
+color: #7887A7;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+footer span a{
+    color: red;
+    text-decoration: none;
+}
+footer span a:hover{
+  
+    text-decoration: none;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -201,697 +564,3 @@ section .title::after{
 .navbar.sticky .menu li a:hover{
    
 }
-
-
-
-.max-width{
-    flex: 1;
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden;
-    
-    /* margin: auto; */
-}
-/* home section styling */
-.bg-stripes{
-    position: absolute;
-    margin-top: -8vh;
-   height: 70vh;
-    width:  100rem;
-    resize: cover;
-/*   
-   width: 100%;  */
-}
-.section1{
-    height: 65rem;
-}
-.home{
-    /* display: flex; */
-    
-     
- 
-    /* color: #fff; */ width: 100%;
-  height: 100%;
-    min-height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    font-family: 'Ubuntu', sans-serif;
-}
-.home .max-width{
-  width: 100%;
-  height: 100%;
-  /* display: flex; */
-  
-  /* align-items: flex-start; */
-}
-.home .max-width .row{
-  margin-right: 0;
-}
-.home .home-content .text-1{
-    font-size: 27px;
-   color: #012558;
-}
-/* .home-content{
-     padding: 2% 8% ;
-} */
-.home .home-content .text-2{
-    color: #0B4F97;
-   font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 600%;
-line-height: 50px;
-}
-.home .home-content .text-3{
-    font-size: 40px;
-    margin: 5px 0;
-    font-weight: bold;
-    font-family: Poppins;
-font-style: normal;
-color: #0B4F97;
-font-weight: normal;
-}
-.home .home-content .text-3 span{
-    color: #0B4F97;
-    font-weight: 500;
-      font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-}
-.home .home-content a{
-    display: inline-block;
-  text-decoration: none;
-    color: #A3A3A3;
-    font-size: 25px;
-    padding: 12px 36px;
-    margin-top: 20px;
-    font-weight: 400;
-    border-radius: 6px;
-    /* border: 2px solid #23555e; */
-    transition: all 0.3s ease;
-}
-.home .home-content a:hover{
-    color: #23555e;
-    background: none;
-   
-}
-.header_content{
-    position: relative;
-    width: 100%;
-    padding: 16vh 8rem;
-}
-.quick-search{
-    /* position: relative; */
-    margin-top: 15px;
-    /* padding-top: 30px;  */
-    text-align: center;
-   
-    width: 40%;
-    height:160px;
-    background: #F0B50F;
-
-border: 1.5px solid #F5CE4A;
-border-radius: 8px;
-display: flex;
-}
-.find_Loan{
-    padding: 20px 8%;
-    /* Find your best loan */
-
-width: 25%;
-
-
-/* text-align: center; */
-
-color: #272710;
-
-background: none;
-     border: none;
-    
-     /* text-decoration: underline; */
-     /* cursor: pointer;  */
-}
-.find_Loan_text{
-    /* padding: 20px 8%; */
-    /* Find your best loan */
-position: relative;
-top: 8px;
-right: 70%;
-width: 250%; text-align: center;
-font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 28px;
-
-/* text-align: center; */
-
-color: #272710;
-
-background: none;
-     border: none;
-    
-     /* text-decoration: underline; */
-     /* cursor: pointer;  */
-}
-.money-col{
-    flex: 80%;
-    padding-right: 10%;
-}
-.form_right{
-    position: relative;
-    padding: 30px 0px;
-    width: 100%;
-/* align-items: center; */
-
-}
-.Salary_text{
-    /* Salary */
-
-position: relative;
-/* width: 122.9px;
-height: 25.05px; */
-margin-left: -86%;
-top: 10px;
-font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 150%;
-line-height: 28px;
-text-align: center;
-
-color: #272710;
-opacity: 0.9;
-}
-.Salary_box{
-/* Rectangle 292 */
-position: absolute;
-width: 50%;
-height: 40px;
-
-background: #FCFDFF;
-opacity: 0.8;
-border: 1px solid #C2D5EF;
-box-sizing: border-box;
-border-radius: 5px;
-display: flex;
-margin-left: 30%;
-/* Rectangle 292 */
-
-
-
-}
-.uppertext{
-    width: 100%;
-    position: absolute;
-     /* flex: 20%;  */
-    /* margin: -26px 6%; */
-    font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 26px;
-
-color: #111212;
-
-opacity: 0.84;
-}
-.ten{ position: absolute;
-    top :-26px;
-    left: 30%;
-}
-.sal{ position: absolute;
-    top :-26px;
-    left: 0%;
-}
-.typ{ position: absolute;
-    top :50px;
-    left: 18%;
-}
-.in_text{
-    flex: 20%; 
-    margin: 6px 6%;
-    font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-
-color: #111212;
-
-opacity: 0.84;
-}
-.in_text_loan{
-
- border-color: #FCFDFF;
-    flex: 20%; 
-    margin: 6px 6%;
-    font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-
-color: #111212;
-
-opacity: 0.84;
-}
-.Year_box{
-/* Rectangle 292 */
-position: absolute;
-margin-left: 85%;
-width: 52%;
-height: 40px;
-
-background: #FCFDFF;
-opacity: 0.8;
-border: 1px solid #C2D5EF;
-box-sizing: border-box;
-border-radius: 5px;
-}
-/* Rectangle 292 */
-.Loan_text{
-position: relative;
-/* width: 122.9px;
-height: 25.05px; */
-margin-left: 6%;
-top: 10px;
-opacity: 0.9;
-font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 150%;
-line-height: 28px;
-text-align: center;
-
-color: #272710;
-
-
-}
-.money-salary{
-      position: relative;
-    padding: 0px 10%;
-    width: 60%;
-}
-.Loan_box{
-/* Rectangle 292 */
-position: absolute;
-margin-left: 34%;
-width: 80%;
-height: 40px;
-
-background: #FCFDFF;
-opacity: 0.8;
-border: 1px solid #C2D5EF;
-box-sizing: border-box;
-border-radius: 5px;
-}
-.money-loan{
-    display: flex;
-    position: relative;
-    padding: 40px 1%;
-    width: 80%;
-}
-.money-col{
-    display: flex;
-}
-.Salary_text{
-flex: 50%;
-}
-.Salary_box{
-flex: 50%;
-}
-
-.Loan-select{
-    
-width: 50%;
-height: 40px;
-
-background: #FCFDFF;
-opacity: 0.8;
-border: 1px solid #C2D5EF;
-box-sizing: border-box;
-border-radius: 5px;
-}
-.sal_input{ 
-  
-    border-width: 0px;
-     margin: 5% 1%;
-      width: 90%;
-}
-.year_inp{ 
-  
-    border-width: 0px;
-     margin: 5% 1%;
-      width: 90%;
-}
-.side-contents1
-{
-    position: relative;
- margin-top: -65px; 
-    display: flex;
-
-    /* height: 100%;  */
-    
-}
-.column-left1{
-    position: relative;
-/* height: 1%; */
-flex: 50%;
- padding-top: 25px;
-}
-.column-right1{
-flex: 50%;
-  position: relative;
- padding-top: 55px;
- overflow: hidden;
- height: 900px;
- width: 4%;
- /* padding-left: 50%; */
-
-}
-
-
-.phone{
-     position: absolute;
-     top: -1.3rem;
-     left:  55rem;
-    
-    /* width: 1000px; */
-    height:  50rem;  
-}
-
-
-.averaging{
-
-/* left: 10px;
-    padding: 250px 40px; */
-    position: relative;
-    font-family: Poppins;
-font-style: normal;
-font-weight: 800;
-font-size: 2vw;
-line-height: 2.2vw;
-width: 80%;
-left: 10%;
-color: #F8FBFF;
-
-text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.17);
-}
-
-
-/*Feeds Section styles */
-.Best_product{
-    position: relative;
-    left: 2rem;
-     top: 0rem;
-    overflow: hidden; 
-    overflow-x: hidden;
-    /* overflow-y: hidden; */
-     /* margin: 10% 10%;  */
-    width: 38vw;
-  height: 365px;
-    background: white;
-border: 1px solid #216AC1;
-box-sizing: border-box;
-box-shadow: 0px 0px 9px -1px rgba(84, 101, 114, 0.25), ;
-border-radius: 8px;
-}
-.best_visited{
-width: 345px;
-height: 30px;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 1.3rem;
-line-height: 25px;
-color: #545454;
-
-}
-.best_bank{
-width: 165px;
-height: 30px;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size:1rem;
-line-height: 5px;
-color: #666666;
-
-
-}
-.feed_header{
-    margin: 2vh 2rem;
-display: flex;
-width: 100%;
-}
-.header_text1{
-flex: 55%;
-padding: 2vh 0%;
-}
-.Product_bar{
-    margin: -2vh 0%;
-height:.5vh;
-width:25rem;
- border-radius: 17rem;
-}
-.bar_level1{
-    border-radius: 17rem;
-    color: red;
-    height:.5vh;
-width: 15rem;
-}
-.stars1{
-    margin: 1vh 0%;
-}
-.checked {
-  color: orange;
-}
-.rating{
-    margin: 5vh 0%;
-width: 35px;
-height: 25px;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 1rem;
-line-height: 25px;
-color: rgba(8, 31, 50, 0.7);
-}
-.feed_text2{
-margin: 2vh 0px;
-width: 165px;
-height: 30px;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: .9rem;
-line-height: 0px;
-color: #A7A7A7;
-
-}
-.feed_text3{
-    position: relative;
-  margin: -2vh 0%;
-width: auto;
-height: 25px;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 1rem;
-line-height: 0px;
-color: rgba(8, 31, 50, 0.7);
-
-}
-
-
-.features{
-  
-    width: auto;
-}
-.feature{
-    margin: -.3vh 1rem;
-    line-height: 2.5vh;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-
-color: #666666;
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.promo_cards{
-    border-radius: 8px;
-  position: relative; 
-    left:  10%;
-     top: 1px; 
-    overflow: scroll; 
-    overflow-x: hidden;
-    overflow-y: hidden;
-     /* margin: 10% 10%;  */
-    width: 750px;
-  height: 350px;
-
-/* border: 1px solid #216AC1; */
-
-border-radius: 8px;
-}
-.creditCard{
-    margin: 0px 0px;
-      background-color: red;
-    width: 300px;
-    margin-right: 2%;
-    /* height: 120px; */
-}
-.max-width_owl{
-width: 50%;
-}
-
-.owl-dots{
-    text-align: center;
-    margin-top: 0px;
-}
-.owl-dot{
-    position: relative;
-    height: 13px;
-    width: 13px;
-    margin: -90px 5px;
-    outline: none!important;
-    border-radius: 50%;
-    border: 1px solid #5A647D!important;
-    transition: all 0.3s ease;
-}
-.owl-dot.active{
-    width: 35px;
-    border-radius: 14px;
-}
-.owl-dot.active,
-.owl-dot:hover{
-    background: #F9F3F3!important;
-}
-.see_all_tamawal{
-    position: relative;
-    margin: -120px 40px;
-   
-    text-align: center;
-   font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 12px;
-/* or 92% */
-
-color: #DBDBDB;
-}
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* section 2 */
-.section2{
-    background-color: white;
-    width: 100%;
-    height: 80rem;
-}
-
-
-
-/* Footer */
-.footer1{
-    /* overflow: hidden; */
-    position: relative;
-     margin:-190px 0px; 
-    padding-top: 0px;
-    height: 900px;
-    background-color: #002B70;
-    border-radius: 18px;
-}
-.ftext{
-font-size: 12px;
-}
-
-.fhead{
-/* SERVICES */
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 15px;
-line-height: 30px;
-text-align: left;
-
-color: #7887A7;
-
-
-}
-
-a{
-    text-decoration: none;
-}
-
-
-
-
-
-
-footer span a{
-    color: red;
-    text-decoration: none;
-}
-footer span a:hover{
-  
-    text-decoration: none;
-} 
-
-
-

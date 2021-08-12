@@ -190,12 +190,12 @@ font-weight: normal;
 }
 .illus{
     position: absolute;
-    margin: 90px 960px;
-    height: 65vh;
+    margin: 70px 1000px;
+    height: 70vh;
 }
 .left-section{
     position: absolute;
-    margin: 150px 100px;
+    margin: 150px 130px;
 }
 h2{
 font-family: Inria Sans;
@@ -211,7 +211,7 @@ color: #FFFFFF;
 }
 .text_1{
     position: relative;
-   top: ;
+   
 }
 p2{
 position: relative;
@@ -233,7 +233,7 @@ width: 800px;
 
 .button2{
     position: relative;
-  top: 100px;
+  top: 90px;
 color: white;
 background: #F0B50F;
 border-radius: 12px;
@@ -261,8 +261,8 @@ h3{
 font-family: Poppins;
 font-style: normal;
 font-weight: 800;
-font-size: 30px;
-line-height: 34px;
+font-size: 40px;
+line-height: 44px;
 
 color: #F8FBFF;
 
@@ -277,10 +277,10 @@ text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.17);
 
 
 .quicksearch{
-    width: 800px;
-    height: 300px;
+    width: 850px;
+    height: 330px;
     position: relative;
-    top: 200px;
+    top: 170px;
 
 background: #0C4086;
 mix-blend-mode: normal;

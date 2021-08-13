@@ -2,7 +2,7 @@
 /* responsive media query start */
 @media (max-width: 1280px) {
     .section1{
-        height: 800px;
+        height: 570px;
     }
     .tamawal_Type{
         margin: 0px -4.5em;
@@ -46,7 +46,7 @@
     .button2{
       top: 100px;
     border-radius: 12px;
-    width: 240px;
+    width: 220px;
     height: 50px;
     border-width: 0;
     }
@@ -73,12 +73,12 @@
     .get_started{
         position: relative;
         height: 140px;
-        margin: 20px 33px;
+        margin: 20px 18px;
     }
     .quick_text3{
         position: relative;
         font-weight: bold;
-        margin: -20px 40px;
+        margin: -20px 32px;
     }
     .content_flex{
          position: relative;
@@ -98,7 +98,7 @@
     .quick_box{
         position: relative;
         top: 20px;
-    width: 165px;
+    width: 160px;
     height: 35px;
     padding: 6px 2px;
     background: #F8FBFF;
@@ -109,7 +109,8 @@
     }
     .quick_input{
     border-width: 0px;
-    width: 160px;
+    width: 155px;
+    font-size: 12px;
     }
     .b1{
         position: relative;
@@ -160,7 +161,7 @@
 @media (max-width: 1024px) {
     
     .section1{
-        height: 700px;
+        height: 500px;
     }
     .tamawal_Type{
         margin: 0px .1px;
@@ -179,7 +180,7 @@
  }
     .illus{
         margin: 80px 520px;
-        height: 54vh;
+        height: 450px;
     }
     .left-section{
         margin: 90px 30px;
@@ -231,6 +232,76 @@
 
 
 
+    .get_started{
+        position: relative;
+        height: 110px;
+        margin: 18px 15px;
+    }
+    .quick_text3{
+        position: relative;
+        font-weight: bold;
+        margin: -20px 26px;
+        font-size: 16px;
+    }
+    .content_flex{
+         position: relative;
+        display: flex;
+        top: 10px;
+        width: 100%;
+    }
+    .column_1{
+        flex: 25%;
+    }.column_2{
+        flex: 25%;
+    }.column_3{
+        flex: 25%;
+    }.column_4{
+        flex: 25%;
+    }
+    .quick_box{
+        position: relative;
+        top: 20px;
+    width: 125px;
+    height: 34px;
+    padding: 3px 2px;
+    background: #F8FBFF;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 6px;
+    
+    }
+    .quick_input{
+    border-width: 0px;
+    font-size: 11px;
+    width: 120px;
+    }
+    .b1{
+        position: relative;
+        
+    }
+    .b2{
+        position: relative;
+        margin-top: 18px;
+    }
+    
+    .b3{
+        position: relative;
+        margin-top: 18px;
+    }
+    
+    .b4{
+        position: relative;
+        margin-top: 18px;
+    }
+    
+    .submit_box{
+    
+    background: #F0B50F;
+    border-radius: 6px;
+    border-width: 0px;
+    
+    }
+    
 
 } 
 
@@ -244,8 +315,8 @@
 
 
 
-}
-@media (max-width: 991px){
+
+/* @media (max-width: 991px){
     .tamawal_Type{
         position: relative;
         margin: 0px -4.5em;
@@ -267,10 +338,151 @@
     .collapsed{
 background-color: red;
     }
-}
+} */
 
-@media (max-width: 791px) {
-   
+@media (max-width: 768px) {
+    .section1{
+        height: 340px;
+    }
+    .tamawal_Type{
+        margin: 0px .1px;
+    }
+    .far1{
+            margin: 0px 35rem;
+            color: white;
+    }
+    .far2{
+            margin: 0px 45rem;
+    }
+ .bg-stripes{
+    margin-top: 0rem;
+    right: 7rem;
+   height: 9rem;
+ }
+    .illus{
+        margin: 70px 380px;
+        height: 350px;
+    }
+    .left-section{
+        margin: 90px 20px;
+    }
+    h2{
+    font-size: 42px;
+    line-height: 30px;
+    letter-spacing: -2px;
+    }
+    .text_1{
+       top: 25px;
+    }
+    p2{
+    font-size: 12px;
+    line-height: 17px;
+    }
+    .text_2{
+    margin: 30px 0px;
+    width: 400px;
+    }
+    
+    .button2{
+      top: 50px;
+    border-radius: 8px;
+    width: 180px;
+    height: 35px;
+    border-width: 0;
+    }
+    .btn_text{
+    font-size: 14px;
+    line-height: 17px;
+    }
+    h3{
+    font-size: 18px;
+    line-height: 24px;
+    }
+    .averaging{
+        top: 60px;
+
+        width: 320px;
+    }
+    
+    
+    .quicksearch{
+        width: 410px;
+        height: 190px;
+        top: 90px;
+    }
+
+
+
+    .get_started{
+        position: relative;
+        height: 84px;
+        margin: 7px 10px;
+    }
+    .quick_text3{
+        position: relative;
+        font-weight: bold;
+        margin: -20px 16px;
+        font-size: 13px;
+    }
+    .content_flex{
+         position: relative;
+        display: flex;
+        top: 10px;
+        width: 100%;
+    }
+    .column_1{
+        flex: 25%;
+    }.column_2{
+        flex: 25%;
+    }.column_3{
+        flex: 25%;
+    }.column_4{
+        flex: 25%;
+    }
+    .quick_box{
+        position: relative;
+        top: 7px;
+    width: 92px;
+    height: 24px;
+    padding: 0px 2px;
+    background: #F8FBFF;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 6px;
+    
+    }
+    .quick_input{
+    border-width: 0px;
+    font-size: 8px;
+    width: 85px;
+    }
+    .b1{
+        position: relative;
+        
+    }
+    .b2{
+        position: relative;
+        margin-top: 18px;
+    }
+    
+    .b3{
+        position: relative;
+        margin-top: 18px;
+    }
+    
+    .b4{
+        position: relative;
+        margin-top: 18px;
+    }
+    
+    .submit_box{
+    
+    background: #F0B50F;
+    border-radius: 6px;
+    border-width: 0px;
+    
+    }
+    
     
 }
 
@@ -278,13 +490,152 @@ background-color: red;
 @media (max-width: 690px) {
 
  
-
-
+    .section1{
+        height: 240px;
+    }
+    .tamawal_Type{
+        margin: 0px .1px;
+    }
+    .far1{
+            margin: 0px 35rem;
+            color: white;
+    }
+    .far2{
+            margin: 0px 45rem;
+    }
+ .bg-stripes{
+    margin-top: 0rem;
+    right: 7rem;
+   height: 9rem;
+ }
+    .illus{
+        margin: 70px 290px;
+        height: 250px;
+    }
+    .left-section{
+        margin: 90px 10px;
+    }
+    h2{
+    font-size: 36px;
+    line-height: 10px;
+    letter-spacing: -2px;
+    }
+    .text_1{
+       top: 25px;
+    }
+    p2{
+    font-size: 10px;
+    line-height: 17px;
+    }
+    .text_2{
+    margin: 30px 0px;
+    width: 380px;
+    }
     
+    .button2{
+      top: 50px;
+    border-radius: 8px;
+    width: 130px;
+    height: 26px;
+    border-width: 0;
+    }
+    .btn_text{
+    font-size: 8px;
+    line-height: 17px;
+    }
+    h3{
+    font-size: 14px;
+    line-height: 18px;
+    }
+    .averaging{
+        top: 60px;
+
+        width: 270px;
+    }
+    
+    
+    .quicksearch{
+        width: 350px;
+        height: 150px;
+        top: 80px;
+    }
+
+
+
+    .get_started{
+        position: relative;
+        height: 68px;
+        margin: 7px 10px;
+    }
+    .quick_text3{
+        position: relative;
+        font-weight: bold;
+        margin: 0px 10px;
+        font-size: 12px;
+    }
+    .content_flex{
+         position: relative;
+        display: flex;
+        top: 5px;
+        width: 100%;
+    }
+    .column_1{
+        flex: 25%;
+    }.column_2{
+        flex: 25%;
+    }.column_3{
+        flex: 25%;
+    }.column_4{
+        flex: 25%;
+    }
+    .quick_box{
+        position: relative;
+        top: 7px;
+    width: 80px;
+    height: 24px;
+    padding: 0px 2px;
+    background: #F8FBFF;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 6px;
+    
+    }
+    .quick_input{
+    border-width: 0px;
+    font-size: 8px;
+    width: 65px;
+    }
+    .b1{
+        position: relative;
+        
+    }
+    .b2{
+        position: relative;
+        margin-top: 8px;
+    }
+    
+    .b3{
+        position: relative;
+        margin-top: 8px;
+    }
+    
+    .b4{
+        position: relative;
+        margin-top: 8px;
+    }
+    
+    .submit_box{
+    
+    background: #F0B50F;
+    border-radius: 6px;
+    border-width: 0px;
+    font-size: 2px;
+    
+    }
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
     .Business{
         font-size: 15px;
     }
@@ -292,6 +643,149 @@ background-color: red;
         font-size: 18px;
     }
 
+ 
+    .section1{
+        height: 640px;
+    }
+    .tamawal_Type{
+        margin: 0px .1px;
+    }
+    .far1{
+            margin: 0px 35rem;
+            color: white;
+    }
+    .far2{
+            margin: 0px 45rem;
+    }
+ .bg-stripes{
+    margin-top: 0rem;
+    right: 7rem;
+   height: 9rem;
+ }
+    .illus{
+        margin: 70px 290px;
+        height: 250px;
+    }
+    .left-section{
+        margin: 90px 10px;
+    }
+    h2{
+    font-size: 36px;
+    line-height: 10px;
+    letter-spacing: -2px;
+    }
+    .text_1{
+       top: 25px;
+    }
+    p2{
+    font-size: 10px;
+    line-height: 17px;
+    }
+    .text_2{
+    margin: 30px 0px;
+    width: 380px;
+    }
+    
+    .button2{
+      top: 50px;
+    border-radius: 8px;
+    width: 130px;
+    height: 26px;
+    border-width: 0;
+    }
+    .btn_text{
+    font-size: 8px;
+    line-height: 17px;
+    }
+    h3{
+    font-size: 14px;
+    line-height: 18px;
+    }
+    .averaging{
+        top: 60px;
+
+        width: 270px;
+    }
+    
+    
+    .quicksearch{
+        width: 350px;
+        height: 150px;
+        top: 80px;
+    }
+
+
+
+    .get_started{
+        position: relative;
+        height: 68px;
+        margin: 7px 10px;
+    }
+    .quick_text3{
+        position: relative;
+        font-weight: bold;
+        margin: 0px 10px;
+        font-size: 12px;
+    }
+    .content_flex{
+         position: relative;
+        display: flex;
+        top: 5px;
+        width: 100%;
+    }
+    .column_1{
+        flex: 25%;
+    }.column_2{
+        flex: 25%;
+    }.column_3{
+        flex: 25%;
+    }.column_4{
+        flex: 25%;
+    }
+    .quick_box{
+        position: relative;
+        top: 7px;
+    width: 80px;
+    height: 24px;
+    padding: 0px 2px;
+    background: #F8FBFF;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 6px;
+    
+    }
+    .quick_input{
+    border-width: 0px;
+    font-size: 8px;
+    width: 65px;
+    }
+    .b1{
+        position: relative;
+        
+    }
+    .b2{
+        position: relative;
+        margin-top: 8px;
+    }
+    
+    .b3{
+        position: relative;
+        margin-top: 8px;
+    }
+    
+    .b4{
+        position: relative;
+        margin-top: 8px;
+    }
+    
+    .submit_box{
+    
+    background: #F0B50F;
+    border-radius: 6px;
+    border-width: 0px;
+    font-size: 2px;
+    
+    }
 
     
 }

@@ -787,5 +787,104 @@ background-color: red;
     
     }
 
+
+    
+/* section 2 */
+.section2{
+    height: 900px;
+    }
+    .virtual{
+        position: relative;
+        margin: 200px 0px;
+        top: 70px;
+        text-align: center;
+        font-size: 50px;
+    color:#014497 ;
+    }
+    
+    .text_give{
+        position: relative;
+        color:#014497 ;
+        text-align: center;
+        font-size: 20px;
+        top:-110px;
+    }
+    .timeline{
+        position: relative;
+        margin: 0px 500px;
+    }
+    .card_flex{
+        position: relative;
+        margin: 160px 450px;
+        display: flex;
+    }
+    .why_text{
+        /* why tama */
+    
+    position: absolute;
+    width: 271px;
+    margin: -530px 100px;
+    font-family: Montserrat;
+    font-style: bold;
+    font-weight: 1800;
+    font-size: 58px;
+    line-height: 59px;
+    text-align: center;
+    
+    color: #014497;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+    
+    
+    
+    
+    
+    
+    /* section 3 */
+    .section3{
+        height: 900px;
+    }
+    .work_text{
+        /* The simplest way to */
+        position: relative;
+    margin: 100px 50px;
+    
+    font-family: Montserrat;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 51px;
+    text-align: left;
+    color: #F8FBFF;
+    
+    }
+    
+    .text_get_started{
+    position: relative;
+    margin: -80px 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 25px;
+    /* or 142% */
+    text-align: left;
+    
+    color: #F8FBFF;
+    
+    
+    }
+    .how_work{
+        height: 900px;
+        margin: 70px 280px;
+    }
+    .platform{
+        position: absolute;
+        height: 250px;
+        margin: 100px 100px;
+    }
+    
     
 }

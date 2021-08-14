@@ -14,7 +14,7 @@
 }
 .tamawal_Type{
     position: relative;
-    margin: 0px -15rem;
+    margin: 0px -8rem;
 }
 .btnLogin{
   /* login */
@@ -114,7 +114,8 @@ color: #767F8F;
    width: 100%;  */
 }
 .section1{
-    height: 50rem;
+    height: 950px;
+    background: linear-gradient(252.43deg, #134491 9.89%, #1A73CB 96.03%);
 }
 .home{
     /* display: flex; */
@@ -367,7 +368,7 @@ height: 900px;
 }
 .virtual{
     position: relative;
-    margin: 200px 0px;
+    margin: 1px 0px;
     top: 70px;
     text-align: center;
     font-size: 50px;
@@ -379,15 +380,15 @@ color:#014497 ;
     color:#014497 ;
     text-align: center;
     font-size: 20px;
-    top:-110px;
+    top:100px;
 }
 .timeline{
     position: relative;
-    margin: 0px 500px;
+    margin: 200px 500px;
 }
 .card_flex{
     position: relative;
-    margin: 160px 450px;
+    margin: 5px 450px;
     display: flex;
 }
 .why_text{
@@ -395,7 +396,7 @@ color:#014497 ;
 
 position: absolute;
 width: 271px;
-margin: -530px 100px;
+margin: -330px 100px;
 font-family: Montserrat;
 font-style: bold;
 font-weight: 1800;
@@ -416,65 +417,74 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 /* section 3 */
 .section3{
-    height: 1000px;
+    background: linear-gradient(252.43deg, #134491 9.89%, #1A73CB 96.03%);
+    height: 1050px;
+    padding: 50px 30px;
 }
 .work_text{
     /* The simplest way to */
-margin: 100px 120px;
-position: absolute;
+    position: relative;
+margin: 0px 50px;
+
 font-family: Montserrat;
 font-style: bold;
 font-weight: 800;
 font-size: 52px;
 line-height: 51px;
-text-align: center;
-
+text-align: left;
 color: #F8FBFF;
-
 
 }
 
 .text_get_started{
-position: absolute;
-margin: 160px 120px;
+position: relative;
+margin: 10px 50px;
 font-family: Roboto;
 font-style: normal;
-font-weight: bold;
+font-weight: normal;
 font-size: 23px;
 line-height: 25px;
 /* or 142% */
-text-align: center;
+text-align: left;
 
 color: #F8FBFF;
 
 
 }
 .how_work{
-    height: 900px;
-    margin: 100px 300px;
+    height: 850px;
+    margin: 0px 350px;
 }
 .platform{
     position: absolute;
     height: 250px;
-    margin: 200px 100px;
+    margin: 40px 100px;
+}
+
+
+/* section 4 */
+.section4{
+height: 700px;
+}
+
+.calc{
+    position: absolute;
+    margin: 200px 50px;
 }
 
 
 
 
+/* footer */
 
+.footer-row{
+    position: relative;
+    bottom: 0px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.footer-widget{
+    height: 2px;
+}
 
 
 

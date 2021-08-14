@@ -2,7 +2,7 @@
 /* responsive media query start */
 @media (max-width: 1280px) {
     .section1{
-        height: 570px;
+        height: 750px;
     }
     .tamawal_Type{
         margin: 0px -4.5em;
@@ -76,6 +76,7 @@
         margin: 20px 18px;
     }
     .quick_text3{
+        font-size: 20px;
         position: relative;
         font-weight: bold;
         margin: -20px 32px;
@@ -140,6 +141,110 @@
     }
 
 
+
+
+/* section 2 */
+.section2{
+    height: 900px;
+    }
+    .virtual{
+        margin: 0px 0px;
+        top: 70px;
+        text-align: center;
+        font-size: 40px;
+    color:#014497 ;
+    }
+    
+    .text_give{
+        position: relative;
+        color:#014497 ;
+        text-align: center;
+        font-size: 20px;
+        top:100px;
+    }
+    .timeline{
+        position: relative;
+        margin: 200px 300px;
+        height: 70px;
+    }
+    .card_flex{
+        position: relative;
+        margin: 5px 280px;
+        display: flex;
+    }
+    .why_text{
+        /* why tama */
+    
+    position: absolute;
+    width: 271px;
+    margin: -300px 20px;
+    font-family: Montserrat;
+    font-style: bold;
+    font-weight: 1800;
+    font-size: 40px;
+    line-height: 59px;
+    text-align: center;
+    
+    color: #014497;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+    .set1{
+height: 280px;
+margin-right: -20px;
+    }
+    .set2{
+        height: 280px;
+    }
+    
+    
+
+/* section 3 */
+.section3{
+    background: linear-gradient(252.43deg, #134491 9.89%, #1A73CB 96.03%);
+    height: 900px;
+    padding: 50px 30px;
+}
+.work_text{
+    /* The simplest way to */
+    position: relative;
+margin: -20px 50px;
+
+font-family: Montserrat;
+font-style: bold;
+font-weight: 800;
+font-size: 45px;
+line-height: 51px;
+text-align: left;
+color: #F8FBFF;
+
+}
+
+.text_get_started{
+position: relative;
+margin: 50px 50px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+/* or 142% */
+text-align: left;
+
+color: #F8FBFF;
+
+
+}
+.how_work{
+    height: 700px;
+    margin: -20px 150px;
+}
+.platform{
+    position: absolute;
+    height: 200px;
+    margin: -30px 20px;
+}
 
     
 }
@@ -342,7 +447,7 @@ background-color: red;
 
 @media (max-width: 768px) {
     .section1{
-        height: 340px;
+        height: 500px;
     }
     .tamawal_Type{
         margin: 0px .1px;

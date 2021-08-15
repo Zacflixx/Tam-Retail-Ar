@@ -297,7 +297,7 @@ border-radius: 8px;
     font-size: 23px;
     position: relative;
     font-weight: bold;
-    margin: -20px 40px;
+    margin: -20px 50px;
 }
 .content_flex{
      position: relative;
@@ -319,7 +319,7 @@ border-radius: 8px;
     top: 20px;
 width: 185px;
 height: 45px;
-padding: 12px 6px;
+padding: 22px 6px;
 background: #F8FBFF;
 border: 1px solid #D6D6D6;
 box-sizing: border-box;
@@ -348,7 +348,10 @@ font-size: 14px;
     position: relative;
     margin-top: 18px;
 }
-
+.sub_text{
+    position: relative;
+    top: -9px;
+}
 .submit_box{
 
 background: #F0B50F;
@@ -357,9 +360,84 @@ border-width: 0px;
 
 }
 
+/* circle */
+.circular{
+    height:100px;
+    width: 100px;
+    position: relative;
+    transform:scale(1.5);
+    margin: 40px 60px;
+    
+  }
+  .circular .inner{
+    position: absolute;
+    z-index: 6;
+    top: 50%;
+    left: 50%;
+    height: 80px;
+    width: 80px;
+    margin: -40px 0 0 -40px;
+    background:#0C4086;
+    border-radius: 100%;
+    border: 0.1px solid #fff;
+   
+  }
+  .circular .number{
+    position: absolute;
+    top:47%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index:10;
+    font-size:12px;
+    font-weight:00;
+    text-align: center;
+    color:#fff;
+  }
+  .circular .bar{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    -webkit-border-radius: 100%;
+    clip: rect(0px, 100px, 100px, 50px);
+    border: 0.1px solid #fff;
+  }
+  .circle .bar .progress{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-border-radius: 100%;
+    clip: rect(0px, 50px, 100px, 0px);
+    background: #0C4086;
 
-
-
+  }
+  .circle .left .progress{
+    z-index:1;
+    animation: left 4s linear both;
+  }
+  @keyframes left{
+    100%{
+      transform: rotate(180deg);
+    }
+  }
+  .circle .right {
+    transform: rotate(180deg);
+    z-index:3;
+   
+  }
+  .circle .right .progress{
+    animation: right 4s linear both;
+    animation-delay:4s;
+  }
+  @keyframes right{
+    100%{
+      transform: rotate(180deg);
+    }
+  }
+.zee{
+    /* height: 2%;
+    width: 2%; */
+}
 
 
 

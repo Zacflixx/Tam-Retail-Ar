@@ -254,9 +254,13 @@ color: #F8FBFF;
     margin: -30px 20px;
 }
 
+
+
+/* section4 */
 .section4{
     height: 600px;
 }
+
 
 .highlights{
     display: flex;
@@ -278,15 +282,41 @@ color: #15549A;
 
 }
 .calculator1{
-    flex: 50%;
+    margin: 70px 10px;
+    transform: scale(1.2);
+}
+.lead-calculator {
+    padding: 0px 20px;
+    margin: 2px -20px;
+    background: #014497;
+    color: #fff; 
+    border-radius: 6px;
+    width: 380px;
+  }
+.loan_today{
+    position: relative;
+    color: white; 
+    font-weight: normal;
+    font-size: 200;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: .2px;
+}
+.btn-sm{
+    margin: 20px 0px;
+    border-radius: 8px;
+    height: 32px;
+    width: 50%;
 }
 .promo1{
     position: relative;
     flex: 50%;
     width: 200px;
     height: 400px;
-    left: 100px;
-    top: 40px;
+    left: 40px;
+    top: 45px;
     /* background-color: red; */
 }
 .promo_feed{
@@ -294,13 +324,9 @@ position: relative;
 
 width: 450px;
  padding: 2px 7px;  
-height: 350px;
+height: 335px;
 overflow: scroll;
 overflow-x: hidden;
-border: 3px solid rgba(21, 84, 154, 0.1);
-box-sizing: border-box;
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.0);
-border-radius: 8px;
 
 }
 .promo_grp{
@@ -312,15 +338,9 @@ height: 380px;
     top: -70px;
 }
 .get_best{
-    margin: 0px 0px;
-    font-family: Poppins;
-font-style: normal;
-font-weight: 600;
+    margin: 20px 0px;
 line-height: 25px;
     font-size: 17px;
-    
-color: #0B4F97;
-opacity: .9;
 }
 
 
@@ -596,7 +616,89 @@ color: #F8FBFF;
 
 /* section4 */
 .section4{
-    height: 300px;
+    height: 500px;
+}
+
+
+.highlights{
+    display: flex;
+    margin: 70px 0px;
+}
+.highlight_text{
+position: relative;
+top: 40px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 61px;
+/* identical to box height */
+text-align: center;
+
+color: #15549A;
+
+
+}
+.calculator1{
+    margin: 0px 0px;
+    transform: scale(.9);
+}
+.lead-calculator {
+    padding: 0px 20px;
+    margin: 2px -20px;
+    background: #014497;
+    color: #fff; 
+    border-radius: 6px;
+    width: 380px;
+  }
+.loan_today{
+    position: relative;
+    color: white; 
+    font-weight: normal;
+    font-size: 200;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: .2px;
+}
+.btn-sm{
+    margin: 20px 0px;
+    border-radius: 8px;
+    height: 32px;
+    width: 50%;
+}
+.promo1{
+    position: relative;
+    flex: 50%;
+    width: 200px;
+    height: 400px;
+    left: 40px;
+    top: 23px;
+    /* background-color: red; */
+}
+.promo_feed{
+position: relative;
+
+width: 370px;
+ padding: 2px 7px;  
+height: 300px;
+overflow: scroll;
+overflow-x: hidden;
+
+}
+.promo_grp{
+height: 280px;
+
+}
+.pg2{
+    position: relative;
+    top: -70px;
+}
+.get_best{
+    margin: 20px 0px;
+line-height: 25px;
+    font-size: 14px;
 }
 
 
@@ -641,7 +743,7 @@ background-color: red;
 
 @media (max-width: 768px) {
     .section1{
-        height: 500px;
+        height: 510px;
     }
     .tamawal_Type{
         margin: 0px .1px;
@@ -710,7 +812,11 @@ background-color: red;
         top: 90px;
     }
 
-
+    .circular{
+        transform:scale(1.0);
+        margin: 5px 10px;
+        
+      }
 
     .get_started{
         position: relative;
@@ -720,8 +826,14 @@ background-color: red;
     .quick_text3{
         position: relative;
         font-weight: bold;
-        margin: -20px 16px;
+        top: 2px;
+        margin: 10px 25px;
         font-size: 13px;
+    }
+    .sub_text{
+        position: relative;
+        top: 0px;
+        font-size: 12px;
     }
     .content_flex{
          position: relative;
@@ -781,16 +893,212 @@ background-color: red;
     border-width: 0px;
     
     }
+
+
+/* section 2 */
+.section2{
+    height: 520px;
+    }
+    .virtual{
+        margin: 0px 0px;
+        top: 20px;
+        text-align: center;
+        font-size: 30px;
+        width: 730px;
+        line-height: 40px;
+    color:#014497 ;
+    }
+    
+    .text_give{
+        position: relative;
+        color:#014497 ;
+        text-align: center;
+        font-size: 15px;
+        top:0px;
+    }
+    .timeline{
+        position: relative;
+        margin: 0px 150px;
+        height: 45px;
+    }
+    .card_flex{
+        position: relative;
+        margin: 100px 130px;
+        display: flex;
+    }
+    .why_text{
+    width: 101px;
+    margin: -290px 18px;
+    font-family: Montserrat;
+    font-style: bold;
+    font-weight: 1800;
+    font-size: 23px;
+    line-height: 25px;
+    text-align: center;
+    
+    color: #014497;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+    .set1{
+height: 190px;
+margin-right: -20px;
+    }
+    .set2{
+        height: 190px;
+    }
+    
+    
+
+/* section 3 */
+.section3{
+    height: 520px;
+    padding: 3px 0px;
+}
+.work_text{
+    /* The simplest way to */
+    position: relative;
+margin: -20px 20px;
+font-size: 25px;
+line-height: 51px;
+text-align: left;
+color: #F8FBFF;
+letter-spacing: .3px;
+
+}
+
+.text_get_started{
+position: relative;
+margin: 30px 20px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 25px;
+/* or 142% */
+text-align: left;
+
+color: #F8FBFF;
+
+
+}
+.how_work{
+    height: 500px;
+    margin: -80px 50px;
+}
+.platform{
+    position: absolute;
+    height: 100px;
+    margin: -20px 10px;
+}
+
+
+/* section4 */
+.section4{
+    height: 430px;
+}
+
+
+.highlights{
+    display: flex;
+    margin: 90px 0px;
+}
+.highlight_text{
+top: 10px;
+font-weight: 800;
+font-size: 30px;
+line-height: 61px;
+}
+.calculator1{
+    margin: -80px 0px;
+    transform: scale(.8);
+}
+.lead-calculator {
+    padding: 0px 20px;
+    margin: 2px -20px;
+    background: #014497;
+    color: #fff; 
+    border-radius: 6px;
+    width: 380px;
+  }
+.loan_today{
+    position: relative;
+    color: white; 
+    font-weight: normal;
+    font-size: 200;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: .2px;
+}
+.btn-sm{
+    margin: 20px 0px;
+    border-radius: 8px;
+    height: 32px;
+    width: 50%;
+}
+.promo1{
+    position: relative;
+    flex: 50%;
+    width: 200px;
+    height: 400px;
+    left: 40px;
+    top: -20px;
+    /* background-color: red; */
+}
+.promo_feed{
+position: relative;
+
+width: 290px;
+ padding: 2px 7px;  
+height: 250px;
+overflow: scroll;
+overflow-x: hidden;
+
+}
+.promo_grp{
+height: 220px;
+
+}
+.pg2{
+    position: relative;
+    top: -70px;
+}
+.get_best{
+    margin: 0px 0px;
+line-height: 25px;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
     
     
 }
 
 
-@media (max-width: 690px) {
+@media (max-width: 600px) {
+
+ 
+    .Business{
+        font-size: 15px;
+    }
+    .personal{
+        font-size: 15px;
+        opacity: .3;
+    }
 
  
     .section1{
-        height: 240px;
+        height: 920px;
     }
     .tamawal_Type{
         margin: 0px .1px;
@@ -804,42 +1112,42 @@ background-color: red;
     }
  .bg-stripes{
     margin-top: 0rem;
-    right: 7rem;
-   height: 9rem;
+    right: 3rem;
+   height: 9.3rem;
  }
     .illus{
-        margin: 70px 290px;
-        height: 250px;
+        margin: 180px 30px;
+        height: 27.5rem;
     }
     .left-section{
         margin: 90px 10px;
     }
     h2{
-    font-size: 36px;
+    font-size: 56px;
     line-height: 10px;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     }
     .text_1{
-       top: 25px;
+       top: 35px;
     }
     p2{
-    font-size: 10px;
-    line-height: 17px;
+    font-size: 14px;
+    line-height: 16px;
     }
     .text_2{
-    margin: 30px 0px;
+    margin: 60px 0px;
     width: 380px;
     }
     
     .button2{
-      top: 50px;
+      top: 85px;
     border-radius: 8px;
-    width: 130px;
-    height: 26px;
+    width: 230px;
+    height: 36px;
     border-width: 0;
     }
     .btn_text{
-    font-size: 8px;
+    font-size: 18px;
     line-height: 17px;
     }
     h3{
@@ -847,30 +1155,35 @@ background-color: red;
     line-height: 18px;
     }
     .averaging{
-        top: 60px;
-
-        width: 270px;
+        top: 480px;
+        left: 5%;
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 25px;
+        width: 500px;
     }
     
     
     .quicksearch{
-        width: 350px;
-        height: 150px;
-        top: 80px;
+        width: 35.7rem;
+        height:12.0rem;
+        top: 490px;
+        left: -2px;
     }
 
 
 
     .get_started{
         position: relative;
-        height: 68px;
-        margin: 7px 10px;
+        height: 128px;
+        margin: 7px 1px;
+        left: 20px;
     }
     .quick_text3{
         position: relative;
         font-weight: bold;
-        margin: 0px 10px;
-        font-size: 12px;
+        margin: 0px 25px;
+        font-size: 1rem;
     }
     .content_flex{
          position: relative;
@@ -890,9 +1203,9 @@ background-color: red;
     .quick_box{
         position: relative;
         top: 7px;
-    width: 80px;
-    height: 24px;
-    padding: 0px 2px;
+    width: 8.2rem;
+    height: 2.3rem;
+    padding: 10px 2px;
     background: #F8FBFF;
     border: 1px solid #D6D6D6;
     box-sizing: border-box;
@@ -901,8 +1214,16 @@ background-color: red;
     }
     .quick_input{
     border-width: 0px;
-    font-size: 8px;
-    width: 65px;
+    font-size: 12px;
+    width: 7rem;
+    }
+    .circular{
+        margin: 7px 20px;
+        
+      }
+    .sub_text{
+        position: relative;
+        top: 0px;
     }
     .b1{
         position: relative;
@@ -932,19 +1253,221 @@ background-color: red;
     
     }
 
+
+    
+/* section 2 */
+.section2{
+    height: 680px;
+    }
+    .virtual{
+        position: relative;
+        margin: 16px 40px;
+        top: 0px;
+        left: -0px;
+        text-align: center;
+        font-size: 2.2rem;
+    color:#014497 ;
+    width: 500px;
+    line-height: 38px;
+    }
+    
+    .text_give{
+        position: relative;
+        color:#014497 ;
+        text-align: center;
+        font-size: 17px;
+        top: -20px;
+    }
+    .timeline{
+        position: relative;
+        margin: 20px 20px;
+        top: -20px;
+        height: 48px;
+    }
+    .card_flex{
+        position: relative;
+        margin: 260px 0px;
+        display: flex;
+    }
+    .set1{
+        height: 12.5rem;
+        margin: -100px 0px;
+        margin-right: -20px;
+            }
+            .set2{
+                margin: -100px 0px;
+                height: 12.5rem;
+            }
+    .why_text{
+        /* why tama */
+    
+    position: absolute;
+    width: 141px;
+    margin: -440px 200px;
+    font-family: Montserrat;
+    font-style: bold;
+    font-weight: 1800;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+    
+    color: #014497;
+    opacity: .99;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    
+    }
+    
+    
+    
+    
+    
+    
+    /* section 3 */
+    .section3{
+        height:600px;
+    }
+    .work_text{
+        /* The simplest way to */
+        position: relative;
+    margin: 1px 10px;
+    
+    font-family: Montserrat;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 25px;
+    text-align: left;
+    color: #F8FBFF;
+    
+    }
+    
+    .text_get_started{
+    position: relative;
+    margin: 36px 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* or 142% */
+    text-align: left;
+    
+    color: #F8FBFF;
+    
+    
+    }
+    .how_work{
+        height:380px;
+        margin: -10px 0px;
+    }
+    .platform{
+        position: absolute;
+        height: 140px;
+        margin: 320px 400px;
+    }
+    
+    
+/* section4 */
+.section4{
+    height: 900px;
 }
 
-@media (max-width: 480px) {
+
+.highlights{
+    display: contents;
+    margin: 70px 0px;
+}
+.highlight_text{
+position: relative;
+top: 10px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 61px;
+/* identical to box height */
+text-align: center;
+
+color: #15549A;
+
+
+}
+.calculator1{
+    margin: 50px 120px;
+    transform: scale(1);
+}
+.lead-calculator {
+    padding: 20px 20px;
+    margin: 2px -20px;
+    background: #014497;
+    color: #fff; 
+    border-radius: 6px;
+    width: 380px;
+  }
+.loan_today{
+    position: relative;
+    color: white; 
+    font-weight: normal;
+    font-size: 200;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: .2px;
+}
+.btn-sm{
+    margin: 20px 0px;
+    border-radius: 8px;
+    height: 32px;
+    width: 50%;
+}
+.promo1{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    left: 120px;
+    top: 1px;
+    /* background-color: red; */
+}
+.promo_feed{
+position: relative;
+
+width: 370px;
+ padding: 2px 7px;  
+height: 350px;
+overflow: scroll;
+overflow-x: hidden;
+
+}
+.promo_grp{
+height: 310px;
+
+}
+.pg2{
+    position: relative;
+    top: -70px;
+}
+.get_best{
+    margin: 0px 0px;
+line-height: 25px;
+    font-size: 14px;
+}
+    
+} 
+
+@media (max-width: 425px) {
     .Business{
         font-size: 15px;
     }
     .personal{
-        font-size: 18px;
+        font-size: 15px;
+        opacity: .3;
     }
 
  
     .section1{
-        height: 640px;
+        height: 690px;
     }
     .tamawal_Type{
         margin: 0px .1px;
@@ -958,35 +1481,35 @@ background-color: red;
     }
  .bg-stripes{
     margin-top: 0rem;
-    right: 7rem;
-   height: 9rem;
+    right: 3rem;
+   height: 9.3rem;
  }
     .illus{
-        margin: 70px 290px;
-        height: 250px;
+        margin: 140px 0px;
+        height: 330px;
     }
     .left-section{
         margin: 90px 10px;
     }
     h2{
-    font-size: 36px;
+    font-size: 42px;
     line-height: 10px;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     }
     .text_1{
        top: 25px;
     }
     p2{
     font-size: 10px;
-    line-height: 17px;
+    line-height: 13px;
     }
     .text_2{
-    margin: 30px 0px;
+    margin: 40px 0px;
     width: 380px;
     }
     
     .button2{
-      top: 50px;
+      top: 60px;
     border-radius: 8px;
     width: 130px;
     height: 26px;
@@ -1001,16 +1524,20 @@ background-color: red;
     line-height: 18px;
     }
     .averaging{
-        top: 60px;
-
-        width: 270px;
+        top: 330px;
+        left: 5%;
+        font-size: 20px;
+        text-align: center;
+        line-height: 25px;
+        width: 350px;
     }
     
     
     .quicksearch{
-        width: 350px;
+        width: 390px;
         height: 150px;
-        top: 80px;
+        top: 338px;
+        left: -2px;
     }
 
 
@@ -1023,7 +1550,7 @@ background-color: red;
     .quick_text3{
         position: relative;
         font-weight: bold;
-        margin: 0px 10px;
+        margin: 0px 25px;
         font-size: 12px;
     }
     .content_flex{
@@ -1090,49 +1617,64 @@ background-color: red;
     
 /* section 2 */
 .section2{
-    height: 900px;
+    height: 680px;
     }
     .virtual{
         position: relative;
-        margin: 200px 0px;
-        top: 70px;
+        margin: 16px 0px;
+        top: 0px;
+        left: -0px;
         text-align: center;
-        font-size: 50px;
+        font-size: 22px;
     color:#014497 ;
+    width: 400px;
+    line-height: 23px;
     }
     
     .text_give{
         position: relative;
         color:#014497 ;
         text-align: center;
-        font-size: 20px;
-        top:-110px;
+        font-size: 12px;
+        top: -30px;
     }
     .timeline{
         position: relative;
-        margin: 0px 500px;
+        margin: 0px 10px;
+        top: -20px;
+        height: 35px;
     }
     .card_flex{
         position: relative;
-        margin: 160px 450px;
+        margin: 160px 20px;
         display: flex;
     }
+    .set1{
+        height: 240px;
+        margin: -100px 0px;
+        margin-right: -20px;
+            }
+            .set2{
+                margin:120px -350px;
+                height: 240px;
+            }
     .why_text{
         /* why tama */
     
     position: absolute;
-    width: 271px;
-    margin: -530px 100px;
+    width: 141px;
+    margin: -780px 130px;
     font-family: Montserrat;
     font-style: bold;
     font-weight: 1800;
-    font-size: 58px;
-    line-height: 59px;
+    font-size: 20px;
+    line-height: 22px;
     text-align: center;
     
     color: #014497;
+    opacity: .99;
     
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
     
     }
     
@@ -1143,18 +1685,18 @@ background-color: red;
     
     /* section 3 */
     .section3{
-        height: 900px;
+        height: 420px;
     }
     .work_text{
         /* The simplest way to */
         position: relative;
-    margin: 100px 50px;
+    margin: 1px 10px;
     
     font-family: Montserrat;
     font-style: bold;
     font-weight: 800;
-    font-size: 52px;
-    line-height: 51px;
+    font-size: 25px;
+    line-height: 25px;
     text-align: left;
     color: #F8FBFF;
     
@@ -1162,11 +1704,11 @@ background-color: red;
     
     .text_get_started{
     position: relative;
-    margin: -80px 50px;
+    margin: 20px 10px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 23px;
+    font-size: 13px;
     line-height: 25px;
     /* or 142% */
     text-align: left;
@@ -1176,14 +1718,100 @@ background-color: red;
     
     }
     .how_work{
-        height: 900px;
-        margin: 70px 280px;
+        height:300px;
+        margin: -30px 0px;
     }
     .platform{
         position: absolute;
-        height: 250px;
-        margin: 100px 100px;
+        height: 100px;
+        margin: 220px 280px;
     }
     
+    
+/* section4 */
+.section4{
+    height: 700px;
+}
+
+
+.highlights{
+    display: contents;
+    margin: 70px 0px;
+}
+.highlight_text{
+position: relative;
+top: 10px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 61px;
+/* identical to box height */
+text-align: center;
+
+color: #15549A;
+
+
+}
+.calculator1{
+    margin: 0px 26px;
+    transform: scale(.8);
+}
+.lead-calculator {
+    padding: 20px 20px;
+    margin: 2px -20px;
+    background: #014497;
+    color: #fff; 
+    border-radius: 6px;
+    width: 380px;
+  }
+.loan_today{
+    position: relative;
+    color: white; 
+    font-weight: normal;
+    font-size: 200;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: .2px;
+}
+.btn-sm{
+    margin: 20px 0px;
+    border-radius: 8px;
+    height: 32px;
+    width: 50%;
+}
+.promo1{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    left: 60px;
+    top: 1px;
+    /* background-color: red; */
+}
+.promo_feed{
+position: relative;
+
+width: 300px;
+ padding: 2px 7px;  
+height: 250px;
+overflow: scroll;
+overflow-x: hidden;
+
+}
+.promo_grp{
+height: 240px;
+
+}
+.pg2{
+    position: relative;
+    top: -70px;
+}
+.get_best{
+    margin: 0px 0px;
+line-height: 25px;
+    font-size: 14px;
+}
     
 }

@@ -1,0 +1,454 @@
+.top_end {
+    height: 400px;
+    width: 100%;
+    /* background-color: violet; */
+}
+
+.search_section {
+    height: 400px;
+    overflow: hidden;
+}
+.section_1{
+    background: linear-gradient(252.43deg, #134491 9.89%, #1A73CB 96.03%);
+}
+.offer_wrapper {
+    margin: 3%;
+}
+.scheme{
+    position: absolute;
+    width: 100%;
+    margin: 3rem 0px;
+    font-weight: 600;
+    margin: 3rem 3rem;
+    opacity: .9;
+    font-size: 4rem;
+}
+.search_wrapper {
+    position: relative;
+    top: 15rem;
+    left: 14%;
+    right: 35vw;
+    width: 80rem;
+    height: 8.5rem;
+    background: rgba(20, 73, 152, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.27);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+}
+
+.advanced_search {
+    transform: scale();
+}
+
+.offers_section {
+    position: relative;
+    margin: 0px 0px;
+    width: 100%;
+    background-color: white;
+    z-index: -1;
+}
+
+.row_1 {
+    display: flex;
+}
+
+.column_1 {
+    position: relative;
+    flex: 20%;
+    left: 1rem;
+}
+
+.search_text1 {
+    position: relative;
+    top: -.8rem;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: .01rem;
+    line-height: 68px;
+    /* identical to box height, or 298% */
+    color: #FFFFFF;
+}
+
+.box_content {
+    position: relative;
+    display: flex;
+    top: -1.8rem;
+    width: 14rem;
+    height: 2.5rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.see_all {
+    background: #F2C94C;
+    border-width: 0px;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: #145FB0;
+}
+
+.see {
+    position: relative;
+    margin: .3rem 3.5rem;
+}
+
+.salary_text {
+    position: relative;
+    font-size: 1.2rem;
+    left: 1rem;
+}
+
+.vl_1 {
+    position: relative;
+    left: 0rem;
+    width: .3px;
+    background-color: #1654A4;
+    opacity: .2;
+}
+
+.salary_inp {
+    font-size: 1.2rem;
+}
+
+.Loan_type_text {
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.row_2 {
+    display: flex;
+    position: relative;
+    top: -1.5rem;
+}
+
+.without_transfer {
+    position: relative;
+    /* top: -2.4rem; */
+    left: 1.1rem;
+    font-size: 1.2rem;
+}
+
+.checker {
+    position: relative;
+    top: .4rem;
+    left: 5rem;
+    border-radius: 8px;
+}
+
+.c2 {
+    left: 19.5rem;
+}
+
+.c3 {
+    left: 24rem;
+}
+
+
+/* media querries
+search */
+
+@media (max-width: 1440px) {
+    .search_section {
+        height: 350px;
+    }
+    .advanced_search {
+        transform: scale(.85);
+    }
+    .search_wrapper {
+        left: 2vw;
+        right: 5vw;
+        top: 15.5rem;
+    }
+    .offers_section{
+        position: relative;
+        margin: -12rem -13rem;
+    }
+    .scheme{
+        margin: 3rem 0px;
+        font-weight: 600;
+        margin: 3rem 6rem;
+        opacity: .9;
+        font-size: 3.4rem;
+    }
+   
+}
+
+@media (max-width: 1280px) {
+    .search_section {
+        height: 350px;
+    }
+    .advanced_search {
+        transform: scale(.85);
+    }
+    .search_wrapper {
+        left: 2vw;
+        right: 5vw;
+        top: 15.5rem;
+    }
+    .offers_section{
+        position: relative;
+        margin: -16rem -15rem;
+    }
+    .scheme{
+        font-weight: 600;
+        margin: 4rem 5rem;
+        opacity: .9;
+        font-size: 3.0rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .search_section {
+        height: 300px;
+    }
+    .advanced_search {
+        transform: scale(.7);
+    }
+    .search_wrapper {
+        position: relative;
+        left: -14vw;
+        top: 15.2rem;
+    }
+    .offers_section{
+        position: relative;
+        margin: -28rem -23rem;
+    }
+    .scheme{
+        font-weight: 600;
+        margin: 5rem 1rem;
+        opacity: .9;
+        font-size: 2.7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .search_section {
+        height: 265px;
+    }
+    .advanced_search {
+        transform: scale(.56);
+    }
+    .search_wrapper {
+        position: relative;
+        left: -35vw;
+        top: 17rem;
+    }
+    .offers_section{
+        position: relative;
+        margin: -36rem -27rem;
+    }
+    .scheme{
+        font-weight: 600;
+        margin: 8rem -1rem;
+        opacity: .9;
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .search_section {
+        height: 320px;
+    }
+    .advanced_search {
+        transform: scale(.65);
+    }
+    .search_wrapper {
+        position: relative;
+        left: -19%;
+        top: 11rem;
+        height: 15rem;
+        width: 48rem;
+    }
+    .offers_section{
+        position: relative;
+        margin: -39rem -30.5rem;
+    }
+    .column_1 {
+        margin-right: 2rem;
+    }
+    .down_1 {
+        position: relative;
+        left: -47rem;
+        top: 5rem;
+    }
+    .down_2 {
+        position: relative;
+        left: -47rem;
+        top: 5rem;
+    }
+    .row_2 {
+        top: 5rem;
+    }
+    .c2 {
+        left: 12rem;
+    }
+    .c3 {
+        left: 16rem;
+    }
+    .scheme{
+        font-weight: 600;
+        margin: -20rem -33vw;
+        opacity: .9;
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .search_section {
+        height: 270px;
+    }
+    .advanced_search {
+        transform: scale(.5);
+    }
+    .search_wrapper {
+        position: relative;
+        
+        height: 15rem;
+        width: 48rem;
+        left: -26em;
+        top: 10rem;
+    }
+    .offers_section{
+        position: relative;
+        margin: -48rem -35rem;
+    }
+    .column_1 {
+        margin-right: 2rem;
+    }
+    .down_1 {
+        position: relative;
+        left: -47rem;
+        top: 5rem;
+    }
+    .down_2 {
+        position: relative;
+        left: -47rem;
+        top: 5rem;
+    }
+    .row_2 {
+        top: 5rem;
+    }
+    .c2 {
+        left: 12rem;
+    }
+    .c3 {
+        left: 16rem;
+    }
+    .scheme{
+        font-weight: 500;
+        margin: -11rem -8rem;
+        opacity: .9;
+        font-size: 1.4rem;
+    }
+}
+
+
+
+
+
+
+
+
+/* new querry */
+/* responsive media query start */
+/* new querry */
+/* responsive media query start */
+/* new querry */
+/* responsive media query start */
+/* new querry */
+/* responsive media query start */
+
+@media (max-width: 1440px) {
+    .offer_results {
+        position: relative;
+        transform: scale(.85);
+        /* left: -14vw;
+        top: -12rem; */
+    }
+}
+
+@media (max-width: 1280px) {
+    .offer_results {
+        position: relative;
+        transform: scale(.8);
+        /* left: -19vw;
+        top: -15rem; */
+    }
+}
+
+@media (max-width: 1024px) {
+    .offer_results {
+        transform: scale(.63);
+        /* left: -34vw;
+        top: -27rem; */
+    }
+}
+
+@media (max-width: 834px) {
+    .offer_results {
+        position: relative;
+        transform: scale(.55);
+        /* left: -45vw;
+        top: -32rem; */
+    }
+    .offer_wrapper {
+        width: 71rem;
+    }
+    .see_more {
+        margin: 2rem 55vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .offer_results {
+        position: relative;
+        transform: scale(.5);
+        /* left: -52vw;
+        top: -35rem; */
+    }
+    .offer_wrapper {
+        width: 71rem;
+    }
+    .see_more {
+        margin: 2rem 55vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .offer_results {
+        position: relative;
+        transform: scale(.44);
+        /* left: -78vw;
+        top: -40rem; */
+    }
+    .offer_wrapper {
+        width: 71rem;
+    }
+    .see_more {
+        transform: scale(1.5);
+        margin: 2rem 77vw;
+    }
+}
+
+@media (max-width: 414px) {
+    .offer_results {
+        position: relative;
+        transform: scale(.32);
+        /* left: -133vw;
+        top: -28rem; */
+    }
+    .offer_wrapper {
+        width: 70rem;
+    }
+    .see_more {
+        transform: scale(1.5);
+        margin: 2rem 30rem;
+    }
+}

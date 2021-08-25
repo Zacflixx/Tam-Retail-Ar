@@ -156,6 +156,7 @@ background: linear-gradient(180deg, #1C6FC4 0%, #02298A 84.79%, #144591 100%);
 
 .form-content h3 {
     color: #000;
+    opacity: .8;
     text-align: left;
 }
 

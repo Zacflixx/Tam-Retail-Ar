@@ -39,7 +39,7 @@
         font-size: 80px;
         line-height: 80px;
         letter-spacing: -2px;
-        background-color: red;
+        /* background-color: red; */
     }
     .text_1 {
         top: 25px;
@@ -331,7 +331,7 @@
         font-size: 75px;
         line-height: 80px;
         letter-spacing: -2px;
-        background-color: yellow;
+        /* background-color: yellow; */
     }
     .text_1 {
         top: 25px;
@@ -591,7 +591,7 @@
 }
 @media (max-width: 1200px){
     h2{
-        background-color:burlywood ;
+        /* background-color:burlywood ; */
         
     }.calculator1 {
         margin: 70px 10px;
@@ -647,7 +647,7 @@ padding-top: 0rem;
         font-size: 62px;
         line-height: 70px;
         letter-spacing: -2px;
-        background-color: green;
+        /* background-color: green; */
     }
     .text_1 {
         top: 25px;
@@ -928,6 +928,17 @@ padding-top: 0rem;
     /* background-color: green; */
     width: 100%;
 }
+.nav_shift{
+    position: relative;
+    right: 0vw;
+}
+.right_header {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    width: 30rem;
+}
 .bg-stripes{
     opacity: 0;
 }
@@ -962,7 +973,7 @@ h2 {
     font-size: 57px;
     line-height: 70px;
     letter-spacing: -2px;
-    background-color: maroon;
+    /* background-color: maroon; */
 }
 .text_1 {
     top: 25px;
@@ -1311,7 +1322,7 @@ background-color: red;
         font-size: 45px;
         line-height: 30px;
         letter-spacing: -2px;
-        background-color: darkolivegreen;
+        /* background-color: darkolivegreen; */
     }
     .text_1 {
         top: 25px;
@@ -1579,6 +1590,7 @@ background-color: red;
     .tamawal_Type {
         margin: 0px .1px;
     }
+   
     .far1 {
         margin: 0px 35rem;
         color: white;
@@ -1604,7 +1616,7 @@ background-color: red;
     h2 {
         font-size: 4rem;
         line-height: 30px;
-        letter-spacing: -2px;
+        /* letter-spacing: -2px; */
     }
     .text_1 {
         top: 25px;
@@ -1855,7 +1867,7 @@ background-color: red;
    
     }
     h2 {
-       background-color: darkgray;
+       /* background-color: darkgray; */
     }
     .pg22 {
         position: relative;
@@ -1869,6 +1881,7 @@ background-color: red;
 }
 
 @media (max-width: 600px) {
+    
     .Business {
         font-size: 15px;
     }
@@ -1908,7 +1921,7 @@ background-color: red;
         font-size: 56px;
         line-height: 10px;
         letter-spacing: -1px;
-        background-color: chartreuse;
+        /* background-color: chartreuse; */
     }
     .text_1 {
         top: 35px;
@@ -2219,7 +2232,7 @@ background-color: red;
         font-size: 42px;
         line-height: 10px;
         letter-spacing: -1px;
-        background-color: darkslateblue;
+        /* background-color: darkslateblue; */
     }
     .text_1 {
         top: 25px;

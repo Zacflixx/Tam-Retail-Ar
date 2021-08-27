@@ -179,7 +179,7 @@ section .title::after {
     transform: translateX(-50%);
 }
 
-
+/* 
 /* navbar styling */
 
 .navbar {
@@ -233,7 +233,7 @@ section .title::after {
     color: #23555e;
 }
 
-.navbar.sticky .menu li a:hover {}
+.navbar.sticky .menu li a:hover {} */
 
 
 /* menu btn styling */

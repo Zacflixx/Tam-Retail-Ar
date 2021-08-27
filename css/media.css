@@ -1,11 +1,15 @@
 /* responsive media query start */
-
-@media (max-width: 1280px) {
+@media (max-width: 1440px) {
     .section1 {
-        height: 750px;
+        height: 740px;
+       
     }
     .tamawal_Type {
         margin: 0px -4.5em;
+    }
+    .nav_shift{
+        position: relative;
+        right: 5vw;
     }
     .far1 {
         margin: 0px 35rem;
@@ -15,13 +19,18 @@
         margin: 0px 45rem;
     }
     .bg-stripes {
-        margin-top: 0rem;
+        margin-top: -2rem;
         right: 17rem;
-        height: 6rem;
+        height: 130px;
+    }
+    .right_header {
+        left: 37rem;
+        right: -18em;
+       
     }
     .illus {
-        margin: 100px 720px;
-        height: 58vh;
+        margin: 50px 740px;
+        height: 35rem;
     }
     .left-section {
         margin: 100px 50px;
@@ -30,6 +39,7 @@
         font-size: 80px;
         line-height: 80px;
         letter-spacing: -2px;
+        background-color: red;
     }
     .text_1 {
         top: 25px;
@@ -64,7 +74,7 @@
     .quicksearch {
         width: 700px;
         height: 280px;
-        top: 130px;
+        top: 145px;
     }
     .circular {
         height: 100px;
@@ -78,10 +88,8 @@
         height: 250px;
     }
     .quick_text3 {
-        font-size: 20px;
-        position: relative;
-        font-weight: bold;
-        margin: -20px 35px;
+       
+        margin: -20px 25px;
     }
     .content_flex {
         position: relative;
@@ -166,18 +174,9 @@
         display: flex;
     }
     .why_text {
-        /* why tama */
-        position: absolute;
-        width: 271px;
-        margin: -300px 20px;
-        font-family: Montserrat;
-        font-style: bold;
-        font-weight: 1800;
-        font-size: 40px;
-        line-height: 59px;
-        text-align: center;
-        color: #014497;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin: -330px 20px;
+        font-size: 3rem;
+        line-height: 3rem;
     }
     .set1 {
         height: 280px;
@@ -196,7 +195,6 @@
         /* The simplest way to */
         position: relative;
         margin: -20px 50px;
-        font-family: Montserrat;
         font-style: bold;
         font-weight: 800;
         font-size: 45px;
@@ -207,7 +205,6 @@
     .text_get_started {
         position: relative;
         margin: 50px 50px;
-        font-family: Roboto;
         font-style: normal;
         font-weight: normal;
         font-size: 20px;
@@ -246,16 +243,16 @@
         color: #15549A;
     }
     .calculator1 {
-        margin: 70px 10px;
+        margin: 0px 0px;
         transform: scale(1.2);
+        top: 5.9rem;
+        left: 6rem;
+        
     }
     .lead-calculator {
-        padding: 0px 20px;
-        margin: 2px -20px;
-        background: #014497;
-        color: #fff;
-        border-radius: 6px;
+       
         width: 380px;
+        height: 18rem;
     }
     .loan_today {
         position: relative;
@@ -284,17 +281,13 @@
         /* background-color: red; */
     }
     .promo_feed {
-        position: relative;
-        width: 450px;
-        padding: 2px 7px;
-        height: 335px;
-        overflow: scroll;
-        overflow-x: hidden;
+       transform: scale(.85);
+       top: -5rem;
     }
-    .promo_grp {
+    /* .promo_grp {
         height: 380px;
-    }
-    .pg2 {
+    } */
+    .pg22 {
         position: relative;
         top: -70px;
     }
@@ -304,13 +297,16 @@
         font-size: 17px;
     }
 }
-
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
+    .nav_shift{
+        right: 14vw;
+    }
     .section1 {
         height: 700px;
     }
     .tamawal_Type {
-        margin: 0px .1px;
+       
+     left: 7rem;
     }
     .far1 {
         margin: 0px 35rem;
@@ -320,12 +316,328 @@
         margin: 0px 45rem;
     }
     .bg-stripes {
-        margin-top: 0rem;
+        margin-top: -3rem;
         right: 17rem;
-        height: 8rem;
+        height: 10.5rem;
     }
     .illus {
-        margin: 80px 520px;
+        margin: 45px 55%;
+        height: 33rem;
+    }
+    .left-section {
+        margin: 70px 30px;
+    }
+    h2 {
+        font-size: 75px;
+        line-height: 80px;
+        letter-spacing: -2px;
+        background-color: yellow;
+    }
+    .text_1 {
+        top: 25px;
+    }
+    p2 {
+        font-size: 20px;
+        line-height: 37px;
+    }
+    .text_2 {
+        margin: 20px 10px;
+        width: 800px;
+    }
+    .button2 {
+        top: 100px;
+        border-radius: 12px;
+        width: 220px;
+        height: 50px;
+        border-width: 0;
+    }
+    .btn_text {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    h3 {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .averaging {
+        top: 120px;
+        width: 500px;
+    }
+    .quicksearch {
+        width: 700px;
+        height: 280px;
+        top: 130px;
+    }
+    .circular {
+        height: 100px;
+        width: 100px;
+        position: relative;
+        transform: scale(1.2);
+        margin: 12px 40px;
+    }
+    .quicksearch {
+        width: 660px;
+        height: 250px;
+    }
+    .quick_text3 {
+        font-size: 18px;
+        left: .8rem;
+    }
+    .content_flex {
+        position: relative;
+        display: flex;
+        top: 20px;
+        width: 100%;
+    }
+    .column_1 {
+        flex: 25%;
+    }
+    .column_2 {
+        flex: 25%;
+    }
+    .column_3 {
+        flex: 25%;
+    }
+    .column_4 {
+        flex: 25%;
+    }
+    .quick_box {
+        position: relative;
+        top: 0px;
+        width: 150px;
+        height: 45px;
+        padding: 20px 5px;
+        background: #F8FBFF;
+        border: 1px solid #D6D6D6;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+    .quick_input {
+        border-width: 0px;
+        width: 140px;
+        font-size: 12px;
+    }
+    .b1 {
+        position: relative;
+    }
+    .b2 {
+        position: relative;
+        margin-top: 12px;
+    }
+    .b3 {
+        position: relative;
+        margin-top: 12px;
+    }
+    .b4 {
+        position: relative;
+        margin-top: 12px;
+    }
+    .submit_box {
+        background: #F0B50F;
+        border-radius: 6px;
+        border-width: 0px;
+    }
+    /* section 2 */
+    .section2 {
+        height: 700px;
+    }
+    .virtual {
+        margin: 0px 0px;
+        top: 30px;
+        text-align: center;
+        font-size: 40px;
+        color: #014497;
+    }
+    .text_give {
+        position: relative;
+        color: #014497;
+        text-align: center;
+        font-size: 20px;
+        top: 50px;
+    }
+    .timeline {
+        position: relative;
+        margin: 100px 300px;
+        height: 70px;
+    }
+    .card_flex {
+        position: relative;
+        margin: 3rem 280px;
+        display: flex;
+    }
+    .why_text {
+       font-size: 2.8rem;
+       margin: -270px 20px;
+        line-height: 3rem;
+     
+    }
+    .set1 {
+        height: 280px;
+        margin-right: -20px;
+    }
+    .set2 {
+        height: 280px;
+    }
+    /* section 3 */
+    .section3 {
+        background: linear-gradient(252.43deg, #134491 9.89%, #1A73CB 96.03%);
+        height: 900px;
+        padding: 30px 0rem;
+    }
+    .work_text {
+        /* The simplest way to */
+        position: relative;
+        margin: -20px 50px;
+        font-size: 45px;
+        line-height: 51px;
+        text-align: left;
+        color: #F8FBFF;
+    }
+    .text_get_started {
+        position: relative;
+        margin: 50px 50px;
+        line-height: 25px;
+        /* or 142% */
+        text-align: left;
+        color: #F8FBFF;
+    }
+    .how_work {
+        position: relative;
+        height: 700px;
+        margin: -20px 150px;
+        right: 4rem;
+    }
+    .platform {
+        position: absolute;
+        height: 200px;
+        margin: -30px 20px;
+    }
+    /* section4 */
+    .section4 {
+        height: 600px;
+    }
+    .highlights {
+        display: flex;
+        margin: 70px 0px;
+    }
+    .highlight_text {
+        position: relative;
+        top: 40px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 61px;
+        /* identical to box height */
+        text-align: center;
+        color: #15549A;
+    }
+    .calculator1 {
+        /* margin: 70px 10px; */
+        top: 5rem;
+        left: 4rem;
+        transform: scale(1.19);
+    }
+    .lead-calculator {
+        /* padding: 0px 20px;
+        margin: 2px -20px;
+        background: #014497;
+        color: #fff;
+        border-radius: 6px;
+        width: 380px; */
+    }
+    .loan_today {
+        position: relative;
+        color: white;
+        font-weight: normal;
+        font-size: 200;
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: .2px;
+    }
+    .btn-sm {
+        margin: 20px 0px;
+        border-radius: 8px;
+        height: 32px;
+        width: 50%;
+    }
+    .promo1 {
+        position: relative;
+        flex: 50%;
+        width: 200px;
+        height: 400px;
+        left: 40px;
+        top: 45px;
+        /* background-color: red; */
+    }
+    .promo_feed {
+        left: -3rem;
+        top: -5.87rem;
+    }
+    .promo_grp {
+        
+    }
+    .pg22 {
+        position: relative;
+        top: -70px;
+    }
+    .get_best {
+        margin: 20px 0px;
+        line-height: 25px;
+        font-size: 17px;
+    }
+}
+@media (max-width: 1200px){
+    h2{
+        background-color:burlywood ;
+        
+    }.calculator1 {
+        margin: 70px 10px;
+        top: -1.7rem;
+        left: 2vw;
+        right: 5vw;
+        transform: scale(1);
+    }
+    .lead-calculator {
+       height: 21.2rem;
+       width: 26rem;
+    }
+    .promo_feed{
+        left: -3vw;
+    }
+    }
+@media (max-width: 1024px) {
+    .section1 {
+        height: 660px;
+    }
+    .tamawal_Type {
+        margin: -8px 1rem;
+        transform: scale(.9);
+    }
+    .far1 {
+        margin: 0px 35rem;
+        color: white;
+    }
+    .start{
+        position: relative;
+padding-top: 0rem;
+    }
+    .nav_shift{
+        transform: scale(.9);
+        right: 12vw;
+    }
+    .far2 {
+        margin: 0px 45rem;
+    }
+    .bg-stripes {
+        margin-top: -3rem;
+        right: 7rem;
+        height: 12em;
+    }
+    .illus {
+        margin: 30px 520px;
         height: 450px;
     }
     .left-section {
@@ -335,6 +647,7 @@
         font-size: 62px;
         line-height: 70px;
         letter-spacing: -2px;
+        background-color: green;
     }
     .text_1 {
         top: 25px;
@@ -345,7 +658,7 @@
     }
     .text_2 {
         margin: 20px 0px;
-        width: 400px;
+        width: 40rem;
     }
     .button2 {
         top: 80px;
@@ -384,9 +697,8 @@
     }
     .quick_text3 {
         position: relative;
-        font-weight: bold;
         top: -10px;
-        margin: -20px 36px;
+        margin: -20px 26px;
         font-size: 16px;
     }
     .content_flex {
@@ -449,7 +761,7 @@
     }
     .virtual {
         margin: 0px 0px;
-        top: 70px;
+        top: 40px;
         text-align: center;
         font-size: 34px;
         color: #014497;
@@ -459,24 +771,23 @@
         color: #014497;
         text-align: center;
         font-size: 20px;
-        top: 90px;
+        top: 50px;
     }
     .timeline {
         position: relative;
-        margin: 140px 230px;
+        margin: 100px 230px;
         height: 55px;
     }
     .card_flex {
         position: relative;
-        margin: 5px 200px;
+        margin: 3rem 200px;
         display: flex;
     }
     .why_text {
         width: 221px;
         margin: -280px 8px;
-        font-family: Montserrat;
+        font-family: poppins;
         font-style: bold;
-        font-weight: 1800;
         font-size: 34px;
         line-height: 40px;
         text-align: center;
@@ -492,14 +803,13 @@
     }
     /* section 3 */
     .section3 {
-        height: 680px;
-        padding: 50px 0px;
+        height: 680px;  background-color: darkorange;
+        padding: 20px 0rem;
     }
     .work_text {
         /* The simplest way to */
         position: relative;
         margin: -20px 50px;
-        font-family: Montserrat;
         font-weight: 550;
         font-size: 32px;
         line-height: 51px;
@@ -508,10 +818,7 @@
     }
     .text_get_started {
         position: relative;
-        margin: 50px 50px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
+        margin: 50px 40px;
         font-size: 14px;
         line-height: 25px;
         /* or 142% */
@@ -521,6 +828,7 @@
     .how_work {
         height: 550px;
         margin: -80px 150px;
+        right: 8vw;
     }
     .platform {
         position: absolute;
@@ -547,19 +855,22 @@
         text-align: center;
         color: #15549A;
     }
-    .calculator1 {
-        margin: 0px 0px;
-        transform: scale(.9);
-    }
     .lead-calculator {
-        padding: 0px 20px;
-        margin: 2px -20px;
-        background: #014497;
-        color: #fff;
-        border-radius: 6px;
-        width: 380px;
+        position: relative;
+        height: 21.2rem;
+   width: 26rem;
+   transform: scale(.83);
+   top: -3.3rem;
+   left: -3rem;
     }
-    .loan_today {
+    .calculator1{
+        
+    /* left: 2vw;
+    right: 5vw; */
+  
+    }
+    
+    /* .loan_today {
         position: relative;
         color: white;
         font-weight: normal;
@@ -569,7 +880,7 @@
         font-size: 16px;
         text-align: center;
         letter-spacing: .2px;
-    }
+    } */
     .btn-sm {
         margin: 20px 0px;
         border-radius: 8px;
@@ -585,18 +896,17 @@
         top: 23px;
         /* background-color: red; */
     }
+   
     .promo_feed {
         position: relative;
-        width: 370px;
-        padding: 2px 7px;
-        height: 300px;
-        overflow: scroll;
-        overflow-x: hidden;
+       transform: scale(.7);
+       top: -8rem;
+       left: -6rem;
     }
     .promo_grp {
-        height: 280px;
+        /* height: 280px; */
     }
-    .pg2 {
+    .pg22 {
         position: relative;
         top: -70px;
     }
@@ -607,6 +917,330 @@
     }
 }
 
+
+@media (max-width: 990px) {
+    .section1{
+        position: relative;
+     height: 590px;
+    }
+.navbar{
+    position: relative;
+    /* background-color: green; */
+    width: 100%;
+}
+.bg-stripes{
+    opacity: 0;
+}
+.start{
+    position: relative;
+  top: -5rem;
+  right: 2vw;
+}
+.tamawal_Type {
+    /* margin: -8px -12rem; */
+    transform: scale(.9);
+}
+
+.far2 {
+    margin: 0px 45rem;
+}
+.bg-stripes {
+    margin-top: -3rem;
+    right: 7rem;
+    height: 12em;
+}
+.illus {
+    margin: 50px 0px;
+    right: -3rem;
+    left: 30rem;
+    height: 32em;
+}
+.left-section {
+    margin: 90px 30px;
+}
+h2 {
+    font-size: 57px;
+    line-height: 70px;
+    letter-spacing: -2px;
+    background-color: maroon;
+}
+.text_1 {
+    top: 25px;
+}
+p2 {
+    font-size: 15px;
+    line-height: 27px;
+}
+.text_2 {
+    margin: 20px 0px;
+    width: 50rem;
+}
+.button2 {
+    top: 70px;
+    border-radius: 12px;
+    width: 240px;
+    height: 50px;
+    border-width: 0;
+}
+.btn_text {
+    font-size: 15px;
+    line-height: 17px;
+}
+h3 {
+    font-size: 22px;
+    line-height: 34px;
+}
+.averaging {
+    top: 100px;
+    width: 400px;
+}
+.quicksearch {
+    top: 5;
+    width: 580px;
+    height: 220px;
+}
+.circular {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    transform: scale(1.2);
+    margin: 30px 30px;
+}
+.get_started {
+    position: relative;
+    height: 110px;
+    margin: 18px 15px;
+}
+.quick_text3 {
+    position: relative;
+    font-weight: 400;
+    top: -10px;
+    width: 8rem;
+    margin: -20px 26px;
+    font-size: 16px;
+}
+.content_flex {
+    position: relative;
+    display: flex;
+    top: 10px;
+    width: 100%;
+}
+.column_1 {
+    flex: 25%;
+}
+.column_2 {
+    flex: 25%;
+}
+.column_3 {
+    flex: 25%;
+}
+.column_4 {
+    flex: 25%;
+}
+.quick_box {
+    position: relative;
+    top: 10px;
+    width: 125px;
+    height: 36px;
+    padding: 10px 2px;
+    background: #F8FBFF;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.quick_input {
+    border-width: 0px;
+    font-size: 11px;
+    width: 120px;
+}
+.b1 {
+    position: relative;
+}
+.b2 {
+    position: relative;
+    margin-top: 12px;
+}
+.b3 {
+    position: relative;
+    margin-top: 12px;
+}
+.b4 {
+    position: relative;
+    margin-top: 12px;
+}
+.submit_box {
+    background: #F0B50F;
+    border-radius: 6px;
+    border-width: 0px;
+}
+/* section 2 */
+.section2 {
+    height: 600px;
+    padding-top: -4rem;
+}
+.virtual {
+    margin: 0px 0px;
+    top: 20px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 700;
+    color: #014497;
+}
+.text_give {
+    position: relative;
+    color: #014497;
+    text-align: center;font-weight: 500;
+    font-size: 20px;
+    top: 30px;width: 100%;
+}
+.timeline {
+    position: relative;
+    margin: 80px 230px;
+    height: 55px;
+}
+.card_flex {
+    position: relative;
+    margin: 4rem 200px;
+    display: flex;
+}
+.why_text {
+    width: 221px;
+    margin: -280px 8px;
+    font-style: bold;
+    font-weight: 1800;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    color: #014497;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.set1 {
+    height: 230px;
+    margin-right: -20px;
+}
+.set2 {
+    height: 230px;
+}
+/* section 3 */
+.section3 {
+    position: relative;
+    height: 650px;
+    padding: 0px 0px;
+    /* top: -9rem; */
+}
+.work_text {
+    /* The simplest way to */
+    position: relative;
+    margin: -20px 50px;
+    font-weight: 550;
+    font-size: 32px;
+    line-height: 51px;
+    text-align: left;
+    color: #F8FBFF;
+}
+.text_get_started {
+    position: relative;
+    width: 100%;
+    margin: 50px 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 142% */
+    text-align: left;
+    color: #F8FBFF;
+}
+.how_work {
+    position: relative;
+    height: 550px;
+    margin: -80px 150px;
+    right: 4rem;
+}
+.platform {
+    position: absolute;
+    height: 140px;
+    margin: -50px 20px;
+}
+/* section4 */
+.section4 {
+    height: 480px;
+}
+.highlights {
+    display: flex;
+    margin: 0px 0px;
+}
+.highlight_text {
+    position: relative;
+    top: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 61px;
+    /* identical to box height */
+    text-align: center;
+    color: #15549A;
+}
+.lead-calculator {
+    padding: 0px 20px;
+    margin: 2px -20px;
+    background: #014497;
+    color: #fff;
+    border-radius: 6px;
+    width: 28rem;
+    height: 22rem;
+}
+.calculator1 {
+   top: -.5rem;
+    left: 5rem;
+    transform: scale(.9);
+}
+
+.loan_today {
+    position: relative;
+    color: white;
+    font-weight: normal;
+    font-size: 200;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: .2px;
+}
+.btn-sm {
+    margin: 20px 0px;
+    border-radius: 8px;
+    height: 32px;
+    width: 50%;
+}
+.promo1 {
+    position: relative;
+    flex: 50%;
+    width: 200px;
+    height: 400px;
+    left: 40px;
+    top: 23px;
+    /* background-color: red; */
+}
+.promo_feed {
+    position: relative;
+    transform: scale(.65);
+    top: -6rem;
+  
+}
+.promo_grp {
+    height: 280px;
+}
+.pg22 {
+    position: relative;
+    top: -70px;
+}
+.get_best {
+    margin: 20px 0px;
+    line-height: 25px;
+    font-size: 14px;
+}
+}
 
 /* @media (max-width: 991px){
     .tamawal_Type{
@@ -631,24 +1265,23 @@
 background-color: red;
     }
 } */
-
-@media (max-width: 768px) {
+@media (max-width: 834px) {
     html {
-        width: 768px;
-        max-width: 768px;
-        min-width: 768px;
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
     }
     body {
-        width: 768px;
-        max-width: 768px;
-        min-width: 768px;
-        overflow: scroll;
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        
     }
+    
     .section1 {
-        height: 510px;
-        width: 768px;
-        max-width: 768px;
-        min-width: 768px;
+        height: 450px;
+        
+        padding-left: .3rem;
     }
     .tamawal_Type {
         margin: 0px .1px;
@@ -666,30 +1299,33 @@ background-color: red;
         height: 9rem;
     }
     .illus {
-        margin: 70px 380px;
+        margin: 60px -80px;
         height: 350px;
+        right: 3rem;
+        z-index: 0;
     }
     .left-section {
         margin: 90px 20px;
     }
     h2 {
-        font-size: 42px;
+        font-size: 45px;
         line-height: 30px;
         letter-spacing: -2px;
+        background-color: darkolivegreen;
     }
     .text_1 {
         top: 25px;
     }
     p2 {
-        font-size: 12px;
-        line-height: 17px;
+        font-size: 13px;
+        line-height: 20px;
     }
     .text_2 {
         margin: 30px 0px;
         width: 400px;
     }
     .button2 {
-        top: 50px;
+        top: 60px;
         border-radius: 8px;
         width: 180px;
         height: 35px;
@@ -704,7 +1340,7 @@ background-color: red;
         line-height: 24px;
     }
     .averaging {
-        top: 60px;
+        top: 70px;
         width: 320px;
     }
     .quicksearch {
@@ -723,9 +1359,8 @@ background-color: red;
     }
     .quick_text3 {
         position: relative;
-        font-weight: bold;
         top: 2px;
-        margin: 10px 25px;
+        margin: 10px 5px;
         font-size: 13px;
     }
     .sub_text {
@@ -820,8 +1455,308 @@ background-color: red;
     .why_text {
         width: 101px;
         margin: -290px 18px;
-        font-family: Montserrat;
-        font-style: bold;
+        font-size: 23px;
+        line-height: 25px;
+        text-align: center;
+        color: #014497;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .set1 {
+        height: 190px;
+        margin-right: -20px;
+    }
+    .set2 {
+        height: 190px;
+    }
+    /* section 3 */
+    .section3 {
+        height: 520px;
+        padding: 3px 0px;
+    }
+    .work_text {
+        /* The simplest way to */
+        position: relative;
+        margin: -20px 20px;
+        font-size: 25px;
+        line-height: 51px;
+        text-align: left;
+        color: #F8FBFF;
+        letter-spacing: .3px;
+    }
+    .text_get_started {
+        position: relative;
+        margin: 30px 7px;
+        font-size: 12px;
+        line-height: 25px;
+        /* or 142% */
+        text-align: left;
+        color: #F8FBFF;
+    }
+    .how_work {
+        height: 500px;
+        margin: -80px 80px;
+    }
+    .platform {
+        position: absolute;
+        height: 100px;
+        margin: -20px 10px;
+    }
+    /* section4 */
+    .section4 {
+        height: 430px;
+    }
+    .highlights {
+        display: flex;
+        margin: 90px 0px;
+    }
+    .highlight_text {
+        top: 10px;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 61px;
+    }
+    .calculator1 {
+        top: -7.2rem;
+        left: 2rem;
+        transform: scale(.8);
+    }
+    .lead-calculator {
+        /* padding: 0px 20px;
+        margin: 2px -20px;
+        background: #014497;
+        color: #fff;
+        border-radius: 6px;
+        width: 380px; */
+    }
+    .loan_today {
+        position: relative;
+        color: white;
+        font-weight: normal;
+        font-size: 200;
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: .2px;
+    }
+    .btn-sm {
+        margin: 20px 0px;
+        border-radius: 8px;
+        height: 32px;
+        width: 50%;
+    }
+    .promo1 {
+        /* position: relative;
+        flex: 50%;
+        width: 200px;
+        height: 400px;
+        left: 40px;
+        top: -20px;  */
+    }
+
+    .promo_feed {
+        /* background-color: darkorange; */
+        transform: scale(.58);
+        left: -9rem;
+        top: -12.4rem;
+        
+    }
+    .promo_grp {
+        /* height: 220px; */
+    }
+    .pg22 {
+        position: relative;
+        top: -70px;
+    }
+   
+}
+@media (max-width: 768px) {
+ 
+    .section1 {
+        height: 900px;
+      
+    }
+    .tamawal_Type {
+        margin: 0px .1px;
+    }
+    .far1 {
+        margin: 0px 35rem;
+        color: white;
+    }
+    .far2 {
+        margin: 0px 45rem;
+    }
+    .bg-stripes {
+        margin-top: 0rem;
+        right: 7rem;
+        height: 9rem;
+    }
+    .illus {
+        margin: 75px 0rem;
+        left: 8%;
+        top: 4rem;
+        height: 33rem;
+        z-index: -0;
+    }
+    .left-section {
+        margin: 90px 20px;
+    }
+    h2 {
+        font-size: 4rem;
+        line-height: 30px;
+        letter-spacing: -2px;
+    }
+    .text_1 {
+        top: 25px;
+    }
+    p2 {
+        font-size: 15px;
+       
+        line-height: 17px;
+    }
+    .text_2 {
+        margin: 3rem 0px;
+        width: 100%;
+    }
+    .button2 {
+        top: 5rem;
+        border-radius: 8px;
+        width: 250px;
+        height: 38px;
+        border-width: 0;
+    }
+    .btn_text {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 17px;
+    }
+    h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .averaging {
+        font-size: 1.95rem;
+        top: 31rem;
+        text-align: center;
+        line-height: 2.4rem;
+        width: 100%;
+    }
+    .quicksearch {
+        position: relative;
+        width: 37.7rem;
+        height: 12.0rem;
+        right: 0rem;
+        transform: scale(1.1);
+        top: 32rem;
+        left: 8%;
+        
+    }
+    .circular {
+        transform: scale(1.0);
+        margin: 5px 10px;
+    }
+    .get_started {
+        position: relative;
+        font-weight: 200;
+        height: 84px;
+        margin: 7px 10px;
+    }
+    .quick_text3 {
+        position: relative;
+        font-size: 1rem;
+    }
+    .sub_text {
+        position: relative;
+        top: 0px;
+        font-size: 12px;
+    }
+    .content_flex {
+        position: relative;
+        display: flex;
+        top: 20px;
+        width: 100%;
+    }
+    .column_1 {
+        flex: 25%;
+    }
+    .column_2 {
+        flex: 25%;
+    }
+    .column_3 {
+        flex: 25%;
+    }
+    .column_4 {
+        flex: 25%;
+    }
+    .quick_box {
+        position: relative;
+        top: 1px;
+        width: 8.2rem;
+        height: 2rem;
+        padding: 10px 2px;
+        background: #F8FBFF;
+        border: 1px solid #D6D6D6;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+    .quick_input {
+        border-width: 0px;
+        font-size: 10px;
+        width: 85px;
+    }
+    .b1 {
+        position: relative;
+    }
+    .b2 {
+        position: relative;
+        margin-top: 13px;
+    }
+    .b3 {
+        position: relative;
+        margin-top: 13px;
+    }
+    .b4 {
+        position: relative;
+        margin-top: 13px;
+    }
+    .submit_box {
+        background: #F0B50F;
+        border-radius: 6px;
+        border-width: 0px;
+    }
+    /* section 2 */
+    .section2 {
+        height: 520px;
+    }
+    .virtual {
+        margin: 0px 0px;
+        top: 20px;
+        text-align: center;
+        font-size: 30px;
+        width: 730px;
+        line-height: 40px;
+        color: #014497;
+    }
+    .text_give {
+        position: relative;
+        color: #014497;
+        text-align: center;
+        font-size: 15px;
+        top: 0px;
+    }
+    .timeline {
+        position: relative;
+        margin: 0px 150px;
+        height: 45px;
+    }
+    .card_flex {
+        position: relative;
+        margin: 100px 130px;
+        display: flex;
+    }
+    .why_text {
+        width: 101px;
+        margin: -290px 18px;
         font-weight: 1800;
         font-size: 23px;
         line-height: 25px;
@@ -853,10 +1788,7 @@ background-color: red;
     }
     .text_get_started {
         position: relative;
-        margin: 30px 20px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
+        margin: 30px 5px;
         font-size: 12px;
         line-height: 25px;
         /* or 142% */
@@ -887,16 +1819,13 @@ background-color: red;
         line-height: 61px;
     }
     .calculator1 {
-        margin: -80px 0px;
+        top: -7.2rem;
+        left: 2rem;
         transform: scale(.8);
     }
     .lead-calculator {
-        padding: 0px 20px;
-        margin: 2px -20px;
-        background: #014497;
-        color: #fff;
-        border-radius: 6px;
-        width: 380px;
+    height: 20rem;
+    width: 23rem;
     }
     .loan_today {
         position: relative;
@@ -916,26 +1845,19 @@ background-color: red;
         width: 50%;
     }
     .promo1 {
-        position: relative;
-        flex: 50%;
-        width: 200px;
-        height: 400px;
-        left: 40px;
-        top: -20px;
-        /* background-color: red; */
+     
     }
     .promo_feed {
-        position: relative;
-        width: 290px;
-        padding: 2px 7px;
-        height: 250px;
-        overflow: scroll;
-        overflow-x: hidden;
+        flex: 80%;
+        transform: scale(.53);
+        right: -17vw;
+        top: -10.9rem;
+   
     }
-    .promo_grp {
-        height: 220px;
+    h2 {
+       background-color: darkgray;
     }
-    .pg2 {
+    .pg22 {
         position: relative;
         top: -70px;
     }
@@ -955,7 +1877,8 @@ background-color: red;
         opacity: .3;
     }
     .section1 {
-        height: 920px;
+        height: 820px;
+        padding-left: 1rem;
     }
     .tamawal_Type {
         margin: 0px .1px;
@@ -973,7 +1896,9 @@ background-color: red;
         height: 9.3rem;
     }
     .illus {
-        margin: 180px 30px;
+        margin: 130px 0px;
+        left: 1rem;
+        right: 3rem;
         height: 27.5rem;
     }
     .left-section {
@@ -983,6 +1908,7 @@ background-color: red;
         font-size: 56px;
         line-height: 10px;
         letter-spacing: -1px;
+        background-color: chartreuse;
     }
     .text_1 {
         top: 35px;
@@ -993,10 +1919,10 @@ background-color: red;
     }
     .text_2 {
         margin: 60px 0px;
-        width: 380px;
+        width: 40rem;
     }
     .button2 {
-        top: 85px;
+        top: 5.6rem;
         border-radius: 8px;
         width: 230px;
         height: 36px;
@@ -1019,10 +1945,14 @@ background-color: red;
         width: 500px;
     }
     .quicksearch {
+        position: relative;
         width: 35.7rem;
         height: 12.0rem;
+        
+        transform: scale(.94);
         top: 490px;
-        left: -2px;
+        left: -1vw;
+        
     }
     .get_started {
         position: relative;
@@ -1032,8 +1962,6 @@ background-color: red;
     }
     .quick_text3 {
         position: relative;
-        font-weight: bold;
-        margin: 0px 25px;
         font-size: 1rem;
     }
     .content_flex {
@@ -1108,7 +2036,7 @@ background-color: red;
         top: 0px;
         left: -0px;
         text-align: center;
-        font-size: 2.2rem;
+        font-size: 2.1rem;
         color: #014497;
         width: 500px;
         line-height: 38px;
@@ -1117,13 +2045,14 @@ background-color: red;
         position: relative;
         color: #014497;
         text-align: center;
-        font-size: 17px;
-        top: -20px;
+        font-size: 15px;
+        top: -30px;
+        left: -1rem;
     }
     .timeline {
         position: relative;
         margin: 20px 20px;
-        top: -20px;
+        top: -3rem;
         height: 48px;
     }
     .card_flex {
@@ -1141,14 +2070,9 @@ background-color: red;
         height: 12.5rem;
     }
     .why_text {
-        /* why tama */
-        position: absolute;
-        width: 141px;
         margin: -440px 200px;
-        font-family: Montserrat;
-        font-style: bold;
-        font-weight: 1800;
-        font-size: 30px;
+        font-size: 2rem;
+        width: 12rem;
         line-height: 32px;
         text-align: center;
         color: #014497;
@@ -1157,15 +2081,12 @@ background-color: red;
     }
     /* section 3 */
     .section3 {
-        height: 600px;
+        height: 500px;
     }
     .work_text {
         /* The simplest way to */
         position: relative;
         margin: 1px 10px;
-        font-family: Montserrat;
-        font-style: bold;
-        font-weight: 800;
         font-size: 30px;
         line-height: 25px;
         text-align: left;
@@ -1173,11 +2094,8 @@ background-color: red;
     }
     .text_get_started {
         position: relative;
-        margin: 36px 10px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
+        margin: 36px 0px;
+        font-size: 15px;
         line-height: 25px;
         /* or 142% */
         text-align: left;
@@ -1186,6 +2104,7 @@ background-color: red;
     .how_work {
         height: 380px;
         margin: -10px 0px;
+        left: 2rem;
     }
     .platform {
         position: absolute;
@@ -1213,16 +2132,12 @@ background-color: red;
         color: #15549A;
     }
     .calculator1 {
-        margin: 50px 120px;
-        transform: scale(1);
+        top: 2rem;
+        left: 11rem;
+        transform: scale(1.2);
     }
     .lead-calculator {
-        padding: 20px 20px;
-        margin: 2px -20px;
-        background: #014497;
-        color: #fff;
-        border-radius: 6px;
-        width: 380px;
+     
     }
     .loan_today {
         position: relative;
@@ -1242,25 +2157,20 @@ background-color: red;
         width: 50%;
     }
     .promo1 {
-        position: relative;
-        width: 200px;
-        height: 400px;
-        left: 120px;
-        top: 1px;
-        /* background-color: red; */
+      
     }
     .promo_feed {
-        position: relative;
-        width: 370px;
-        padding: 2px 7px;
-        height: 350px;
-        overflow: scroll;
-        overflow-x: hidden;
+        flex: 80%;
+        transform: scale(.73);
+        right: 0vw;
+        left: -.2rem;
+        top: -9rem;
+   
     }
     .promo_grp {
-        height: 310px;
+    
     }
-    .pg2 {
+    .pg22 {
         position: relative;
         top: -70px;
     }
@@ -1271,7 +2181,7 @@ background-color: red;
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 414px) {
     .Business {
         font-size: 15px;
     }
@@ -1280,7 +2190,7 @@ background-color: red;
         opacity: .3;
     }
     .section1 {
-        height: 690px;
+        height: 630px;
     }
     .tamawal_Type {
         margin: 0px .1px;
@@ -1298,8 +2208,9 @@ background-color: red;
         height: 9.3rem;
     }
     .illus {
-        margin: 140px 0px;
-        height: 330px;
+        margin: 100px 0px;
+        left: -5%;
+        height: 350px;
     }
     .left-section {
         margin: 90px 10px;
@@ -1308,6 +2219,7 @@ background-color: red;
         font-size: 42px;
         line-height: 10px;
         letter-spacing: -1px;
+        background-color: darkslateblue;
     }
     .text_1 {
         top: 25px;
@@ -1336,8 +2248,8 @@ background-color: red;
         line-height: 18px;
     }
     .averaging {
-        top: 330px;
-        left: 5%;
+        top: 350px;
+        left: 1%;
         font-size: 20px;
         text-align: center;
         line-height: 25px;
@@ -1346,8 +2258,8 @@ background-color: red;
     .quicksearch {
         width: 390px;
         height: 150px;
-        top: 338px;
-        left: -2px;
+        top: 355px;
+        left: -3%;
     }
     .get_started {
         position: relative;
@@ -1454,7 +2366,7 @@ background-color: red;
         margin-right: -20px;
     }
     .set2 {
-        margin: 120px -350px;
+        margin: 120px -335px;
         height: 240px;
     }
     .why_text {
@@ -1511,7 +2423,7 @@ background-color: red;
     }
     /* section4 */
     .section4 {
-        height: 700px;
+        height: 750px;
     }
     .highlights {
         display: contents;
@@ -1530,18 +2442,14 @@ background-color: red;
         color: #15549A;
     }
     .calculator1 {
-        margin: 0px 26px;
-        transform: scale(.8);
+        top: 2rem;
+        left: 4rem;
+        transform: scale(1.1);
     }
     .lead-calculator {
-        padding: 20px 20px;
-        margin: 2px -20px;
-        background: #014497;
-        color: #fff;
-        border-radius: 6px;
-        width: 380px;
+      
     }
-    .loan_today {
+    /* .loan_today {
         position: relative;
         color: white;
         font-weight: normal;
@@ -1551,7 +2459,7 @@ background-color: red;
         font-size: 16px;
         text-align: center;
         letter-spacing: .2px;
-    }
+    } */
     .btn-sm {
         margin: 20px 0px;
         border-radius: 8px;
@@ -1559,31 +2467,23 @@ background-color: red;
         width: 50%;
     }
     .promo1 {
-        position: relative;
-        width: 200px;
-        height: 400px;
-        left: 60px;
-        top: 1px;
-        /* background-color: red; */
+     
     }
     .promo_feed {
-        position: relative;
-        width: 300px;
-        padding: 2px 7px;
-        height: 250px;
-        overflow: scroll;
-        overflow-x: hidden;
+        flex: 80%;
+        transform: scale(.67);
+        right: 0vw;
+        left: -5.6rem;
+        top: -12rem;
     }
     .promo_grp {
-        height: 240px;
+     
     }
-    .pg2 {
+    .pg22 {
         position: relative;
         top: -70px;
     }
     .get_best {
-        margin: 0px 0px;
-        line-height: 25px;
-        font-size: 14px;
+        
     }
 }

@@ -1829,5 +1829,8 @@ input.sm-content {
         position: relative;
         left: 20%;
     }
-    
+    .form-body{
+        position: relative;
+left: -5rem;
+    }
 }

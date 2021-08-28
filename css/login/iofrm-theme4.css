@@ -59,7 +59,10 @@
     font-size: 400%;
     text-align: left;
     color: #FFFFFF;
-    margin: -2rem 0rem;
+    top: 5rem;
+    left: 0px;
+    right: 0px;
+    /* margin:-1.5rem -2.3rem; */
 }
 .login_text2{
     position: absolute;
@@ -71,7 +74,10 @@
     /* letter-spacing: -2px; */
     font-size: 150%;
     text-align: left;
-    margin: 10rem 0rem;
+    top:10rem;
+    left: 4rem;
+    right: 0px;
+   
 }
 .Login_illus{
     margin: 10rem 0rem;

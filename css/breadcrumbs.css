@@ -28,15 +28,22 @@ ul.breadcrumb li a:hover {
     color: white;
     text-decoration: underline;
 }
+
 @media (max-width: 1024px) {
     ul.breadcrumb {
-        top: 5rem;
+        top: 4.5rem;
     }
     
 }
-@media (max-width: 1024px) {
+@media (max-width: 990px) {
     ul.breadcrumb {
-        top: 1rem;
+        top: 7%;
+    }
+    
+}
+@media (max-width: 834px) {
+    ul.breadcrumb {
+        top: 7%;
     }
     
 }

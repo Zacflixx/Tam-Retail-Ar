@@ -826,10 +826,10 @@ section_2 */
 
 .offer_results {
     /* background-color: rgb(205, 205, 224, .15); */
-    width: 94rem;
+    width: 100%;
     height: auto;
-    margin: 60.54px 10vw;
-    padding: 40.36px 10%;
+    
+    
     border-radius: 20px;
     opacity: ;
 }
@@ -840,7 +840,9 @@ section_2 */
 
 .offer_wrapper {
     position: relative;
-    /* width: 100%; */
+    width: 100%;
+   
+   
     height: 221.98px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
@@ -850,6 +852,7 @@ section_2 */
 
 .offer_content_wrapper {
     display: flex;
+    
 }
 
 .offer_column {
@@ -1025,6 +1028,7 @@ section_2 */
 
 .tam_offer_logo {
     margin: 28.252px 0px;
+    opacity: .3;
 }
 
 .offer_button {
@@ -1049,7 +1053,7 @@ section_2 */
     color: #FFFFFF;
     opacity: .9;
     font-weight: 300;
-    margin: 2rem 45%;
+    margin: 8rem 45%;
 }
 
 

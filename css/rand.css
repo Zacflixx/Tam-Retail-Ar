@@ -193,7 +193,7 @@ section .title::after {
 
 .navbar.sticky {
     padding: 15px 0;
-    /* background: white; */
+    background: white;
 }
 
 .navbar .max-width {

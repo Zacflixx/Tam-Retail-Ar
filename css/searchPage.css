@@ -356,7 +356,7 @@ search */
     }
     .scheme{
         font-weight: 600;
-        margin: -22rem -10rem;
+        margin: -20rem -10rem;
         opacity: .9;
         font-size: 2.2rem;
     }
@@ -371,7 +371,7 @@ search */
         top: 2rem;
     }
     .search_wrapper {
-        transform: scale(.62);
+        transform: scale(.60);
         position: relative;
         /* left: -19%;
         top: 11rem; */
@@ -407,7 +407,7 @@ search */
     }
     .scheme{
         font-weight: 600;
-        margin: -20rem -10rem;
+        margin: -20rem -8rem;
         opacity: .9;
         font-size: 1.7rem;
     }
@@ -587,18 +587,81 @@ search */
     .offer_wrapper {
        
         position: relative;
-        transform: scale(.40);
+        transform: scale(.38);
         margin-top: -7.5rem;
         left: -22.5rem;
 
     }
     .see_more {
         transform: scale(.5);
-        margin: 0rem 25vw;
+        margin: 0rem 27vw;
     }
 }
 
 @media (max-width: 414px) {
+    .offer_results {
+        top: -2rem;
+        position: relative;
+        width: 20rem;
+    }
+    .offer_wrapper {
+       
+        position: relative;
+        transform: scale(.30);
+        margin-top: -8.8rem;
+        left: -25.5rem;
+
+    }
+    .see_more {
+        transform: scale(.5);
+        margin: -2rem 20vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .search_section {
+        height: 340px;
+    }
+    .advanced_search {
+        width: 20rem;
+        top: -1rem;
+    }
+    .search_wrapper {
+        position: relative;
+        transform: scale(.48);
+        left: -14rem;
+    }
+    .offers_section{
+        /* margin: -48rem -35rem; */
+    }
+    .column_1 {
+        margin-right: 2rem;
+    }
+    .down_1 {
+        position: relative;
+        left: -47rem;
+        top: 5rem;
+    }
+    .down_2 {
+        position: relative;
+        left: -47rem;
+        top: 5rem;
+    }
+    .row_2 {
+        top: 5rem;
+    }
+    .c2 {
+        left: 12rem;
+    }
+    .c3 {
+        left: 16rem;
+    }
+    .scheme{
+        font-weight: 500;
+        margin: -13rem -5rem;
+        opacity: .9;
+        font-size: 1.4rem;
+    }
     .offer_results {
         top: -2rem;
         position: relative;

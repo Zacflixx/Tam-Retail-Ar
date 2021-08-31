@@ -10648,3 +10648,7 @@ body.direction-rtl .user-menu span {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+
+h3{
+    font-family: poppins;
+}

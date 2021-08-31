@@ -5,7 +5,7 @@
        
     }
     .tamawal_Type {
-        margin: 0px -4.5em;
+        margin: 0px -4em;
     }
     .nav_shift{
         position: relative;
@@ -226,10 +226,7 @@
     .section4 {
         height: 600px;
     }
-    .highlights {
-        display: flex;
-        margin: 70px 0px;
-    }
+    
     .highlight_text {
         position: relative;
         top: 40px;
@@ -260,36 +257,33 @@
         height: 32px;
         width: 50%;
     }
-    .promo1 {
-        position: relative;
-        flex: 50%;
-        width: 200px;
-        height: 400px;
-        left: 40px;
-        top: 45px;
-        /* background-color: red; */
-    }
     .highlights_new{
-        display: flex;
-        flex: 100%;
-        }
-        .calculator1_new{
+        position: relative;
+    width: 70rem;
+    margin: 0px auto;
+    top: 5rem;
+    }
+    .calculator1_new{
         position: relative;
         top: 2.5rem;
-        width: 50%;
-        transform: scale(1);
-        padding-left: 20%;
+        left: 8rem;
+        
+        transform: scale(1.25);
+        
         }
+    .promo1_new{
+        position: relative;
+    
+    top: -20.8rem;
+    left: 40rem;
+    transform: scale(1.05);
+    }
         .lead-calculator{
             height: 21.0rem;
         }
-        .promo1_new{
-            position: relative;
-        width: 50%;
-        
-        top: .6rem;
-        transform: scale(.84);
-        }
+
+
+
     .pg22 {
         position: relative;
         top: -70px;
@@ -308,8 +302,8 @@
         height: 700px;
     }
     .tamawal_Type {
-       
-     left: 7rem;
+        transform: scale(.85);
+     left: 9rem;
     }
     .far1 {
         margin: 0px 35rem;
@@ -519,10 +513,7 @@
     .section4 {
         height: 600px;
     }
-    .highlights {
-        display: flex;
-        margin: 70px 0px;
-    }
+   
     .highlight_text {
         position: relative;
         top: 40px;
@@ -535,36 +526,30 @@
         text-align: center;
         color: #15549A;
     }
-    .promo1 {
-        position: relative;
-        flex: 50%;
-        width: 200px;
-        height: 400px;
-        left: 40px;
-        top: 45px;
-        /* background-color: red; */
-    }
-    .highlights_new{
-        display: flex;
-        flex: 100%;
-        top: 3rem;
-        }
-        .calculator1_new{
-        position: relative;
-        top: 2.5rem;
-        width: 50%;
-        transform: scale(.9);
-        padding-left: 10%;
-        }
+  
         .lead-calculator{
             height: 21.0rem;
         }
+        .highlights_new{
+            position: relative;
+        width: 60rem;
+        margin: 0px auto;
+        top: 5rem;
+        }
+        .calculator1_new{
+            position: relative;
+            top: 2.5rem;
+            left: 4rem;
+            
+            transform: scale(1.18);
+            
+            }
         .promo1_new{
             position: relative;
-        width: 50%;
         
-        top: .6rem;
-        transform: scale(.74);
+        top: -20.7rem;
+        left: 30rem;
+        transform: scale(.99);
         }
     .loan_today {
         position: relative;
@@ -595,31 +580,25 @@
     }
 }
 @media (max-width: 1200px){
+    .tamawal_Type {
+        transform: scale(.85);
+     left: 8rem;
+    }
     h2{
         /* background-color:burlywood ; */
         
-    }.calculator1 {
-        margin: 70px 10px;
-        top: -1.7rem;
-        left: 2vw;
-        right: 5vw;
-        transform: scale(1);
+    
     }
-    .lead-calculator {
-       height: 21.2rem;
-       width: 26rem;
-    }
-    .promo_feed{
-        left: -3vw;
-    }
-    }
+}
 @media (max-width: 1024px) {
     .section1 {
         height: 660px;
     }
     .tamawal_Type {
-        margin: -8px 1rem;
+        left: 0px;
+        margin: -8px 4rem;
         transform: scale(.9);
+      
     }
     .far1 {
         margin: 0px 35rem;
@@ -845,12 +824,9 @@ padding-top: 0rem;
     }
     /* section4 */
     .section4 {
-        height: 500px;
+        height: 580px;
     }
-    .highlights {
-        display: flex;
-        margin: 70px 0px;
-    }
+    
     .highlight_text {
         position: relative;
         top: 40px;
@@ -870,27 +846,30 @@ padding-top: 0rem;
         height: 32px;
         width: 50%;
     }
-    .highlights_new{
-        display: flex;
-        flex: 100%;
-        top: 1rem;
-        }
-        .calculator1_new{
-        position: relative;
-        top: 2.2rem;
-        width: 50%;
-        transform: scale(.82);
-        padding-left: 7%;
-        }
+    
         .lead-calculator{
             height: 21.0rem;
         }
+        .highlights_new{
+            position: relative;
+        width: 50rem;
+        margin: 0px auto;
+        top: 5rem;
+        }
+        .calculator1_new{
+            position: relative;
+            top: 2.5rem;
+            left: -1.6rem;
+            
+            transform: scale(.97);
+            
+            }
         .promo1_new{
             position: relative;
-        width: 50%;
         
-        top: .6rem;
-        transform: scale(.68);
+        top: -20.7rem;
+        left: 24em;
+        transform: scale(.81);
         }
     .pg22 {
         position: relative;
@@ -1048,7 +1027,7 @@ h3 {
 .quick_input {
     border-width: 0px;
     font-size: 11px;
-    width: 120px;
+    width: 100%;
 }
 .b1 {
     position: relative;
@@ -1160,12 +1139,9 @@ h3 {
 }
 /* section4 */
 .section4 {
-    height: 480px;
+    height: 560px;
 }
-.highlights {
-    display: flex;
-    margin: 0px 0px;
-}
+
 .highlight_text {
     position: relative;
     top: 10px;
@@ -1179,7 +1155,27 @@ h3 {
     color: #15549A;
 }
 
+.highlights_new{
+    position: relative;
+width: 50rem;
+margin: 0px auto;
+top: 5rem;
+}
+.calculator1_new{
+    position: relative;
+    top: 2.5rem;
+    left: -1.6rem;
+    
+    transform: scale(.93);
+    
+    }
+.promo1_new{
+    position: relative;
 
+top: -20.7rem;
+left: 23.2em;
+transform: scale(.78);
+}
 .loan_today {
     position: relative;
     color: white;
@@ -1362,7 +1358,7 @@ background-color: red;
     .quick_input {
         border-width: 0px;
         font-size: 8px;
-        width: 85px;
+       
     }
     .b1 {
         position: relative;
@@ -1467,39 +1463,43 @@ background-color: red;
     .section4 {
         height: 500px;
     }
-    .highlights {
-        display: flex;
-        margin: 90px 0px;
-    }
+   
     .highlight_text {
         top: 10px;
         font-weight: 800;
         font-size: 30px;
         line-height: 61px;
     }
-    .highlights_new{
-        display: flex;
-        flex: 100%;
-        top: 1rem;
-        }
-        .calculator1_new{
-        position: relative;
-        top: 2.2rem;
-        width: 50%;
-        transform: scale(.82);
-        padding-left: 0%;
-        }
+   
+     
         .lead-calculator{
             height: 21.0rem;
         }
-        .promo1_new{
-            position: relative;
-        width: 50%;
-        
-        top: .6rem;
-        transform: scale(.68);
-        right: 4%;
-        }
+      
+.highlights_new{
+    position: relative;
+width: 40rem;
+margin: 0px auto;
+top: 5rem;
+}
+.calculator1_new{
+    position: relative;
+    top: 0rem;
+    left: -5.5rem;
+    
+    transform: scale(.83);
+    
+    }
+.promo1_new{
+    position: relative;
+
+top: -23.1rem;
+left: 14.5rem;
+transform: scale(.70);
+}
+
+
+
     .loan_today {
         position: relative;
         color: white;
@@ -1657,7 +1657,6 @@ background-color: red;
     .quick_input {
         border-width: 0px;
         font-size: 10px;
-        width: 85px;
     }
     .b1 {
         position: relative;
@@ -1761,12 +1760,9 @@ background-color: red;
     }
     /* section4 */
     .section4 {
-        height: 480px;
+        height: 950px;
     }
-    .highlights {
-        display: flex;
-        margin: 90px 0px;
-    }
+   
     .highlight_text {
         top: 10px;
         font-weight: 800;
@@ -1793,29 +1789,30 @@ background-color: red;
         width: 50%;
     }
     .highlights_new{
-        display: flex;
-        flex: 100%;
-        top: 0rem;
-        }
-        .calculator1_new{
         position: relative;
-        top: 2.2rem;
-        width: 50%;
-        transform: scale(.7);
-        padding-left: -0%;
-        left: -2rem;
+    width: 30rem;
+    margin: 0px auto;
+    top: 5rem;
+    }
+    .calculator1_new{
+        position: relative;
+        top: 0rem;
+        left: 3.2rem;
+        
+        transform: scale(1.18);
+        
         }
+    .promo1_new{
+        position: relative;
+    
+    top: 3rem;
+    left: -.6rem;
+    transform: scale(.95);
+    }
         .lead-calculator{
             height: 21.0rem;
         }
-        .promo1_new{
-            position: relative;
-        width: 50%;
-        
-        top: .85rem;
-        transform: scale(.58);
-        right: 6%;
-        }
+      
     h2 {
        /* background-color: darkgray; */
     }
@@ -2080,10 +2077,7 @@ left: -2vw;
     .section4 {
         height: 900px;
     }
-    .highlights {
-        display: contents;
-        margin: 70px 0px;
-    }
+   
     .highlight_text {
         position: relative;
         top: 10px;
@@ -2108,31 +2102,32 @@ left: -2vw;
         text-align: center;
         letter-spacing: .2px;
     }
-    .highlights_new{
-        display: block;
-        flex: 100%;
-        top: 0rem;
-        }
-        .calculator1_new{
-        position: relative;
-        top: 2.2rem;
-        width: 100%;
-        transform: scale(.9);
-        padding-left: 0%;
-        left: 15%;
-        }
+   
         .lead-calculator{
             padding-top: .7rem;
             height: 21.0rem;
         }
+        .highlights_new{
+            position: relative;
+     
+        width: 26rem;
+        margin: 0px auto;
+        top: 4rem;
+        }
+        .calculator1_new{
+            position: relative;
+            top: 0rem;
+            left: .8rem;
+            
+            transform: scale(1.07);
+            
+            }
         .promo1_new{
             position: relative;
-        width: 100%;
         
-        top: .85rem;
-        transform: scale(.75);
-        right: 0%;
-        left: 9%;
+        top: 1rem;
+        left: -2.3rem;
+        transform: scale(.86);
         }
     .btn-sm {
         margin: 20px 0px;
@@ -2152,7 +2147,7 @@ left: -2vw;
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 425px) {
     .Business {
         font-size: 15px;
     }
@@ -2164,7 +2159,17 @@ left: -2vw;
         height: 630px;
     }
     .tamawal_Type {
-       left: -8vw;
+        
+       left: -3rem;
+      
+    }
+    .navbar{
+       width: 100%;
+    }
+    .sticky-top2 {
+        background-color: brown;
+        padding-left: -8rem;
+width: 26rem;
     }
     .far1 {
         margin: 0px 35rem;
@@ -2363,7 +2368,7 @@ left: -2vw;
         /* The simplest way to */
         position: relative;
         margin: 1px 10px;
-        font-family: Montserrat;
+        font-family: poppins;
         font-style: bold;
         font-weight: 800;
         font-size: 25px;
@@ -2373,8 +2378,8 @@ left: -2vw;
     }
     .text_get_started {
         position: relative;
-        margin: 20px 10px;
-        font-family: Roboto;
+        margin: 20px 0px;
+        font-family: poppins;
         font-style: normal;
         font-weight: normal;
         font-size: 13px;
@@ -2385,12 +2390,12 @@ left: -2vw;
     }
     .how_work {
         height: 300px;
-        margin: -30px 0px;
+        margin: -30px -5%;
     }
     .platform {
         position: absolute;
         height: 100px;
-        margin: 220px 280px;
+        margin: 220px 65%;
     }
     /* section4 */
     .section4 {
@@ -2437,7 +2442,7 @@ left: -2vw;
         top: -1rem;
         transform: scale(.66);
         right: 0%;
-        left: -5.7%;
+        left: -8%;
         }
     .btn-sm {
         margin: 20px 0px;

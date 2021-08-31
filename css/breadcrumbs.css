@@ -47,3 +47,9 @@ ul.breadcrumb li a:hover {
     }
     
 }
+@media (max-width: 600px) {
+    ul.breadcrumb {
+        top: 3%;
+    }
+    
+}

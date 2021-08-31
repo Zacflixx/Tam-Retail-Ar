@@ -47,7 +47,7 @@
 .header-transparent .navbar .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
-  align-items: center;
+  align-items: left;
   transition: opacity 0.15s linear;
 }
 
@@ -115,7 +115,7 @@
 .header-primary .navbar .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
-  align-items: center;
+  align-items: left;
   transition: opacity 0.15s linear;
 }
 
@@ -154,7 +154,7 @@ font-family: Poppins;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-text-align: center;
+text-align: left;
 color: #4F5662;
 
 
@@ -270,7 +270,7 @@ color: #4F5662;
 .navbar .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
-  align-items: center;
+  align-items: left;
   transition: opacity 0.15s linear;
 }
 
@@ -466,4 +466,9 @@ color: #4F5662;
   .navbar .nav-justified .nav-item {
     text-align: left;
   }
+}
+
+
+h3{
+  font-family: poppins;
 }

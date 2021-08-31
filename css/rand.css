@@ -9,12 +9,11 @@
 }
 
 html {
-    scroll-behavior: smooth;
+  
 }
 
 body {
-    overflow: scroll;
-    overflow-x: hidden;
+  
     /* widht: calc(100% - 20px);
     height: calc(50% + 10px); */
     /* overflow-y: hidden; 

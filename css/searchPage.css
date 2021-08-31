@@ -683,8 +683,25 @@ search */
 
 
 @media (max-width: 375px) {
+    .sticky-top2{
+        width: 26rem;
+    }
+    .navbar{
+        left: -2rem;
+       
+    }
+    .nav-item{
+        width: 90%;
+        left: 1rem;
+    }
     .see_more {
         transform: scale(.5);
         margin: -2rem 24vw;
+    }
+}
+@media (max-width: 360px) {
+    .search_wrapper {
+        transform: scale(.45);
+        left: -14rem;
     }
 }

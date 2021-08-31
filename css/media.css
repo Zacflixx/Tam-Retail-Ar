@@ -46,10 +46,10 @@
     }
     p2 {
         font-size: 20px;
-        line-height: 37px;
+        line-height: 28px;
     }
     .text_2 {
-        margin: 20px 10px;
+        margin: 20px 4px;
         width: 800px;
     }
     .button2 {
@@ -70,6 +70,7 @@
     .averaging {
         top: 120px;
         width: 500px;
+        line-height: 2.2rem;
     }
     .quicksearch {
         width: 700px;
@@ -335,10 +336,10 @@
     }
     p2 {
         font-size: 20px;
-        line-height: 37px;
+        line-height: 30px;
     }
     .text_2 {
-        margin: 20px 10px;
+        margin: 20px 3px;
         width: 800px;
     }
     .button2 {
@@ -625,7 +626,7 @@ padding-top: 0rem;
         height: 450px;
     }
     .left-section {
-        margin: 90px 30px;
+        margin: 80px 35px;
     }
     h2 {
         font-size: 62px;
@@ -634,11 +635,11 @@ padding-top: 0rem;
         /* background-color: green; */
     }
     .text_1 {
-        top: 25px;
+        top: 20px;
     }
     p2 {
         font-size: 15px;
-        line-height: 27px;
+        line-height: 24px;
     }
     .text_2 {
         margin: 20px 0px;
@@ -662,7 +663,7 @@ padding-top: 0rem;
     }
     .averaging {
         font-size: 1.6rem;
-        top: 120px;
+        top: 110px;
         width: 34rem;
         line-height: 1.9rem;
     }
@@ -675,7 +676,7 @@ padding-top: 0rem;
         width: 100px;
         position: relative;
         transform: scale(1.2);
-        margin: 30px 30px;
+        margin: 28px 30px;
     }
     .get_started {
         position: relative;
@@ -932,7 +933,7 @@ padding-top: 0rem;
     height: 32em;
 }
 .left-section {
-    margin: 100px 40px;
+    margin: 90px 37px;
 }
 h2 {
     font-size: 57px;
@@ -945,7 +946,7 @@ h2 {
 }
 p2 {
     font-size: 15px;
-    line-height: 27px;
+    line-height: 24px;
 }
 .text_2 {
     margin: 20px 0px;
@@ -1567,7 +1568,7 @@ transform: scale(.70);
     p2 {
         font-size: 15px;
        
-        line-height: 17px;
+        line-height: 20px;
     }
     .text_2 {
         margin: 3rem 0px;
@@ -1751,7 +1752,7 @@ transform: scale(.70);
     }
     .how_work {
         height: 500px;
-        margin: -80px 50px;
+        margin: -80px 10%;
     }
     .platform {
         position: absolute;

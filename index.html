@@ -13,7 +13,7 @@
     <meta name="keywords" content="Business Loan, Small Business Loans, Credit, EMI Calculator, bad credit">
     <title>Tamawal</title>
     
-
+    
 
     
     <!-- Bootstrap and Fonts -->
@@ -25,7 +25,13 @@
     <link href="./css/flaticon.css" rel="stylesheet">
     <link href="./css/magnific-popup.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-
+    
+    <!-- animation css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
    <!-- Internal Stylings files -->
     <link href="./styles/main.css" rel="stylesheet">
@@ -37,9 +43,7 @@
 
      <!-- header Javascript -->
    
-   <style>
      
-   </style>
 </head>
 
 <body>
@@ -316,14 +320,14 @@
            
 
              
-              <img src="./images/Illus.svg" class="illus" alt=""> 
+              <img data-aos="fade-up"  data-aos-delay="300" data-aos-duration="1000" src="./images/Illus.svg" class=" illus" alt=""> 
            <div class="left-section">
-            <h2 class="text_1">Fast Loan Services</h2>
-            <p2 class="text_2">Some text here somee text here Some text here somee  <br> Some text here somee text here Some text here somee </p2> <br>
-            <button class="button2" > <p class="btn_text">Explore services</p></button>
-            <h3 class="averaging">Averaging over 1000 applications 
+            <h2 class="animate__animated animate__fadeIn text_1">Fast Loan Services</h2>
+            <p2 class="animate__animated animate__fadeIn text_2">Some text here somee text here Some text here somee  <br> Some text here somee text here Some text here somee </p2> <br>
+            <button class="animate__animated animate__fadeIn button2" > <p class="btn_text ">Explore services</p></button>
+            <h3  class=" averaging animate__animated animate__fadeIn ">Averaging over 1000 applications 
                 daily throughout the country</h3>
-                <div class="quicksearch">
+                <div class="animate__animated animate__fadeIn quicksearch">
  <div class="content_flex">
 <div class="column_1">
    <!-- <img src="/images/getstarted.svg" class="get_started" alt=""> -->
@@ -386,25 +390,25 @@
 
     </div>
     <!-- section2 -->
-    <div class="section2" style="background-color: white;">
-        <h3 class="virtual" style="color: #014497 ;">A fully virtual assessment & development center </h3> <br>
-        <p class="quick_text3 text_give">Give us your need , and we will help you 
+    <div  class="section2 " style="background-color: white;">
+        <h3 data-aos="fade-up" data-aos-duration="800" class="virtual  " style="color: #014497 ;">A fully virtual assessment & development center </h3> <br>
+        <p data-aos="fade-up"  data-aos-duration="1000" class="quick_text3 text_give ">Give us your need , and we will help you 
         </p> <br>
-        <img class="timeline" src="./images/timeline.svg" alt="">
-        <div class="card_flex">
+        <img data-aos="fade-down"  data-aos-delay="300" data-aos-duration="1000"  class="timeline" src="./images/timeline.svg" alt="">
+        <div class="card_flex" data-aos="fade-down"  data-aos-delay="500" data-aos-duration="1000" >
             <img class="set1" src="./images/card set 1.svg" alt="">
             <img class="set2" src="./images/card set 2.svg" alt="">
         </div>
-        <h2 class="why_text">Why <br> Tammwel</h2>
+        <h2 data-aos="zoom-in-up"  data-aos-delay="1000" data-aos-duration="1000"  class="why_text">Why <br> Tammwel</h2>
     </div>
 
     <!-- section3 -->
     <div class="section3" style="background-color: ;">
-        <h2 class="text_1 work_text">HOW TAMAWAL <span style="color: #50A8F8;">WORK</span></h2>
+        <h2  class="text_1 work_text">HOW TAMAWAL <span style="color: #50A8F8;">WORK</span></h2>
         <p class="quick_text3 text_get_started">Get started today in just a few simple steps 
         </p>
-        <img src="./images/platforms.svg" class="platform" alt="">
-        <img src="./images/HOw_work.svg" class="how_work" alt="">
+        <img data-aos="fade-up"  data-aos-delay="300" data-aos-duration="1000" src="./images/platforms.svg" class="platform" alt="">
+        <img data-aos="fade-up"  data-aos-delay="500" data-aos-duration="1000" src="./images/HOw_work.svg" class="how_work" alt="">
         
     </div>
 
@@ -412,8 +416,8 @@
      <!-- section4 -->
     <div class="section4" style="background-color: white;">
         <h2 class="text_1 highlight_text">Calculator & Offers</h2>
-<div class="highlights_new">
-    <div class="calculator1_new">
+<div class="highlights_new" data-aos="fade-down"  data-aos-delay="00" data-aos-duration="700">
+    <div  class="calculator1_new">
         <div class="offset-lg-0 col-lg-5  col-lg-5 col-md-6 col-sm-12 col-12">
             <div class="lead-calculator pinside40">
                 <div class="row">
@@ -566,8 +570,25 @@
 
 
 
-
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        document.querySelector('html').classList.remove('no-js');
+        if (!window.Cypress) {
+          const scrollCounter = document.querySelector('.js-scroll-counter');
+  
+          AOS.init({
+            mirror: true
+          });
+  
+          document.addEventListener('aos:in', function(e) {
+            console.log('in!', e.detail);
+          });
+  
+          window.addEventListener('scroll', function() {
+            scrollCounter.innerHTML = window.pageYOffset;
+          });
+        }
+      </script>
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>

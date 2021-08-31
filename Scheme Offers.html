@@ -22,6 +22,14 @@
     <link href="./css/magnific-popup.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
+<!-- animation css -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
          <!-- Internal Stylings files -->
     <link href="./styles/main.css" rel="stylesheet">
     <link href="./css/breadcrumbs.css" rel="stylesheet" />
@@ -382,8 +390,8 @@
     </div>
 
     <!-- Bottom half -->
-    <section class="offers_section">
-        <div class="offer_results">
+    <section  class="offers_section">
+        <div data-aos="fade-up"  data-aos-delay="300" data-aos-duration="1000" class="offer_results">
             <!-- offer1 -->
             <div class="offer_wrapper">
                 <div class="offer_content_wrapper">
@@ -889,7 +897,25 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        document.querySelector('html').classList.remove('no-js');
+        if (!window.Cypress) {
+          const scrollCounter = document.querySelector('.js-scroll-counter');
+  
+          AOS.init({
+            mirror: true
+          });
+  
+          document.addEventListener('aos:in', function(e) {
+            console.log('in!', e.detail);
+          });
+  
+          window.addEventListener('scroll', function() {
+            scrollCounter.innerHTML = window.pageYOffset;
+          });
+        }
+      </script>
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>

@@ -159,6 +159,12 @@ opacity: ;
 
 .salary_inp {
     font-size: 1.2rem;
+    font-family: poppins;
+font-style: normal;
+font-weight: 400;
+line-height: 29px;
+opacity: .8;
+color: #145FB0;
 }
 
 .Loan_type_text {
@@ -699,9 +705,25 @@ search */
         margin: -2rem 24vw;
     }
 }
-@media (max-width: 360px) {
+@media (max-width: 363px) {
+    .scheme{
+      
+            margin: -13rem -4rem;
+    
+    }
     .search_wrapper {
         transform: scale(.45);
         left: -14rem;
+    }
+    .sticky-top2{
+        width: 25rem;
+    }
+    .navbar{
+        left: -2rem;
+       
+    }
+    .nav-item{
+        width: 90%;
+        left: 1rem;
     }
 }

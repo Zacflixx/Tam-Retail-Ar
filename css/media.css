@@ -12,7 +12,7 @@
         right: 5vw;
     }
     .far1 {
-        margin: 0px 35rem;
+        margin: 0px -35rem;
         color: white;
     }
     .far2 {
@@ -20,20 +20,22 @@
     }
     .bg-stripes {
         margin-top: -2rem;
-        right: 17rem;
+        right: -17rem;
         height: 130px;
     }
     .right_header {
-        left: 37rem;
-        right: -18em;
+    
+        right: 55em;
        
     }
     .illus {
-        margin: 50px 740px;
+        margin: 50px 0px;
+        left: auto;
+        right: 55%;
         height: 35rem;
     }
     .left-section {
-        margin: 100px 40px;
+        margin: 100px 20px;
     }
     h2 {
         font-size: 80px;
@@ -53,7 +55,7 @@
         width: 800px;
     }
     .button2 {
-        top: 100px;
+        top: 90px;
         border-radius: 12px;
         width: 220px;
         height: 50px;
@@ -68,14 +70,14 @@
         line-height: 34px;
     }
     .averaging {
-        top: 120px;
+        top: 170px;
         width: 500px;
         line-height: 2.2rem;
     }
     .quicksearch {
         width: 700px;
         height: 280px;
-        top: 145px;
+        top: 189px;
     }
     .circular {
         height: 100px;
@@ -148,10 +150,15 @@
     }
     /* section 2 */
     .section2 {
-        height: 900px;
+        height: 820px;
     }
+    .section2_content2{
+        width: 60rem;
+        margin: 0px auto;
+        }
+
     .virtual {
-        margin: 0px 0px;
+    
         top: 70px;
         text-align: center;
         font-size: 40px;
@@ -164,27 +171,29 @@
         font-size: 20px;
         top: 100px;
     }
+   
     .timeline {
-        position: relative;
-        margin: 200px 300px;
+        
+        margin: 9rem 6.5rem;
         height: 70px;
     }
     .card_flex {
-        position: relative;
-        margin: 5px 280px;
-        display: flex;
+        width: 50rem;
+        margin: 5rem 5rem;
+
     }
     .why_text {
-        margin: -330px 20px;
+        margin: -28rem -6%;
         font-size: 3rem;
         line-height: 3rem;
     }
     .set1 {
         height: 280px;
-        margin-right: -20px;
+       
     }
     .set2 {
         height: 280px;
+        left: 1.5rem;
     }
     /* section 3 */
     .section3 {
@@ -200,7 +209,7 @@
         font-weight: 800;
         font-size: 45px;
         line-height: 51px;
-        text-align: left;
+  
         color: #F8FBFF;
     }
     .text_get_started {
@@ -211,12 +220,12 @@
         font-size: 20px;
         line-height: 25px;
         /* or 142% */
-        text-align: left;
+       
         color: #F8FBFF;
     }
     .how_work {
         height: 700px;
-        margin: -20px 150px;
+        margin: -20px 125px;
     }
     .platform {
         position: absolute;
@@ -297,14 +306,15 @@
 }
 @media (max-width: 1280px) {
     .nav_shift{
-        right: 14vw;
+        right: 3vw;
     }
     .section1 {
         height: 700px;
     }
     .tamawal_Type {
         transform: scale(.85);
-     left: 9rem;
+     left: auto;
+right: 7rem;
     }
     .far1 {
         margin: 0px 35rem;
@@ -315,15 +325,17 @@
     }
     .bg-stripes {
         margin-top: -3rem;
-        right: 17rem;
+        right: -17rem;
         height: 10.5rem;
     }
     .illus {
-        margin: 45px 55%;
+        margin: 45px 0px;
+        left: auto;
+        right: 58%;
         height: 33rem;
     }
     .left-section {
-        margin: 70px 30px;
+        margin: 70px -90px;
     }
     h2 {
         font-size: 75px;
@@ -358,13 +370,13 @@
         line-height: 34px;
     }
     .averaging {
-        top: 120px;
+        top: 180px;
         width: 500px;
     }
     .quicksearch {
         width: 700px;
         height: 280px;
-        top: 130px;
+        top: 200px;
     }
     .circular {
         height: 100px;
@@ -453,19 +465,24 @@
         font-size: 20px;
         top: 50px;
     }
+    .section2_content2{
+        width: 50rem;
+        margin: 0px auto;
+        }
     .timeline {
         position: relative;
-        margin: 100px 300px;
+        margin: 6.5rem 1.2rem;
         height: 70px;
     }
     .card_flex {
         position: relative;
-        margin: 3rem 280px;
+        width: 47rem;
+        margin: 5rem 1.3rem;
         display: flex;
     }
     .why_text {
        font-size: 2.8rem;
-       margin: -270px 20px;
+       margin: -28rem -15%;
         line-height: 3rem;
      
     }
@@ -488,7 +505,7 @@
         margin: -20px 50px;
         font-size: 45px;
         line-height: 51px;
-        text-align: left;
+  
         color: #F8FBFF;
     }
     .text_get_started {
@@ -496,19 +513,19 @@
         margin: 50px 50px;
         line-height: 25px;
         /* or 142% */
-        text-align: left;
+      
         color: #F8FBFF;
     }
     .how_work {
         position: relative;
         height: 700px;
-        margin: -20px 150px;
-        right: 4rem;
+        margin: -0px 0;
+        left: 0%;
     }
     .platform {
         position: absolute;
         height: 200px;
-        margin: -30px 20px;
+        margin: -30px -20px;
     }
     /* section4 */
     .section4 {
@@ -579,16 +596,23 @@
         line-height: 25px;
         font-size: 17px;
     }
+    .left-section {
+        margin: 70px 1px;
+        right: 4vw;
+    }
 }
 @media (max-width: 1200px){
     .tamawal_Type {
         transform: scale(.85);
-     left: 8rem;
+     left: -8rem;
     }
     h2{
         /* background-color:burlywood ; */
         
     
+    }
+    .left-section{
+        margin: 70px -30px;
     }
 }
 @media (max-width: 1024px) {
@@ -597,9 +621,16 @@
     }
     .tamawal_Type {
         left: 0px;
-        margin: -8px 4rem;
+        margin: -8px 0px;
+        left: auto;
+        right: 4rem;
         transform: scale(.9);
       
+    }
+     .right_header {
+    
+        right: 37em;
+       
     }
     .far1 {
         margin: 0px 35rem;
@@ -611,22 +642,24 @@ padding-top: 0rem;
     }
     .nav_shift{
         transform: scale(.9);
-        right: 12vw;
+        right: 1vw;
     }
     .far2 {
         margin: 0px 45rem;
     }
     .bg-stripes {
         margin-top: -3rem;
-        right: 7rem;
+        right: -7rem;
         height: 12em;
     }
     .illus {
-        margin: 30px 520px;
-        height: 450px;
+        margin: 45px 0px;
+        left: auto;
+        right: 58%;
+        height: 445px;
     }
     .left-section {
-        margin: 80px 23px;
+        margin: 80px -24px;
     }
     h2 {
         font-size: 62px;
@@ -646,7 +679,7 @@ padding-top: 0rem;
         width: 40rem;
     }
     .button2 {
-        top: 80px;
+        top: 75px;
         border-radius: 12px;
         width: 240px;
         height: 50px;
@@ -663,11 +696,12 @@ padding-top: 0rem;
     }
     .averaging {
         font-size: 1.6rem;
-        top: 110px;
+        top: 160px;
         width: 34rem;
         line-height: 1.9rem;
     }
     .quicksearch {
+        top: 11.5rem;
         width: 580px;
         height: 220px;
     }
@@ -761,22 +795,25 @@ padding-top: 0rem;
         font-size: 20px;
         top: 50px;
     }
+    .section2_content2{
+        width: 40rem;
+        margin: 0px auto;
+        }
     .timeline {
         position: relative;
-        margin: 100px 230px;
+        margin: 6.5rem 1.2rem;
         height: 55px;
     }
     .card_flex {
-        position: relative;
-        margin: 3rem 200px;
-        display: flex;
+        width: 39rem;
+        margin: 5rem .8rem;
     }
     .why_text {
         width: 221px;
-        margin: -280px 8px;
+        margin: -26rem -14%;
         font-family: poppins;
         font-style: bold;
-        font-size: 34px;
+        font-size: 36px;
         line-height: 40px;
         text-align: center;
         color: #014497;
@@ -784,10 +821,11 @@ padding-top: 0rem;
     }
     .set1 {
         height: 230px;
-        margin-right: -20px;
+    
     }
     .set2 {
         height: 230px;
+        left: 1.3rem;
     }
     /* section 3 */
     .section3 {
@@ -815,8 +853,8 @@ padding-top: 0rem;
     }
     .how_work {
         height: 550px;
-        margin: -80px 150px;
-        right: 8vw;
+        margin: -60px 150px;
+        right: -4%;
     }
     .platform {
         position: absolute;
@@ -902,12 +940,22 @@ padding-top: 0rem;
     }
 .navbar{
     position: relative;
+
     /* background-color: green; */
     width: 100%;
 }
 .nav_shift{
+  
+        direction: ltr;
+  
     position: relative;
     right: 0vw;
+}
+.efar3{
+    left: 2rem;
+}
+.account{
+    left: -22.5rem;
 }
 .right_header {
     position: relative;
@@ -934,17 +982,17 @@ padding-top: 0rem;
 }
 .bg-stripes {
     margin-top: -3rem;
-    right: 7rem;
+    right: -7rem;
     height: 12em;
 }
 .illus {
     margin: 50px 0px;
-    right: -3rem;
-    left: 50%;
+    left: auto;
+    right: 55%;
     height: 32em;
 }
 .left-section {
-    margin: 90px 37px;
+    margin: 80px -48px;
 }
 h2 {
     font-size: 57px;
@@ -964,7 +1012,7 @@ p2 {
     width: 50rem;
 }
 .button2 {
-    top: 70px;
+    top: 75px;
     border-radius: 12px;
     width: 240px;
     height: 50px;
@@ -979,7 +1027,7 @@ h3 {
     line-height: 34px;
 }
 .averaging {
-    top: 110px;
+    top: 10.5rem;
     width: 31rem;
 }
 .quicksearch {
@@ -1057,9 +1105,13 @@ h3 {
     margin-top: 12px;
 }
 .submit_box {
+
     background: #F0B50F;
     border-radius: 6px;
     border-width: 0px;
+}
+.sub_text{
+    top: .1rem;
 }
 /* section 2 */
 .section2 {
@@ -1082,18 +1134,23 @@ h3 {
     top: 30px;width: 100%;
 }
 .timeline {
-    position: relative;
+    /* position: relative;
     margin: 80px 230px;
-    height: 55px;
+    height: 55px; */
+    margin: 5rem 1.2rem;
 }
+.section2_content2{
+    width: 40rem;
+    margin: 0px auto;
+    }
 .card_flex {
-    position: relative;
+    /* position: relative;
     margin: 4rem 200px;
-    display: flex;
+    display: flex; */
 }
 .why_text {
     width: 221px;
-    margin: -280px 8px;
+    /* margin: -280px 8px; */
     font-style: bold;
     font-weight: 1800;
     font-size: 34px;
@@ -1141,8 +1198,8 @@ h3 {
 .how_work {
     position: relative;
     height: 550px;
-    margin: -80px 150px;
-    right: 4rem;
+    margin: -40px 150px;
+    right: -8rem;
 }
 .platform {
     position: absolute;
@@ -1189,6 +1246,7 @@ left: 23.2em;
 transform: scale(.78);
 }
 .loan_today {
+   
     position: relative;
     color: white;
     font-weight: normal;
@@ -1198,6 +1256,13 @@ transform: scale(.78);
     font-size: 16px;
     text-align: center;
     letter-spacing: .2px;
+   
+}
+.apply_now{
+    position: relative;
+
+top: -3rem;
+left: 11.2rem;
 }
 .btn-sm {
     margin: 20px 0px;
@@ -1266,13 +1331,13 @@ background-color: red;
         height: 9rem;
     }
     .illus {
-        margin: 50px 0px;
-        right: -3rem;
-        left: 45%;
+        margin: 60px 0px;
+        left: auto;
+    right: 53%;
         height: 30em;;
     }
     .left-section {
-        margin: 100px 20px;
+        margin: 80px -38px;
     }
     h2 {
         font-size: 52px;
@@ -1292,7 +1357,7 @@ background-color: red;
     width: 50rem;
     }
     .button2 {
-        top: 5rem;
+        top: 5.3rem;
         border-radius: 8px;
         width: 220px;
         height: 45px;
@@ -1308,14 +1373,14 @@ background-color: red;
     }
     .averaging {
         font-size: 1.4rem;
-        top: 6.4rem;
+        top: 11rem;
         line-height: 1.7rem;
         width: 25rem;
     }
     .quicksearch {
         width: 420px;
         height: 190px;
-        top: 7.5rem;
+        top: 12rem;
         transform: scale(1.02);
     }
     .circular {
@@ -1394,11 +1459,17 @@ background-color: red;
     }
     /* section 2 */
     .section2 {
-        height: 520px;
+        height: 540px;
+    }
+    .section2_content1{
+        position: relative;
+        width: 40rem;
+        margin: 0px auto;
     }
     .virtual {
         margin: 0px 0px;
         top: 20px;
+        left: 3rem;
         text-align: center;
         font-size: 30px;
         width: 730px;
@@ -1412,20 +1483,24 @@ background-color: red;
         font-size: 15px;
         top: 0px;
     }
+    .section2_content2{
+        width: 32rem;
+        margin: 0px auto;
+        }
     .timeline {
         position: relative;
-        margin: 0px 150px;
+        margin: .8rem 0.7rem;
         height: 45px;
     }
     .card_flex {
         position: relative;
-        margin: 100px 130px;
-        display: flex;
+        width:30rem ;
+        margin: 6.5rem .3rem;
     }
     .why_text {
-        width: 101px;
-        margin: -290px 18px;
-        font-size: 23px;
+        width: 10rem;
+        margin: -23rem -10%;
+        font-size: 27px;
         line-height: 25px;
         text-align: center;
         color: #014497;
@@ -1433,14 +1508,15 @@ background-color: red;
     }
     .set1 {
         height: 190px;
-        margin-right: -20px;
+       
     }
     .set2 {
         height: 190px;
+        left: 1rem;
     }
     /* section 3 */
     .section3 {
-        height: 520px;
+        height: 585px;
         padding: 3px 0px;
     }
     .work_text {
@@ -1464,7 +1540,8 @@ background-color: red;
     }
     .how_work {
         height: 500px;
-        margin: -80px 80px;
+        margin: -25px 150px;
+        right: -8rem;
     }
     .platform {
         position: absolute;
@@ -1568,13 +1645,13 @@ transform: scale(.70);
     }
     .illus {
         margin: 75px 0rem;
-        left: 8%;
-        top: 4rem;
+        right: 14%;
+        top: 5.5rem;
         height: 33rem;
-        z-index: -0;
+        z-index: 0;
     }
     .left-section {
-        margin: 90px 20px;
+        margin: 90px -30px;
     }
     h2 {
         font-size: 4rem;
@@ -1594,7 +1671,7 @@ transform: scale(.70);
         width: 100%;
     }
     .button2 {
-        top: 5rem;
+        top: 5.5rem;
         border-radius: 8px;
         width: 250px;
         height: 38px;
@@ -1610,25 +1687,35 @@ transform: scale(.70);
         line-height: 24px;
     }
     .averaging {
-        font-size: 1.95rem;
-        top: 31rem;
+        font-size: 1.85rem;
+        top: 33rem;
         text-align: center;
         line-height: 2.4rem;
-        width: 100%;
+        width: 80%;
+        right: 5rem
+    }
+    .quick_search_wrapper{
+        direction: ;
+        position: relative;
+        height: 20rem;
+        width: 40rem;
+        top: 34.5rem;
+background-color: lawngreen;
+margin: 0px auto;
+
     }
     .quicksearch {
         position: relative;
-        width: 37.7rem;
-        height: 12.0rem;
-        right: 0rem;
+        width: 37rem;
+        height: 12.3rem;
         transform: scale(1.1);
-        top: 32rem;
-        left: 8%;
+        top: 0rem;
+        right: .3rem;
         
     }
     .circular {
         transform: scale(1.0);
-        margin: 5px 10px;
+        margin: 5px 30px;
     }
     .get_started {
         position: relative;
@@ -1639,6 +1726,7 @@ transform: scale(.70);
     .quick_text3 {
         position: relative;
         font-size: 1rem;
+        left: 1.8rem;
     }
     .sub_text {
         position: relative;
@@ -1700,17 +1788,28 @@ transform: scale(.70);
     }
     /* section 2 */
     .section2 {
-        height: 520px;
+        height: 530px;
+    }
+    .section2_content1{
+        position: relative;
+        width: 38rem;
+        margin: 0px auto;
     }
     .virtual {
+        left: 2.5rem;
         margin: 0px 0px;
         top: 20px;
-        text-align: center;
-        font-size: 30px;
-        width: 730px;
+      text-align: center;
+        font-size: 28px;
+        width: 43rem;
         line-height: 40px;
         color: #014497;
     }
+    .section2_content2{
+        width: 30rem;
+        margin: 0px auto;
+        }
+        
     .text_give {
         position: relative;
         color: #014497;
@@ -1720,22 +1819,20 @@ transform: scale(.70);
     }
     .timeline {
         position: relative;
-        margin: 0px 150px;
+        margin: .3rem .1rem;
         height: 45px;
     }
     .card_flex {
-        position: relative;
-        margin: 100px 130px;
-        display: flex;
+        width:30rem ;
+        margin: 7.0rem -.7rem;
     }
     .why_text {
         width: 101px;
-        margin: -290px 18px;
-        font-weight: 1800;
-        font-size: 23px;
+        margin: -22rem -10%;
+        font-weight: 800;
+        font-size: 25px;
         line-height: 25px;
         text-align: center;
-        color: #014497;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     .set1 {
@@ -1747,7 +1844,7 @@ transform: scale(.70);
     }
     /* section 3 */
     .section3 {
-        height: 520px;
+        height: 550px;
         padding: 3px 0px;
     }
     .work_text {
@@ -1771,7 +1868,8 @@ transform: scale(.70);
     }
     .how_work {
         height: 500px;
-        margin: -80px 10%;
+        margin: -36px 150px;
+        right: -8rem;
     }
     .platform {
         position: absolute;
@@ -1891,7 +1989,7 @@ transform: scale(.70);
         height: 27.5rem;
     }
     .left-section {
-        margin: 90px 10px;
+        margin: 90px -10px;
     }
     h2 {
         font-size: 50px;
@@ -1911,7 +2009,7 @@ transform: scale(.70);
         width: 40rem;
     }
     .button2 {
-        top: 5.6rem;
+        top: 6rem;
         border-radius: 8px;
         width: 230px;
         height: 36px;
@@ -1926,22 +2024,32 @@ transform: scale(.70);
         line-height: 18px;
     }
     .averaging {
-        top: 480px;
-        left: 1%;
+        top: 33rem;
+        right:  2%;
         font-size: 1.5rem;
         text-align: center;
         line-height: 25px;
         width: 500px;
+    }
+ 
+    .quick_search_wrapper{
+        position: relative;
+        height: 12rem;
+        /* right: 1.3rem; */
+        width: 27rem;
+        top: 33.5rem;
+margin: 0px auto;
+right: -0rem;
     }
     .quicksearch {
         position: relative;
         width: 35.7rem;
         height: 12.0rem;
         
-        transform: scale(.9);
-        top: 490px;
-left: -4%;
-        right: 0px;
+        transform: scale(.86);
+        top: 0rem;
+        right: -3.9rem;
+
         
     }
     .get_started {
@@ -2018,49 +2126,61 @@ left: -4%;
     }
     /* section 2 */
     .section2 {
-        height: 680px;
+        height: 670px;
+    }
+    .section2_content1{
+        position: relative;
+     
+        width: 26rem;
+        margin: 0px auto;
     }
     .virtual {
-        position: relative;
-        margin: 16px 40px;
-        top: 0px;
-        left: -0px;
-        text-align: center;
-        font-size: 2.1rem;
+        left: 4.9rem;
+        margin: 0px 0px;
+        top: 20px;
+      text-align: center;
+        font-size: 28px;
+        width: 36rem;
+        line-height: 40px;
         color: #014497;
-        width: 500px;
-        line-height: 38px;
     }
     .text_give {
         position: relative;
         color: #014497;
         text-align: center;
         font-size: 15px;
-        top: -30px;
-        left: -1rem;
+        top: -10px;
+        left: 0rem;
     }
+    .section2_content2{
+        width: 28rem;
+        margin: 20px auto;
+        }
     .timeline {
         position: relative;
-        margin: 20px 20px;
+        margin: 20px 2px;
         top: -3rem;
         height: 48px;
     }
     .card_flex {
         position: relative;
-        margin: 260px 0px;
-        display: flex;
+        margin: 4.0rem -2.0rem;
     }
     .set1 {
-        height: 12.5rem;
+        position: relative;
+        height: 12.2rem;
         margin: -100px 0px;
-        margin-right: -20px;
+        top: 15rem;
+        right: 8rem;
+        margin-right: -10px;
     }
     .set2 {
-        margin: -100px 0px;
-        height: 12.5rem;
+        margin: -40px -10rem;
+        height: 12.2rem;
+        left: 0rem;
     }
     .why_text {
-        margin: -440px 200px;
+        margin: -285px 140px;
         font-size: 2rem;
         width: 12rem;
         line-height: 32px;
@@ -2094,7 +2214,7 @@ left: -4%;
     .how_work {
         height: 380px;
         margin: -10px -4%;
-        left: 2rem;
+        right: -5%;
     }
     .platform {
         position: absolute;
@@ -2211,12 +2331,13 @@ width: 100%;
         height: 9.3rem;
     }
     .illus {
-        margin: 100px 0px;
-        left: -5%;
+        margin: 70px 0px;
+        left: 1rem;
+        right: 2rem;
         height: 350px;
     }
     .left-section {
-        margin: 90px 10px;
+        margin: 90px -10px;
     }
     h2 {
         font-size: 42px;
@@ -2236,7 +2357,7 @@ width: 100%;
         width: 380px;
     }
     .button2 {
-        top: 60px;
+        top: 4rem;
         border-radius: 8px;
         width: 130px;
         height: 26px;
@@ -2251,18 +2372,27 @@ width: 100%;
         line-height: 18px;
     }
     .averaging {
-        top: 350px;
+        top: 19em;
         left: 1%;
         font-size: 20px;
         text-align: center;
         line-height: 25px;
         width: 350px;
     }
+    .quick_search_wrapper{
+        position: relative;
+        height: 12rem;
+        /* right: 1.3rem; */
+        width: 20rem;
+        top: 24rem;
+margin: 0px auto;
+right: -0rem;
+    }
     .quicksearch {
         width: 390px;
         height: 150px;
-        top: 355px;
-        left: -3%;
+        top: 0px;
+        right: -9%;
     }
     .get_started {
         position: relative;
@@ -2334,14 +2464,19 @@ width: 100%;
     .section2 {
         height: 680px;
     }
+    .section2_content1{
+        position: relative;
+     
+        width: 21rem;
+        margin: 0px auto;
+    }
     .virtual {
         position: relative;
         margin: 16px 0px;
         top: 0px;
-        left: -0px;
+        left: 2rem;
         text-align: center;
         font-size: 22px;
-        color: #014497;
         width: 400px;
         line-height: 23px;
     }
@@ -2351,37 +2486,40 @@ width: 100%;
         text-align: center;
         font-size: 12px;
         top: -30px;
+        left: 1.5rem;
     }
+    .section2_content2{
+        width: 22rem;
+        margin: 0px auto;
+        }
     .timeline {
         position: relative;
-        margin: 0px 10px;
+        margin: 20px 2px;
         top: -20px;
         height: 35px;
     }
     .card_flex {
-        position: relative;
-        margin: 160px 20px;
-        display: flex;
+        position: relative;width: 20rem;
+        margin: 8.0rem -2.0rem;
     }
     .set1 {
-        height: 240px;
+        position: relative;
+        height: 14.2rem;
         margin: -100px 0px;
-        margin-right: -20px;
+        top: 14rem;
+        right: 3.5rem;
+        margin-right: -10px;
     }
     .set2 {
-        margin: 120px -335px;
-        height: 240px;
+        margin: -80px -10rem;
+        height: 14.2rem;
+        left: 6.5rem;
     }
     .why_text {
-        /* why tama */
-        position: absolute;
-        width: 141px;
-        margin: -780px 130px;
-        font-family: poppins;
-        font-style: bold;
-        font-weight: 1800;
-        font-size: 20px;
-        line-height: 22px;
+        margin: -325px 80px;
+        font-size: 1.8rem;
+        width: 12rem;
+        line-height: 32px;
         text-align: center;
         color: #014497;
         opacity: .99;
@@ -2553,12 +2691,12 @@ width: 100%;
         height: 9.3rem;
     }
     .illus {
-        margin: 100px 0px;
-        left: -5%;
+        margin: 60px 0px;
+        right: 1rem;
         height: 350px;
     }
     .left-section {
-        margin: 90px 5px;
+        margin: 90px -10px;
     }
     h2 {
         font-size: 36px;
@@ -2594,7 +2732,7 @@ width: 100%;
     }
     .averaging {
         top: 357px;
-        left: -2%;
+        right: 2%;
         font-size: 19px;
         text-align: center;
         line-height: 25px;
@@ -2604,8 +2742,8 @@ width: 100%;
         
         width: 400px;
         height: 150px;
-        top: 355px;
-        left: -7%;
+        
+        right: -2.5rem;
     }
     .get_started {
         position: relative;
@@ -2675,61 +2813,26 @@ width: 100%;
     }
     /* section 2 */
     .section2 {
-        height: 680px;
+      
     }
     .virtual {
-        position: relative;
+        /* position: relative;
         margin: 16px 0px;
         top: 0px;
         left: -18px;
         text-align: center;
         font-size: 22px;
         width: 400px;
-        line-height: 23px;
+        line-height: 23px; */
     }
     .text_give {
-        position: relative;
+        /* position: relative;
         text-align: center;
         font-size: 12px;
         top: -30px;
-        left: -1.8rem;
+        left: -1.8rem; */
     }
-    .timeline {
-        position: relative;
-        margin: 0px auto;
-        left: .7rem;
-        top: -20px;
-        height: 31px;
-    }
-    .card_flex {
-        position: relative;
-        margin: 160px 20px;
-        display: flex;
-    }
-    .set1 {
-        height: 240px;
-        margin: -100px 0px;
-        margin-right: -16px;
-    }
-    .set2 {
-        margin: 120px -320px;
-        height: 240px;
-    }
-    .why_text {
-        /* why tama */
-        position: absolute;
-        width: 141px;
-        margin: -780px 110px;
-        font-family: poppins;
-        font-style: bold;
-        font-weight: 1800;
-        font-size: 20px;
-        line-height: 22px;
-        text-align: center;
-        color: #014497;
-        opacity: .99;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    }
+ 
     /* section 3 */
     .section3 {
         height: 420px;
@@ -2870,12 +2973,12 @@ width: 100%;
         height: 9.3rem;
     }
     .illus {
-        margin: 100px 0px;
-        left: -5%;
+        margin: 75px 0px;
+        right: 1rem;
         height: 350px;
     }
     .left-section {
-        margin: 90px 5px;
+        margin: 90px -10px;
     }
     h2 {
         font-size: 36px;
@@ -2895,7 +2998,7 @@ width: 100%;
         width: 380px;
     }
     .button2 {
-        top: 60px;
+        top: 62px;
         border-radius: 8px;
         width: 130px;
         height: 26px;
@@ -2910,19 +3013,22 @@ width: 100%;
         line-height: 18px;
     }
     .averaging {
-        top: 357px;
-        left: -3%;
+        top: 370px;
+        right:0;
         font-size: 19px;
         text-align: center;
         line-height: 25px;
         width: 345px;
     }
+    .quick_search_wrapper{
+        top: 23rem;
+    }
     .quicksearch {
         transform: scale(.87);
         width: 400px;
         height: 150px;
-        top: 355px;
-        left: -8.6%;
+       
+       right: -2.7rem;
     }
     .get_started {
         position: relative;
@@ -2995,7 +3101,7 @@ width: 100%;
         height: 680px;
     }
     .virtual {
-        position: relative;
+        /* position: relative;
         margin: 16px 0px;
         top: 0px;
         left: -18px;
@@ -3003,46 +3109,43 @@ width: 100%;
         font-size: 22px;
         color: #014497;
         width: 400px;
-        line-height: 23px;
+        line-height: 23px; */
     }
     .text_give {
-        position: relative;
+        /* position: relative;
         color: #014497;
         text-align: center;
         font-size: 12px;
-        top: -30px;
+        top: -30px; */
     }
     .timeline {
         position: relative;
-        margin: 0px auto;
+        margin: 20px 2px;
         top: -20px;
-        height: 33px;
-        left: -0rem;
+        height: 35px;
     }
     .card_flex {
-        position: relative;
-        margin: 160px 20px;
-        display: flex;
+        position: relative;width: 20rem;
+        margin: 8.0rem -2.0rem;
     }
     .set1 {
-        height: 240px;
+        position: relative;
+        height: 14.2rem;
         margin: -100px 0px;
+        top: 14rem;
+        right: 3.5rem;
         margin-right: -10px;
     }
     .set2 {
-        margin: 120px -310px;
-        height: 240px;
+        margin: -80px -10rem;
+        height: 14.2rem;
+        left: 6.5rem;
     }
     .why_text {
-        /* why tama */
-        position: absolute;
-        width: 141px;
-        margin: -780px 110px;
-        font-family: poppins;
-        font-style: bold;
-        font-weight: 1800;
-        font-size: 20px;
-        line-height: 22px;
+        margin: -325px 80px;
+        font-size: 1.8rem;
+        width: 12rem;
+        line-height: 32px;
         text-align: center;
         color: #014497;
         opacity: .99;
@@ -3066,7 +3169,7 @@ width: 100%;
     }
     .text_get_started {
         position: relative;
-        margin: 20px 0px;
+        margin: 20px 10px;
         font-family: poppins;
         font-style: normal;
         font-weight: normal;
@@ -3083,7 +3186,7 @@ width: 100%;
     .platform {
         position: absolute;
         height: 100px;
-        margin: 220px 65%;
+        margin: 220px 58%;
     }
     /* section4 */
     .section4 {

@@ -5971,6 +5971,7 @@ footer {
 }
 
 .copyright {
+    font-family: poppin;
     color: rgba(255, 255, 255, 0.5);
     font: 0.6770833333vw "Noto Sans";
     margin-bottom: 1.0416666667vw;
@@ -5978,6 +5979,7 @@ footer {
 
 @media (max-width: 1199px) {
     .copyright {
+        font-family: poppin;
         font-size: 13px;
         margin-bottom: 15px;
     }

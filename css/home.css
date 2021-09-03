@@ -1111,7 +1111,9 @@ section .title::after{
 }
 
 
-
+.sticky-top2{
+    overflow: hidden;
+}
 
 
 

@@ -3,7 +3,9 @@
     width: 100%;
     /* background-color: violet; */
 }
-
+body{
+    overflow: hidden;
+}
 .search_section {
     height: 445px;
     overflow: hidden;

@@ -131,23 +131,24 @@ background: linear-gradient(180deg, #1C6FC4 0%, #02298A 84.79%, #144591 100%);
 }
 
 .form-holder {
+   
     margin-left: 550px;
 }
 
 .form-holder .form-content ::-webkit-input-placeholder {
-    color: #000;
+    color: #000;text-align: right;
 }
 
 .form-holder .form-content :-moz-placeholder {
-    color: #000;
+    color: #000;text-align: right;
 }
 
 .form-holder .form-content ::-moz-placeholder {
-    color: #000;
+    color: #000;text-align: right;
 }
 
 .form-holder .form-content :-ms-input-placeholder {
-    color: #000;
+    color: #000;text-align: right;
 }
 
 .form-content {

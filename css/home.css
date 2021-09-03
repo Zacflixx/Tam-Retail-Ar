@@ -3,9 +3,14 @@
 body{
  overflow: hidden;
 }
-
-
-
+select{
+    font-family: 'FontAwesome', 'sans-seri'
+}
+.huut{
+    font-size: 40rem;
+    color: red;
+    margin: 0px -5rem;
+}
 .section2_content1{
     direction: rtl;
     width: 100%;

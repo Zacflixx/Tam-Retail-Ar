@@ -264,3 +264,15 @@ setInterval(() => {
     numb.textContent = counter + "%";
   }
 }, 80);
+
+var elem = document.getElementById('autoScroll'); //YOUR DIV ELEMENT WHICH YOU WANT TO SCROLL
+var scroll = 0; //SETTING INITIAL SCROLL TO 0
+
+window.setInterval(function(){ 
+
+ if(elem.scrollTop > scroll)
+  scroll = elem.scrollTop;
+
+ elem.scrollTo({ top: scroll, behavior: 'smooth' }) //SCROLL THE ELEMENT TO THE SCROLL VALUE WITH A SMOOTH BEHAVIOR
+ scroll += 1; //AUTOINCREMENT SCROLL
+}, 50);

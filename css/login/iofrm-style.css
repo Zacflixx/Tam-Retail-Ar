@@ -29,14 +29,17 @@
 
 html, body {
     height: 100%;
+    
 }
 
 .form-body {
+  
     background-color: #0093FF;
     height: 100%;
 }
 
 .form-body > .row {
+  
     position: relative;
     margin-left: 0;
     margin-right: 0;
@@ -283,40 +286,41 @@ html, body {
 }
 
 .form-holder .form-content ::-webkit-input-placeholder {
-    color: #526489;
+    color: #526489;text-align: right;
 }
 
 .form-holder .form-content :-moz-placeholder {
-    color: #526489;
+    color: #526489;text-align: right;
 }
 
 .form-holder .form-content ::-moz-placeholder {
-    color: #526489;
+    color: #526489;text-align: right;
 }
 
 .form-holder .form-content :-ms-input-placeholder {
-    color: #526489;
+    color: #526489;text-align: right;
 }
 
 .form-control:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
+  text-align: right;
 }
 
 .form-control ::-webkit-input-placeholder {
-    color: #526489;
+    color: #526489;text-align: right;
 }
 
 .form-control :-moz-placeholder {
-    color: #526489;
+    color: #526489;text-align: right;
 }
 
 .form-control ::-moz-placeholder {
-    color: #526489;
+    color: #526489;text-align: right;
 }
 
 .form-control :-ms-input-placeholder {
-    color: #526489;
+    color: #526489;text-align: right;
 }
 
 .form-content {
@@ -422,7 +426,8 @@ html, body {
     color: #fff;
     font-weight: 300;
     font-size: 15px;
-    margin-right: 20px;
+ 
+    margin-right: 10%;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
@@ -997,7 +1002,9 @@ html, body {
     text-align: center;
     color: #fff;
 }
-
+.text_right{
+    text-align: right;
+}
 .form-content .form-sent p {
     text-align: center;
     color: #fff;
@@ -1013,6 +1020,8 @@ html, body {
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     padding: 10px;
     margin-top: 60px;
+    direction: rtl;
+    text-align: right;
 }
 
 .form-content .form-sent .info-holder span {
@@ -1441,19 +1450,19 @@ input.sm-content {
 }
 
 .form-body.without-side .form-holder .form-content ::-webkit-input-placeholder {
-    color: #000;
+    color: #000;text-align: right;
 }
 
 .form-body.without-side .form-holder .form-content :-moz-placeholder {
-    color: #000;
+    color: #000;text-align: right;
 }
 
 .form-body.without-side .form-holder .form-content ::-moz-placeholder {
-    color: #000;
+    color: #000;text-align: right;
 }
 
 .form-body.without-side .form-holder .form-content :-ms-input-placeholder {
-    color: #000;
+    color: #000;text-align: right;
 }
 
 .form-body.without-side h3 {
@@ -1545,7 +1554,12 @@ input.sm-content {
     font-size: 9px;
     margin-left: 0;
 }
-
+.page-links{
+    /* direction: rtl; */
+}
+.form-content{
+    
+}
 .form-body.without-side .form-content .form-items .page-links {
     margin-bottom: 0;
 }

@@ -1,4 +1,5 @@
 ul.breadcrumb {
+    direction: rtl;
     position: relative;
     top: 7rem;
     padding: 10px 16px;
@@ -50,6 +51,16 @@ ul.breadcrumb li a:hover {
 @media (max-width: 600px) {
     ul.breadcrumb {
         top: 3%;
-    }
+    }}
+    @media (max-width: 414px) {
+        ul.breadcrumb {
+            top: 3%;
+            right: 1rem;
+        }
+        @media (max-width: 375px) {
+            ul.breadcrumb {
+                
+                right: 3rem;
+            }
     
 }

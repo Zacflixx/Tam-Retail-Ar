@@ -3,9 +3,7 @@
     width: 100%;
     /* background-color: violet; */
 }
-body{
-   
-}
+
 .search_section {
     height: 445px;
     overflow: hidden;
@@ -195,6 +193,7 @@ opacity: .9;
     display: flex;
     position: relative;
     top: -1.5rem;
+    
 }
 
 .without_transfer {
@@ -202,6 +201,7 @@ opacity: .9;
     /* top: -2.4rem; */
     left: 1.1rem;
     font-size: 1.2rem;
+    z-index: 3333;
 }
 
 .checker {

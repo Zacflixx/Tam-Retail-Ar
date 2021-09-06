@@ -4,6 +4,16 @@
         height: 740px;
        
     }
+    .Page_title{
+        /* top: 5.5vw; */
+        font-size:2.5rem; 
+         /* font-weight: 500; */
+        /* left: 1rem; */
+      }
+      .top_section_faq{
+        height: 240px;
+    
+      }
     .tamawal_Type {
         margin: 0px -4em;
     }
@@ -1960,7 +1970,15 @@ margin: 0px auto;
 }
 
 @media (max-width: 600px) {
+    .Page_title{
+        top: 5.5vw;
+        font-size: 1.6rem;  font-weight: 500;
+        right: 1rem;
+      }
+      .top_section_faq{
+        height: 140px;
     
+      }
     .Business {
         font-size: 15px;
     }
@@ -2302,6 +2320,16 @@ right: -0rem;
 }
 
 @media (max-width: 425px) {
+    .Page_title{
+        top: 5.5vw;
+        font-size: 1.2rem;
+        right: .5rem;
+        font-weight: 500;
+      }
+      .top_section_faq{
+        height: 120px;
+    
+      }
     .Business {
         font-size: 15px;
     }

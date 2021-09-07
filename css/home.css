@@ -1250,3 +1250,60 @@ text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.17);
 
   }
  
+
+  .faq_img{
+	position: absolute;
+	height: 11rem;
+	left: 10px;
+	top: 6.5rem;
+	right: auto;
+	/* z-index: 1; */
+  }
+  
+  
+  
+  
+  /* //Media */
+  @media (max-width: 1440px) {
+	.faq_img{
+	  position: absolute;
+	  height: 8rem;
+	  left: 10px;
+	  top: 7rem;
+	  right: auto;
+	  /* z-index: 1; */
+	}
+	
+   
+	}
+  @media (max-width: 990px) {
+	
+	.faq_img{
+	 
+	  height: 8rem;
+	
+	  top: 11rem;
+	  left: 10px;
+	}
+	}
+  
+	@media (max-width: 834px) {
+	  .faq_img{
+	 
+		height: 8rem;
+	  
+		top: 12rem;
+		left: 10px;
+	  }
+	  
+	  
+	  }
+	  
+	@media (max-width: 768px) {
+	  .faq_img{
+	 
+	  opacity: 0;
+	  }
+	  
+	  
+	  }

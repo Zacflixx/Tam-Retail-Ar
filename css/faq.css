@@ -176,3 +176,35 @@ text-align: right;
     
     
     }
+
+    .header_career{
+      color:  #616161;
+      width: 20rem;
+      text-decoration: none;
+      font-weight: 600;
+      /* font-size: 1.4rem; */
+      text-align: ;
+    }
+    .btn.btn-primary1 {
+      background: #F0B50F!important;
+      border-color:#F0B50F !important;
+      color: #fff;border-radius: 5px;
+      font-size: 1.1rem;
+    font-family: poppins;
+    }
+    .btn.btn-primary2 {
+    margin: 0px 0px 0px auto ;
+      position: relative;
+      top: .4rem;
+      background: #F0B50F!important;
+      border-color:#F0B50F !important;
+      color: #fff;border-radius: 5px;
+      font-size: .8rem;
+      font-weight: 500;
+    font-family: poppins;
+    height: 2rem;
+    width: 8rem;
+    
+    }
+
+    

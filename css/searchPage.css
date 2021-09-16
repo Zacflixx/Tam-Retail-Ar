@@ -201,7 +201,7 @@ opacity: .9;
     /* top: -2.4rem; */
     left: 1.1rem;
     font-size: 1.2rem;
-    z-index: 3333;
+   
 }
 
 .checker {
@@ -373,9 +373,8 @@ search */
         top: 3.6rem; 
     }
     .search_wrapper {
-        transform: scale(.47);
+        transform: scale(.48);
         left: -22rem;
-    
     }
     .offers_section{
         position: relative;
@@ -719,13 +718,14 @@ search */
         height: 340px;
     }
     .advanced_search {
+    
         width: 15rem;
         left: -.8rem;
         top: -1rem;
     }
     .search_wrapper {
-        /* transform: scale(.45); */
-        left: -17rem;
+        transform: scale(.46);
+        left: -16rem;
     }
   
     .scheme{
@@ -750,17 +750,17 @@ search */
         margin: -2rem 24vw;
     }
     .offer_results {
-        top: -3rem;
+        /* top: -3rem;
         position: relative;
         width: 20rem;
-        left: -1.5rem;
+        left: -1.5rem; */
     }
     .offer_wrapper {
-       
-        position: relative;
+        transform: scale(.29);
+        /* position: relative;
         transform: scale(.30);
         margin-top: -8.8rem;
-        left: -25.5rem;
+        left: -25.5rem; */
 
     }
 }
@@ -784,7 +784,7 @@ search */
     }
     .search_wrapper {
         transform: scale(.45);
-        left: -17rem;
+        /* left: -17rem; */
     }
     .sticky-top2{
         width: 25rem;

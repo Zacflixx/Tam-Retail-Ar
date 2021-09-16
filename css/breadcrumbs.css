@@ -51,7 +51,8 @@ ul.breadcrumb li a:hover {
 @media (max-width: 600px) {
     ul.breadcrumb {
         top: 3%;
-    }}
+    }
+}
     @media (max-width: 414px) {
         ul.breadcrumb {
             top: 3%;
@@ -60,7 +61,7 @@ ul.breadcrumb li a:hover {
         @media (max-width: 375px) {
             ul.breadcrumb {
                 
-                right: 3rem;
+                right: 1rem;
             }
     
 }

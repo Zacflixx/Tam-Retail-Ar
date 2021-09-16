@@ -5412,7 +5412,7 @@
   .abt_header{
     text-align: right;
     opacity: .8;
-    font-weight: 600;
+    font-weight: 600; line-height: 2rem;
     font-size: 2rem;
     text-shadow: none;
   }

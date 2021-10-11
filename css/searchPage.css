@@ -811,3 +811,44 @@ search */
 
     } */
 }
+
+
+
+
+.Loan_BOX{
+    font-family: poppins;
+   color: white;
+    border-radius: 8px;
+    background-color: #0B4F97;;
+}
+.info-field:after {
+   background-color: #0B4F97;
+}
+.new_apply{
+  
+   color: #ffffff;
+background: #F0B50F;
+border: 0px solid #2E568C;text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.16);
+box-sizing: border-box;
+border-radius: 8px;
+width: 10rem;
+height: 2.5rem;
+}
+.share_wrapper{
+
+padding: 2px 2px 2px 2px;
+background: #012f612d;
+box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .1);
+border-radius: 8px;
+
+    margin: 0rem auto;
+    height: 6rem;
+    width: 8rem;
+    margin-bottom: 1rem;
+}
+.info-field__text{
+    font-family: poppins;
+}
+p{
+    font-family: poppins;
+}

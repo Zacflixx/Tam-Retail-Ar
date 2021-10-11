@@ -21,7 +21,7 @@
     <link href="./css/flaticon.css" rel="stylesheet">
     <link href="./css/magnific-popup.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-
+    <link rel="stylesheet" href="backup.html" type="text/css">
 <!-- animation css -->
 <link href="./css/animation/aos.css" rel="stylesheet">
 <link
@@ -31,6 +31,8 @@ href="./css/animation/animate.min.css"
 
 
          <!-- Internal Stylings files -->
+        
+         <link rel="stylesheet" href="styles/vendor.css">
     <link href="./styles/main.css" rel="stylesheet">
     <link href="./css/breadcrumbs.css" rel="stylesheet" />
     <link href="./css/navbar.css" rel="stylesheet">
@@ -39,8 +41,8 @@ href="./css/animation/animate.min.css"
     <link href="./css/media.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/searchPage.css" />
    
- <!-- header Javascript -->
-   
+ <!-- header Styles -->
+
 </head>
 
 <body>
@@ -259,15 +261,14 @@ href="./css/animation/animate.min.css"
         </nav>
         <!-- <img src="/images/Desktop - 1.svg" class="bg-stripes" alt="" /> -->
         </div>
-        <img src="./images/Desktop - 1.svg" class="bg-stripes" alt="">
-     <!-- breadcrumb -->
-  
+            <img src="./images/Desktop - 1.svg" class="bg-stripes" alt="">
 
     <!-- Top half -->
     <div class="section_1 search_section" id="">
         <ul class="breadcrumb">
             <li><a href="./index.html">Home</a></li>
             <li>Scheme Offers</li>
+           
         </ul>
         <!-- search form starts here -->
         <h1 class="averaging scheme"> Scheme Offers</h1>
@@ -294,7 +295,7 @@ href="./css/animation/animate.min.css"
                         <h2 class="search_text1">Product Type</h2>
                         <div class="box_content">
                             <select class="in_text_loan Loan_type_text">
-                                <option value="">All &#x21C5;</option>
+                                <option value="">All Products &#x21C5; </option>
               <option value="">Real Estate Loan &#x21C5;</option>
               <option value="">Personal Loan &#x21C5;</option>
               <option value="">Car Loan &#x21C5;</option>
@@ -343,6 +344,14 @@ href="./css/animation/animate.min.css"
 
     <!-- Bottom half -->
     <section  class="offers_section">
+        <!-- <div class="ssk-group" style="margin: 0px 20rem;">
+            <a href="" class="ssk ssk-facebook"></a>
+            <a href="" class="ssk ssk-twitter"></a> <br>
+            <a href="" class="ssk ssk-google-plus"></a>
+            <a href="" class="ssk ssk-pinterest"></a>
+            <a href="" class="ssk ssk-linkedin"></a>
+        </div> -->
+        
         <div data-aos="fade-up"  data-aos-delay="300" data-aos-duration="1000" class="offer_results">
             <!-- offer1 -->
             <div class="offer_wrapper">
@@ -393,13 +402,24 @@ href="./css/animation/animate.min.css"
                         <div class="offer_content2">
                             <img src="./images/blue_check.png" class="check1" alt="" />
                             <p class="offer_text3">Compare</p>
-                            <button class="offer_bt1">LOAN DETAILS</button>
+                            <button data-fancybox data-src="#popup-item" class="offer_bt1">LOAN DETAILS</button>
                         </div>
                     </div>
                     <div class="offer_column">
-                        <div class="content4">
-                            <a href="https://www.facebook.com/sharer/sharer.php?u=#url" target="_blank"> <img class="tam_offer_logo" src="./images/offer_tammwelLlogo.png" alt="" /></a>
-                            <a href="./login_OTP.html"><button class="offer_button apply_now ">APPLY NOW</button> </a>
+                        <div class="content4" style="padding-top: 2rem;">
+                            <div class="share_wrapper"> 
+<div style="display: flex; height: 3rem; padding-top: .3rem;">
+    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Linkedin.png" alt=""></a>
+    <a style="flex: 66.4%; padding-top: .6rem; opacity: .8;"   href=""><img src="./assets/Share.png" alt=""></a>
+</div>
+<div style="display: flex; height: 3rem;padding-top: .3rem;">
+    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Instagram.png" alt=""></a>
+    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Twitter.png" alt=""></a>
+    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Facebook.png" alt=""></a>
+</div>
+
+                            </div>
+                            <a style="position: relative; top: 1rem;" href="./login_OTP.html"><button class="offer_button apply_now ">APPLY NOW</button> </a>
                         </div>
                     </div>
                 </div>
@@ -452,14 +472,25 @@ href="./css/animation/animate.min.css"
                         <div class="offer_content2">
                             <img src="./images/blue_check.png" class="check1" alt="" />
                             <p class="offer_text3">Compare</p>
-                            <button class="offer_bt1">LOAN DETAILS</button>
+                            <button data-fancybox data-src="#popup-item" class="offer_bt1">LOAN DETAILS</button>
                         </div>
                     </div>
                     <div class="offer_column">
-                        <div class="content4">
-                            <a href="https://www.facebook.com/sharer/sharer.php?u=#url" target="_blank"> <img class="tam_offer_logo" src="./images/offer_tammwelLlogo.png" alt="" /></a>
-                            <a href="./login_OTP.html"><button class="offer_button apply_now ">APPLY NOW</button> </a>
-                        </div>
+                        <div class="content4" style="padding-top: 2rem;">
+                            <div class="share_wrapper"> 
+                                <div style="display: flex; height: 3rem; padding-top: .3rem;">
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Linkedin.png" alt=""></a>
+                                    <a style="flex: 66.4%; padding-top: .6rem; opacity: .8;"   href=""><img src="./assets/Share.png" alt=""></a>
+                                </div>
+                                <div style="display: flex; height: 3rem;padding-top: .3rem;">
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Instagram.png" alt=""></a>
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Twitter.png" alt=""></a>
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Facebook.png" alt=""></a>
+                                </div>
+                                
+                                                            </div>    
+                                                            <a style="position: relative; top: 1rem;" href="./login_OTP.html"><button class="offer_button apply_now ">APPLY NOW</button> </a>
+                                                        </div>
                     </div>
                 </div>
             </div>
@@ -512,14 +543,25 @@ href="./css/animation/animate.min.css"
                         <div class="offer_content2">
                             <img src="./images/blue_check.png" class="check1" alt="" />
                             <p class="offer_text3">Compare</p>
-                            <button class="offer_bt1">LOAN DETAILS</button>
+                            <button data-fancybox data-src="#popup-item" class="offer_bt1">LOAN DETAILS</button>
                         </div>
                     </div>
                     <div class="offer_column">
-                        <div class="content4">
-                            <a href="https://www.facebook.com/sharer/sharer.php?u=#url" target="_blank"> <img class="tam_offer_logo" src="./images/offer_tammwelLlogo.png" alt="" /></a>
-                            <a href="./login_OTP.html"><button class="offer_button apply_now ">APPLY NOW</button> </a>
-                        </div>
+                        <div class="content4" style="padding-top: 2rem;">
+                            <div class="share_wrapper"> 
+                                <div style="display: flex; height: 3rem; padding-top: .3rem;">
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Linkedin.png" alt=""></a>
+                                    <a style="flex: 66.4%; padding-top: .6rem; opacity: .8;"   href=""><img src="./assets/Share.png" alt=""></a>
+                                </div>
+                                <div style="display: flex; height: 3rem;padding-top: .3rem;">
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Instagram.png" alt=""></a>
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Twitter.png" alt=""></a>
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Facebook.png" alt=""></a>
+                                </div>
+                                
+                                                            </div>   
+                                                            <a style="position: relative; top: 1rem;" href="./login_OTP.html"><button class="offer_button apply_now ">APPLY NOW</button> </a>
+                                                        </div>
                     </div>
                 </div>
             </div>
@@ -571,14 +613,25 @@ href="./css/animation/animate.min.css"
                         <div class="offer_content2">
                             <img src="./images/blue_check.png" class="check1" alt="" />
                             <p class="offer_text3">Compare</p>
-                            <button class="offer_bt1">LOAN DETAILS</button>
+                            <button data-fancybox data-src="#popup-item" class="offer_bt1">LOAN DETAILS</button>
                         </div>
                     </div>
                     <div class="offer_column">
-                        <div class="content4">
-                            <a href="https://www.facebook.com/sharer/sharer.php?u=#url" target="_blank"> <img class="tam_offer_logo" src="./images/offer_tammwelLlogo.png" alt="" /></a>
-                            <a href="./login_OTP.html"><button class="offer_button apply_now ">APPLY NOW</button> </a>
-                        </div>
+                        <div class="content4" style="padding-top: 2rem;">
+                            <div class="share_wrapper"> 
+                                <div style="display: flex; height: 3rem; padding-top: .3rem;">
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Linkedin.png" alt=""></a>
+                                    <a style="flex: 66.4%; padding-top: .6rem; opacity: .8;"   href=""><img src="./assets/Share.png" alt=""></a>
+                                </div>
+                                <div style="display: flex; height: 3rem;padding-top: .3rem;">
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Instagram.png" alt=""></a>
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Twitter.png" alt=""></a>
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Facebook.png" alt=""></a>
+                                </div>
+                                
+                                                            </div>  
+                                                            <a style="position: relative; top: 1rem;" href="./login_OTP.html"><button class="offer_button apply_now ">APPLY NOW</button> </a>
+                                                        </div>
                     </div>
                 </div>
             </div>
@@ -630,14 +683,25 @@ href="./css/animation/animate.min.css"
                         <div class="offer_content2">
                             <img src="./images/blue_check.png" class="check1" alt="" />
                             <p class="offer_text3">Compare</p>
-                            <button class="offer_bt1">LOAN DETAILS</button>
+                            <button data-fancybox data-src="#popup-item" class="offer_bt1">LOAN DETAILS</button>
                         </div>
                     </div>
                     <div class="offer_column">
-                        <div class="content4">
-                            <a href="https://www.facebook.com/sharer/sharer.php?u=#url" target="_blank"> <img class="tam_offer_logo" src="./images/offer_tammwelLlogo.png" alt="" /></a>
-                            <a href="./login_OTP.html"><button class="offer_button apply_now ">APPLY NOW</button> </a>
-                        </div>
+                        <div class="content4" style="padding-top: 2rem;">
+                            <div class="share_wrapper"> 
+                                <div style="display: flex; height: 3rem; padding-top: .3rem;">
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Linkedin.png" alt=""></a>
+                                    <a style="flex: 66.4%; padding-top: .6rem; opacity: .8;"   href=""><img src="./assets/Share.png" alt=""></a>
+                                </div>
+                                <div style="display: flex; height: 3rem;padding-top: .3rem;">
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Instagram.png" alt=""></a>
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Twitter.png" alt=""></a>
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Facebook.png" alt=""></a>
+                                </div>
+                                
+                                                            </div>    
+                                                            <a style="position: relative; top: 1rem;" href="./login_OTP.html"><button class="offer_button apply_now ">APPLY NOW</button> </a>
+                                                        </div>
                     </div>
                 </div>
             </div>
@@ -689,14 +753,25 @@ href="./css/animation/animate.min.css"
                         <div class="offer_content2">
                             <img src="./images/blue_check.png" class="check1" alt="" />
                             <p class="offer_text3">Compare</p>
-                            <button class="offer_bt1">LOAN DETAILS</button>
+                            <button data-fancybox data-src="#popup-item" class="offer_bt1">LOAN DETAILS</button>
                         </div>
                     </div>
                     <div class="offer_column">
-                        <div class="content4">
-                            <a href="https://www.facebook.com/sharer/sharer.php?u=#url" target="_blank"> <img class="tam_offer_logo" src="./images/offer_tammwelLlogo.png" alt="" /></a>
-                            <a href="./login_OTP.html"><button class="offer_button apply_now ">APPLY NOW</button> </a>
-                        </div>
+                        <div class="content4" style="padding-top: 2rem;">
+                            <div class="share_wrapper"> 
+                                <div style="display: flex; height: 3rem; padding-top: .3rem;">
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Linkedin.png" alt=""></a>
+                                    <a style="flex: 66.4%; padding-top: .6rem; opacity: .8;"   href=""><img src="./assets/Share.png" alt=""></a>
+                                </div>
+                                <div style="display: flex; height: 3rem;padding-top: .3rem;">
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Instagram.png" alt=""></a>
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Twitter.png" alt=""></a>
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Facebook.png" alt=""></a>
+                                </div>
+                                
+                                                            </div>
+                                                            <a style="position: relative; top: 1rem;" href="./login_OTP.html"><button class="offer_button apply_now ">APPLY NOW</button> </a>
+                                                        </div>
                     </div>
                 </div>
             </div>
@@ -749,14 +824,24 @@ href="./css/animation/animate.min.css"
                         <div class="offer_content2">
                             <img src="./images/blue_check.png" class="check1" alt="" />
                             <p class="offer_text3">Compare</p>
-                            <button class="offer_bt1">LOAN DETAILS</button>
+                            <button data-fancybox data-src="#popup-item" class="offer_bt1">LOAN DETAILS</button>
                         </div>
                     </div>
                     <div class="offer_column">
-                        <div class="content4">
-                            <a href="https://www.facebook.com/sharer/sharer.php?u=#url" target="_blank"> <img class="tam_offer_logo" src="./images/offer_tammwelLlogo.png" alt="" /></a>
-                            <a href="./login_OTP.html"><button class="offer_button apply_now ">APPLY NOW</button> </a>
-                        </div>
+                        <div class="content4" style="padding-top: 2rem;">
+                            <div class="share_wrapper"> 
+                                <div style="display: flex; height: 3rem; padding-top: .3rem;">
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Linkedin.png" alt=""></a>
+                                    <a style="flex: 66.4%; padding-top: .6rem; opacity: .8;"   href=""><img src="./assets/Share.png" alt=""></a>
+                                </div>
+                                <div style="display: flex; height: 3rem;padding-top: .3rem;">
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Instagram.png" alt=""></a>
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Twitter.png" alt=""></a>
+                                    <a style="flex: 33.3%; opacity: .8;"  href=""><img src="./assets/Facebook.png" alt=""></a>
+                                </div>
+                            </div>  
+              <a style="position: relative; top: 1rem;" href="./login_OTP.html"><button class="offer_button apply_now ">APPLY NOW</button> </a>
+                                                        </div>
                     </div>
                 </div>
             </div>
@@ -844,8 +929,133 @@ href="./css/animation/animate.min.css"
             </div>
         </div>
     </footer>
-
-
+    
+ <!-- PopUp -->
+    <div style="display: none;"  id="popup-item" class="popup-item">
+        <div class="popup-content" >
+            <div class="popup-top" >
+                <div class="item-logo">
+                    <img src="images/bk albilad1.svg" alt="">
+                </div>
+                <div class="item-top__r" >
+                    <h3 class="item-title"  style="font-family: poppins; font-weight: 500; text-align: ;">Loan Title</h3>
+                    <p class="item-desc">From albilad bank</p>
+                    <div class="item-progress progress-bar">
+                        <div class="progress-bar__line" style="width: 40%"></div>
+                    </div>
+                    <div class="item-ratting ratting" style="margin-bottom: 2rem;">
+                        <div class="ratting-stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: #000000;" class="rating_number">4.0</span>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="popup-info">
+                <div class="popup-info__box">
+                    <h4>APR</h4>
+                    <p>4.0%</p>
+                </div>
+                <div class="popup-info__box">
+                    <h4>Mountly Instaliment</h4>
+                    <p>5.000<sub>sar</sub></p>
+                </div>
+                <div class="popup-info__box">
+                    <h4>Salary Transter</h4>
+                    <p> NO </p>
+                </div>
+                <div class="popup-info__box">
+                    <h4>Minimum Salary</h4>
+                    <p>1.424 <sub>sar</sub></p>
+                </div>
+                <div class="popup-info__box">
+                  <a href="./login_OTP.html"> <button  class="see_all new_apply">Apply Now!</button></a>
+                </div>
+            </div>
+            <ul style="margin-left: 0rem;" class="popup-advantages item-advantages">
+                <div style="display: flex;">
+                    <img src="./images/check_yellow.png" class="check1" alt="" />
+                    <p class="offer_text2">With Guarantor</p>
+                </div>
+                <div style="display: flex;" class="">
+                    <img src="./images/check_yellow.png" class="check1" alt="" />
+                    <p class="offer_text2">With Colateral</p>
+                </div>
+                <!-- <div style="display: flex;" class="">
+                    <img src="./images/check_yellow.png" class="check1" alt="" />
+                    <p class="offer_text2">With Guarantor</p>
+                </div> -->
+            </ul>
+            <div class="box-statistic">
+                <!-- <div class="item-statistic" dir="r">
+                    <div id="chartContainer" style="height: 370px; width: 100%; transform: scale(.8);"></div>
+                </div> -->
+                <div class="info-fields">
+                    <div class="info-field" >
+                        <span class="info-field__num" style="color:#0B4F97;">5000</span>
+                        <span style="text-align: right;" class="info-field__text">We offer high Value Loans</span>
+                    </div>
+                    <div class="info-field">
+                        <span class="info-field__num" style="color:#0B4F97;">1600</span>
+                        <span class="info-field__text">We offer high Value Loans</span>
+                    </div>
+                    <div class="info-field">
+                        <span class="info-field__num" style="color:#0B4F97;">2</span>
+                        <span class="info-field__text">We offer high Value Loans</span>
+                    </div>
+                    <div class="info-field" >
+                        <span class="info-field__num" style="color:#0B4F97;">1%</span>
+                        <span class="info-field__text" >We offer high Value Loans</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tags" dir="r">
+                <div class="input Loan_BOX" style="text-align: right;">Personal Loan</div>
+                <div class="input Loan_BOX">Business Loan</div>
+                <div class="input Loan_BOX">Realstate Loan</div>
+            </div>
+            <table class="table-popup">
+                <tr>
+                    <td>12% - <span>2%</span></td>
+                    <td>12% - <span>2%</span></td>
+                    <td>12% - <span>2%</span></td>
+                    <td>12% - <span>2%</span></td>
+                    <td>12% - <span>2%</span></td>
+                </tr>
+            </table>
+            <div class="popup-text">
+                <h2 style="font-family: poppins; font-weight: 500; text-align: right;">Loan Title</h2>
+                <p style="text-align: right; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit
+                    anim id est laborum.</p>
+                <h2 style="font-family: poppins; font-weight: 500; text-align: right;">Loan Title</h2>
+                <p style="text-align: right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit
+                    anim id est laborum.</p>
+            </div>
+            <div class="popup-video" style="background-color: #0B4F97;">
+                <img src="./assets/illustratioN.svg" alt="">
+                <span class="btn-play video-play"></span>
+            </div>
+             
+          
+        </div>
+    </div>
 
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -867,13 +1077,43 @@ href="./css/animation/animate.min.css"
           });
         }
       </script>
+     
+     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+     <script>
+         window.onload = function() {
+         
+         var chart = new CanvasJS.Chart("chartContainer", {
+             theme: "light2", // "light1", "light2", "dark1", "dark2"
+             exportEnabled: false,
+             animationEnabled: true,
+             title: {
+                 text: ""
+             },
+             data: [{
+                 type: "pie",
+                 legendText: "{label}",
+                    indexLabelFontSize: 16,
+                    indexLabel: "{label} - {y}%",
+                    dataPoints: [
+                        { y: 51.08, label: "Feature 1" , color: "#F0B50F"},
+                        { y: 27.34, label: "Feature 2" , color: "#0B4F97"},
+                    
+                 ]
+             }]
+         });
+         chart.render();
+         
+         }
+         </script>
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/jquery-ui.js"></script>
+    <script src="scripts/vendor.js"></script>
     <script src="js/main.js"></script>
     <script src="./js/home.js"></script>
+    <script type="text/javascript" src="./css/social_share/js/social-share-kit.js"></script>
 </body>
 
 

@@ -298,7 +298,23 @@ section .title::after {
 }
 
 .home {
+    /* display: flex; */
+    /* background-color: #0C397F; */
+    /* color: #fff; */
+    position: absolute;
    
+    background-repeat: no-repeat, repeat;
+    /* background-position: fixed; */
+    background-size: auto 38.5rem;
+    background-position-y: 0rem;
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    /* background-size: contain; */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+    /* background-size: 100% 100%; */
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .home .max-width {
@@ -697,6 +713,11 @@ height: 25.05px; */
     overflow: scroll;
     overflow-x: hidden;
     overflow-y: hidden;
+    /* margin: 10% 10%;  */
+    /* width: 80%;
+    height: 200rem; */
+    /* background: #03489D; */
+    /* border: 1px solid #216AC1; */
     border-radius: 8px;
     display: flex;
 }
@@ -721,6 +742,33 @@ height: 25.05px; */
 }
 
 
+/* 
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot {
+    position: relative;
+    height: 13px;
+    width: 13px;
+    margin: -90px 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 1px solid #5A647D!important;
+    transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+    width: 35px;
+    border-radius: 14px;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+    background: #F9F3F3!important;
+} */
+
 .see_all1 {
     position: relative;
     left: 10rem;
@@ -742,7 +790,11 @@ section_2 */
     background-color: white;
 }
 
-
+.products_fitting {
+    font-size: 3rem;
+    margin: 4rem 2rem;
+    color: #1158A7;
+}
 
 .products_heading {
     margin: auto 30rem;
@@ -850,7 +902,6 @@ section_2 */
     margin: 25.225px 2rem;
     color: #1158A7;
     opacity: .9;
-    text-align: right;
 }
 
 .offer_intext {
@@ -863,7 +914,6 @@ section_2 */
 }
 
 .offer_details1 {
-    direction: rtl;
     position: relative;
     display: flex;
     margin: -40.36px 2.1rem;
@@ -871,13 +921,11 @@ section_2 */
 
 .offer_details2 {
     position: relative;
-    direction: rtl;
     display: flex;
     margin: 42.378px 2.1rem;
 }
 
 .offer_details3 {
-    direction: rtl;
     position: relative;
     display: flex;
     margin: -39.351px 2.1rem;
@@ -887,7 +935,6 @@ section_2 */
     font-family: Open Sans;
     font-style: normal;
     font-weight: 500;
-    text-align: right;
     font-size: 15px;
     line-height: 22px;
     color: #6E798C;
@@ -1017,7 +1064,24 @@ section_2 */
     top: 20rem;
 }
 
+.Marketplace_text1 {
+    position: relative;
+    font-size: 3rem;
+    top: -13rem;
+    margin: 0rem 2rem;
+    color: #1158A7;
+    width: 90rem;
+}
 
+.text_payLater {
+    font-family: poppins;
+    position: absolute;
+    color: #1158A7;
+    font-size: 1.7rem;
+    opacity: .9;
+    font-weight: 400;
+    margin: -12.5rem 4rem;
+}
 
 .marketplace_heading {
     position: relative;
@@ -5907,7 +5971,6 @@ footer {
 }
 
 .copyright {
-    font-family: poppin;
     color: rgba(255, 255, 255, 0.5);
     font: 0.6770833333vw "Noto Sans";
     margin-bottom: 1.0416666667vw;
@@ -5915,7 +5978,6 @@ footer {
 
 @media (max-width: 1199px) {
     .copyright {
-        font-family: poppin;
         font-size: 13px;
         margin-bottom: 15px;
     }
@@ -10480,7 +10542,7 @@ body.direction-rtl .user-menu span {
 
 .apply__title {
     position: relative;
-    color: #338D1B;
+    color: #303246c5;;
     font: 2rem "poppins";
     font-size: 1rem;
     font-weight: 600;
@@ -10491,7 +10553,7 @@ body.direction-rtl .user-menu span {
     position: relative;
     width: 4rem;
     height: 3rem;
-    border: 1px solid#338D1B;
+    border: 1px solid#303246c5;
     border-radius: 200px;
     width: 20px;
     cursor: pointer;
@@ -10503,7 +10565,7 @@ body.direction-rtl .user-menu span {
     top: 50%;
     left: 45%;
     content: '';
-    border: solid #338D1B;
+    border: solid #303246c5;
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 0.2083333333rem;
